@@ -11,7 +11,8 @@ Reduce the time spent learning the peculiarities of certain environments rather 
 Here are some easy tips on how to make your environment easy to onboard:
 
 * Up to date Documentation
-    * High-Level logical Architecture. e.g. written in a Git friendly format:    		* [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) diagrams in github so you can see the infrastructure changes over time
+    * High-Level logical Architecture. e.g. written in a Git friendly format: 
+    	* [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) diagrams in github so you can see the infrastructure changes over time
     	* [Graphviz description language](http://www.graphviz.org/content/dot-language)
     * An overview of the company’s infrastructure.
     * A intranet/wiki or enterprise social network to Learn about different teams, key members and pictures. On day one, one can easily get overwhelmed with lots of new names and faces.
