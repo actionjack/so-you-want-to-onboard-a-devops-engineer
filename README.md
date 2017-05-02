@@ -46,7 +46,6 @@ Here are some easy tips on how to make your environment easy to onboard:
 * Nobody should be able to do something bad to an environment unless they a dead set on doing so i.e.
     * Use safety harnesses 
         * Make or Rake commands to do the most common tasks safety without fear of screwing up e.g. Ansible tasks:
-                                  
 ```
 - name: “Do something really Dangerous"
   command: /sbin/something —could —be —dangerous --if --run --it --in --prod
@@ -64,4 +63,8 @@ Here are some easy tips on how to make your environment easy to onboard:
     * Tribal Knowledge
     * Culture
 
-    
+
+Want to Contribute?
+===
+
+I'm open to [well structured Pull Requests](http://www.annashipman.co.uk/jfdi/good-pull-requests.html)
