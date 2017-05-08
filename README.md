@@ -33,9 +33,9 @@ It's important to have the following:
         * Coding guidelines backed up by CI checks
 * Make your naming make sense if something is called build_X and it actually deploys_X then change the name to deploys_X if possible to reduce confusion
 * Have all relevant accounts setup and ready
-* Nobody should be able to do something bad to an environment unless they a dead set on doing so i.e.
+* Nobody should be able to do something bad to an environment unless they are dead set on doing so i.e.
     * Use safety harnesses
-        * [Make](https://www.gnu.org/software/make/), [Gradle](https://gradle.org/) or [Rake](https://ruby.github.io/rake/) commands to do the most common tasks safety without fear of screwing up e.g. Ansible tasks:
+        * [Make](https://www.gnu.org/software/make/), [Gradle](https://gradle.org/) or [Rake](https://ruby.github.io/rake/) commands to do the most common tasks safety without the worry of screwing up e.g. Ansible tasks:
 
 ```
 - name: “Do something really Dangerous"
@@ -49,7 +49,7 @@ It's important to have the following:
 * Assign an on boarding buddy/mentor
 * Pair as soon and often as possible
 * When [and if] you do a Retro, then base on a known good baseline i.e.
-	* If you are doing production deploys in the dead of night and it goes successfully, remember this is not necessarily reflect a good deployment.
+	* If you are doing production deploys in the wee hours of the night and it goes successfully, remember this is not necessarily reflect a **good** deployment.
 * Put as much detail into tasks / stories as possible including assumptions, reference information, narrow acceptance criteria.
 * Avoid on boarding during crunch times (important or critical planned releases)
 * Ideally have your accounts linked with some central or shared directory e.g. Github/Google/LDAP so you don’t have to remember 101 user/password combinations
