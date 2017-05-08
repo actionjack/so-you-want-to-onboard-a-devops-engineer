@@ -65,7 +65,7 @@ It's important to have the following:
  
 ### Version control management
 
-* Have an Up to date README documentation in all repos
+* Have an Up to date [README](https://thejunkland.com/blog/how-to-write-good-readme.html) documentation in all repos
     * :+1: have [sequence diagrams](https://en.wikipedia.org/wiki/Sequence_diagram) in all repos i.e. http://plantuml.com/ 
     * :+1: have [Architecture Decision Records](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions) in your [repos](https://github.com/npryce/adr-tools)
     * :+1: Have a well [structured git history](http://www.annashipman.co.uk/jfdi/good-pull-requests.html) in your repos
