@@ -22,7 +22,7 @@ It's important to have the following:
 * A intranet/wiki or enterprise social network to Learn about different teams, key members and pictures. On day one, one can easily get overwhelmed with lots of new names and faces.
 * Create a Glossary of Terms [e.g. a Minipedia] for describing any organisation specific acronyms or terms
    * Create an on-boarding wiki page (i.e. Confluence/Google Docs) e.g. https://wiki.mozilla.org/Devops/onboarding
-    * :+1: For Open,online and easy to reach [checklists](https://github.com/annahsebok/onboarding-documents-1/blob/master/Checklists/team-based-checklists/devops-new-hire-checklist.md)
+    * :+1: For Open, online and easy to reach [checklists](https://github.com/annahsebok/onboarding-documents-1/blob/master/Checklists/team-based-checklists/devops-new-hire-checklist.md)
 
 
 ### Operations
@@ -45,7 +45,7 @@ It's important to have the following:
 
 ### Processes
 
-* Have Shovel Ready work for new starters, create a backlog of work that be be easily done for new starters
+* Have [Shovel Ready](https://en.wikipedia.org/wiki/Shovel_ready) work for new starters, create a backlog of work that be be easily done for new starters
 * Assign an on boarding buddy/mentor
 * Pair as soon and often as possible
 * When [and if] you do a Retro, then base on a known good baseline i.e.
@@ -77,7 +77,7 @@ It's important to have the following:
     * :+1: Vagrant boxen test locally!
     * :+1: Docker containers
 
-### Culture    
+### Culture
 
 * Remember not everyone maybe as smart as you are, they may be missing
     * Context / Situational awareness (how did we get from here to there?)
