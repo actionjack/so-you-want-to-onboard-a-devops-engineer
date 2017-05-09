@@ -60,7 +60,7 @@ It's important to have the following:
 		* Inspec - http://inspec.io/
 		* Serverspec - http://serverspec.org/
 		* Ansible --syntax-check
-
+* Add or invite individual to any relevant [Slack](https://slack.com/), [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat) channels or Mailing lists.
 
 ### Version control management
 
