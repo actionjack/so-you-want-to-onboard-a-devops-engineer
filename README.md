@@ -1,10 +1,9 @@
-So you want to Onboard a DevOps/WebOps Engineer/Consultant
-===
+# So you want to Onboard a DevOps/WebOps Engineer/Consultant
+
 
 At the moment everyone seems to be so concerned with recruiting DevOps Engineers but I feel the process of on-boarding them is still very hit and miss especially in busy organisations.
 
-Making it easy to get work done from day one
-===
+## Making it easy to get work done from day one
 
 Reduce the time spent learning the peculiarities of certain environments rather than improving or iterating them,
 
@@ -22,7 +21,7 @@ It's important to have the following:
 * A intranet/wiki or enterprise social network to Learn about different teams, key members and pictures. On day one, one can easily get overwhelmed with lots of new names and faces.
 * Create a Glossary of Terms [e.g. a Minipedia] for describing any organisation specific acronyms or terms
    * Create an on-boarding wiki page (i.e. Confluence/Google Docs) e.g. https://wiki.mozilla.org/Devops/onboarding
-    * :+1: For Open, online and easy to reach [checklists](https://github.com/annahsebok/onboarding-documents-1/blob/master/Checklists/team-based-checklists/devops-new-hire-checklist.md)
+   * :+1: For Open,online and easy to reach [checklists](https://github.com/annahsebok/onboarding-documents-1/blob/master/Checklists/team-based-checklists/devops-new-hire-checklist.md)
 
 
 ### Operations
@@ -31,7 +30,7 @@ It's important to have the following:
 * Make it difficult to make mistakes e.g
         * protected masters, https://github.com/blog/2051-protected-branches-and-required-status-checks
         * Coding guidelines backed up by CI checks
-* Make your naming make sense if something is called build_X and it actually deploys_X then change the name to deploys_X if possible to reduce confusion
+* Ensure your naming conventions makes sense, if something is called build_X and it actually deploys_X then change the name to deploys_X if possible to reduce confusion
 * Have all relevant accounts setup and ready
 * Nobody should be able to do something bad to an environment unless they are dead set on doing so i.e.
     * Use safety harnesses
@@ -59,8 +58,8 @@ It's important to have the following:
 		* Yamllint https://github.com/adrienverge/yamllint
 		* Test Infra https://github.com/philpep/testinfra
 		* Inspec - http://inspec.io/
-	        * Serverspec - http://serverspec.org/
-	        * Ansible --syntax-check
+		* Serverspec - http://serverspec.org/
+		* Ansible --syntax-check
 
 
 ### Version control management
@@ -73,7 +72,7 @@ It's important to have the following:
 ### Development environments
 
 * Make it easy to set up an easy to use cross platform or run a local environment that doesn’t mess up what’s currently there e.g. (https://cloud.gov/docs/ops/creating-a-local-dev-environment-in-Virtual-Box/)
-    * pyenv, jenv, Rbenv
+    * pyenv, jenv, Rbenv, venv, virtualenv, [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv)
     * :+1: Vagrant boxen test locally!
     * :+1: Docker containers
 
