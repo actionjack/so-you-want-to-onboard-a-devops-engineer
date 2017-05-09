@@ -4,7 +4,8 @@ At the moment everyone seems to be so concerned with recruiting DevOps Engineers
 
 ## Making it easy to get work done from day one
 
-Reduce the time spent learning the peculiarities of certain environments rather than improving or iterating them,
+Reduce the time spent learning the peculiarities of complex environments rather than improving or iterating them, with a dedication to making every engineer effective.
+
 
 Here are some easy tips on how to make your environment easy to onboard:
 
@@ -31,7 +32,7 @@ It's important to have the following:
         * Coding guidelines backed up by CI checks
 * Ensure your naming conventions makes sense, if something is called build_X and it actually deploys_X then change the name to deploys_X if possible to reduce confusion
 * Have all relevant accounts setup and ready
-* Nobody should be able to do something bad to an environment unless they are dead set on doing so i.e.
+* Nobody should be able to do something catastrophic to an environment unless they are dead set on doing so i.e.
     * Use safety harnesses
         * [Make](https://www.gnu.org/software/make/), [Gradle](https://gradle.org/) or [Rake](https://ruby.github.io/rake/) commands to do the most common tasks safety without the worry of screwing up e.g. Ansible tasks:
 
@@ -86,6 +87,7 @@ It's important to have the following:
     * Tribal Knowledge
     * Culture
 * What are the Preferred practices?
+* Listen to their point of view they bring a fresh pair of eyes to the situation
 
 ## Useful links
 [Onboarding and Mentoring Apprentices with DevOps Culture - Mercedes Coyle @benzobot](https://vimeo.com/115484860)
