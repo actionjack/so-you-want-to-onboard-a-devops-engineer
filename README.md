@@ -44,7 +44,8 @@ It's important to have the following:
 
 ### Processes
 
-* Have [Shovel Ready](https://en.wikipedia.org/wiki/Shovel_ready) work for new starters, create a backlog of work that be be easily done for new starters
+* Have [Shovel Ready](https://en.wikipedia.org/wiki/Shovel_ready) work for new starters, create a backlog of work that be be easily done for new starters:
+	* Ideal work that is well defined, requires some research and adds value
 * Assign an on boarding buddy/mentor
 * Pair as soon and often as possible
 * When [and if] you do a Retro, then base on a known good baseline i.e.
