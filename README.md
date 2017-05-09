@@ -61,6 +61,10 @@ It's important to have the following:
 		* Serverspec - http://serverspec.org/
 		* Ansible --syntax-check
 * Add or invite individual to any relevant [Slack](https://slack.com/), [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat) channels or Mailing lists.
+* Document your coding standards and strategies in the open e.g.
+	* Version control branching strategy
+	* Code review process
+	* Release handling management
 
 ### Version control management
 
