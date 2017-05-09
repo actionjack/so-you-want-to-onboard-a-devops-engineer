@@ -88,10 +88,12 @@ It's important to have the following:
     * Culture
 * What are the Preferred practices?
 * Listen to their point of view they bring a fresh pair of eyes to the situation
+* Test your mentoring and on boarding process to flush out any shortfalls by getting the last person who joined to mentor the new joiner.
 
 ## Useful links
 [Onboarding and Mentoring Apprentices with DevOps Culture - Mercedes Coyle @benzobot](https://vimeo.com/115484860)
 
+[How to Onboard Software Engineers – Interview with Kate Heddleston](http://blog.fogcreek.com/how-to-onboard-software-engineers-interview-with-kate-heddleston/)
 
 See a problem here
 ===
