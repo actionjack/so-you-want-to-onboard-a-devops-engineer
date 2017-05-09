@@ -22,7 +22,7 @@ It's important to have the following:
 * A intranet/wiki or enterprise social network to Learn about different teams, key members and pictures. On day one, one can easily get overwhelmed with lots of new names and faces.
 * Create a Glossary of Terms [e.g. a Minipedia] for describing any organisation specific acronyms or terms
    * Create an on-boarding wiki page (i.e. Confluence/Google Docs) e.g. https://wiki.mozilla.org/Devops/onboarding
-    * :+1: For Open, online and easy to reach [checklists](https://github.com/annahsebok/onboarding-documents-1/blob/master/Checklists/team-based-checklists/devops-new-hire-checklist.md)
+   * :+1: For Open,online and easy to reach [checklists](https://github.com/annahsebok/onboarding-documents-1/blob/master/Checklists/team-based-checklists/devops-new-hire-checklist.md)
 
 
 ### Operations
@@ -59,8 +59,8 @@ It's important to have the following:
 		* Yamllint https://github.com/adrienverge/yamllint
 		* Test Infra https://github.com/philpep/testinfra
 		* Inspec - http://inspec.io/
-	        * Serverspec - http://serverspec.org/
-	        * Ansible --syntax-check
+		* Serverspec - http://serverspec.org/
+		* Ansible --syntax-check
 
 
 ### Version control management
@@ -73,7 +73,7 @@ It's important to have the following:
 ### Development environments
 
 * Make it easy to set up an easy to use cross platform or run a local environment that doesn’t mess up what’s currently there e.g. (https://cloud.gov/docs/ops/creating-a-local-dev-environment-in-Virtual-Box/)
-    * pyenv, jenv, Rbenv
+    * pyenv, jenv, Rbenv, venv, virtualenv, [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv)
     * :+1: Vagrant boxen test locally!
     * :+1: Docker containers
 
