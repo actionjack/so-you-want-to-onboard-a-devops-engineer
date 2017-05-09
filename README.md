@@ -87,6 +87,7 @@ It's important to have the following:
     * Tribal Knowledge
     * Culture
 * What are the Preferred practices?
+* Listen to their point of view they bring a fresh pair of eyes to the situation
 
 ## Useful links
 [Onboarding and Mentoring Apprentices with DevOps Culture - Mercedes Coyle @benzobot](https://vimeo.com/115484860)
