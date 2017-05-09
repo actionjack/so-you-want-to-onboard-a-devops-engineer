@@ -86,6 +86,15 @@ It's important to have the following:
     * Context / Situational awareness (how did we get from here to there?)
     * Tribal Knowledge
     * Culture
+* What are the Preferred practices?
+
+## Useful links
+[Onboarding and Mentoring Apprentices with DevOps Culture - Mercedes Coyle @benzobot](https://vimeo.com/115484860)
+
+
+See a problem here
+===
+See a problem? Need something clarified? Raise and Issue and I'll try and fix it.
 
 
 Want to Contribute?
