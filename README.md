@@ -5,7 +5,8 @@ At the moment everyone seems to be so concerned with recruiting DevOps Engineers
 
 ## Making it easy to get work done from day one
 
-Reduce the time spent learning the peculiarities of certain environments rather than improving or iterating them,
+Reduce the time spent learning the peculiarities of complex environments rather than improving or iterating them, with a dedication to making every engineer effective.
+
 
 Here are some easy tips on how to make your environment easy to onboard:
 
