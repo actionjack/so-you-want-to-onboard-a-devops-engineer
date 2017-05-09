@@ -15,7 +15,7 @@ It's important to have the following:
 
 * Regularly groom your documentation, old documents should be removed, outdated ones updated, if you touch it then update it
 * High-Level logical Architecture. e.g. ideally written in a Git friendly format:
-	* [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) diagrams in github so you can see the infrastructure changes over time
+	* [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) diagrams in [github](https://github.com/blog/1902-svg-viewing-diffing) so you can see the infrastructure changes over time
 	* [Graphviz description language](http://www.graphviz.org/content/dot-language)
 * An overview of the company’s infrastructure.
 * A intranet/wiki or enterprise social network to Learn about different teams, key members and pictures. On day one, one can easily get overwhelmed with lots of new names and faces.
