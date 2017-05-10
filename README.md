@@ -15,14 +15,14 @@ It's important to have the following:
 
 * Regularly groom your documentation, old documents should be removed, outdated ones updated, if you touch it then update it
 * High-Level logical Architecture. e.g. ideally written in a Git friendly format:
-	* [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) diagrams in github so you can see the infrastructure changes over time
+	* [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) diagrams in [github](https://github.com/blog/1902-svg-viewing-diffing) so you can see the infrastructure changes over time
 	* [Graphviz description language](http://www.graphviz.org/content/dot-language)
 * An overview of the company’s infrastructure.
 * A intranet/wiki or enterprise social network to Learn about different teams, key members and pictures. On day one, one can easily get overwhelmed with lots of new names and faces.
 * Create a Glossary of Terms [e.g. a Minipedia] for describing any organisation specific acronyms or terms
    * Create an on-boarding wiki page (i.e. Confluence/Google Docs) e.g. https://wiki.mozilla.org/Devops/onboarding
    * :+1: For Open,online and easy to reach [checklists](https://github.com/annahsebok/onboarding-documents-1/blob/master/Checklists/team-based-checklists/devops-new-hire-checklist.md)
-
+* Write your documentation as if it's going to be open someday.
 
 ### Operations
 
@@ -44,7 +44,8 @@ It's important to have the following:
 
 ### Processes
 
-* Have [Shovel Ready](https://en.wikipedia.org/wiki/Shovel_ready) work for new starters, create a backlog of work that be be easily done for new starters
+* Have [Shovel Ready](https://en.wikipedia.org/wiki/Shovel_ready) work for new starters, create a backlog of work that be be easily done for new starters:
+        * Ideally work that is well defined, requires some research and adds value
 * Assign an on boarding buddy/mentor
 * Pair as soon and often as possible
 * When [and if] you do a Retro, then base on a known good baseline i.e.
@@ -88,17 +89,35 @@ It's important to have the following:
     * Culture
 * What are the Preferred practices?
 * Listen to their point of view they bring a fresh pair of eyes to the situation
+* Test your mentoring and on boarding process to flush out any shortfalls by getting the last person who joined to mentor the new joiner.
 
 ## Useful links
 [Onboarding and Mentoring Apprentices with DevOps Culture - Mercedes Coyle @benzobot](https://vimeo.com/115484860)
 
+[How to Onboard Software Engineers – Interview with Kate Heddleston - @heddle317](http://blog.fogcreek.com/how-to-onboard-software-engineers-interview-with-kate-heddleston/)
 
 See a problem here
 ===
 See a problem? Need something clarified? Raise and Issue and I'll try and fix it.
 
-
-Want to Contribute?
-===
+## Contributing
 
 I'm open to [well structured Pull Requests](http://www.annashipman.co.uk/jfdi/good-pull-requests.html)
+
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
+
+## License
+
+The MIT License (MIT)
+
+Copyright (c) 2015 Chris Kibble
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
