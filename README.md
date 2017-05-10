@@ -11,7 +11,7 @@ Here are some easy tips on how to make your environment easy to onboard:
 
 ### Have Up to date Documentation
 
-It's important to have the following:
+It's important to have or do the following:
 
 * Regularly groom your documentation, old documents should be removed, outdated ones updated, if you touch it then update it
 * High-Level logical Architecture. e.g. ideally written in a Git friendly format:
