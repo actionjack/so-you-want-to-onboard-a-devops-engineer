@@ -8,36 +8,35 @@ At the moment everyone seems to be so concerned with recruiting DevOps Engineers
 
 Reduce the time spent learning the peculiarities of complex environments rather than improving or iterating them, with a dedication to making every engineer effective.
 
+Here is some guidance on how to make your environment easier to onboard:
 
-Here are some easy tips on how to make your environment easy to onboard:
+### Have up to date Documentation
 
-### Have Up to date Documentation
-
-It's important to have or do the following:
+It's important to either have or do the following:
 
 * Regularly groom your documentation, old documents should be removed, outdated ones updated, if you touch it then update it
-* High-Level logical Architecture. e.g. ideally written in a Git friendly format:
+* High-Level logical Architecture. E.g. ideally written in a Git friendly format:
 	* [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) diagrams in [github](https://github.com/blog/1902-svg-viewing-diffing) so you can see the infrastructure changes over time
 	* [Graphviz description language](http://www.graphviz.org/content/dot-language)
 * An overview of the company’s infrastructure.
-* A intranet/wiki or enterprise social network to Learn about different teams, key members and pictures. On day one, one can easily get overwhelmed with lots of new names and faces.
+* A intranet/wiki or enterprise social network to Learn about different teams, key members with pictures. On day one, one can easily get overwhelmed with lots of new names and faces.
 * Have documentation for your alerts. If something is important enough to page the oncall person about, it's important enough to have a runbook entry about it. If you alert because _foo queue is too long_, there should be a runbook entry describing how to fix it.
 * Create a Glossary of Terms [e.g. a Minipedia] for describing any organisation specific acronyms or terms
    * Create an on-boarding wiki page (i.e. Confluence/Google Docs) e.g. https://wiki.mozilla.org/Devops/onboarding
    * :+1: For Open,online and easy to reach [checklists](https://github.com/annahsebok/onboarding-documents-1/blob/master/Checklists/team-based-checklists/devops-new-hire-checklist.md)
-* Write your documentation as if it's going to be open someday.
+* Write your documentation as if it's going to be [open](https://www.gov.uk/design-principles#tenth) to public scrutiny someday.
 
 ### Operations
 
+* Have all relevant accounts setup and ready
 * Have your work structured so people can see what needs to be done i.e. Kanban board backlog or todo lists
 * Make it difficult to make mistakes e.g
-        * protected masters, https://github.com/blog/2051-protected-branches-and-required-status-checks
-        * Coding guidelines backed up by CI checks
+        * [protected branches e.g. force pushes to master](https://github.com/blog/2051-protected-branches-and-required-status-checks)
+        * Coding guidelines backed up by [CI checks](https://stickler-ci.com/)
 * Ensure your naming conventions makes sense, if something is called build_X and it actually deploys_X then change the name to deploys_X if possible to reduce confusion
-* Have all relevant accounts setup and ready
 * Nobody should be able to do something catastrophic to an environment unless they are dead set on doing so i.e.
-    * Use safety harnesses
-        * [Make](https://www.gnu.org/software/make/), [Gradle](https://gradle.org/) or [Rake](https://ruby.github.io/rake/) commands to do the most common tasks safety without the worry of screwing up e.g. Ansible tasks:
+        * Use safety harnesses
+                * [Make](https://www.gnu.org/software/make/), [Gradle](https://gradle.org/) or [Rake](https://ruby.github.io/rake/) commands to do the most common tasks safety without the worry of screwing up e.g. Ansible tasks:
 
 ```
 - name: “Do something really Dangerous"
@@ -47,15 +46,15 @@ It's important to have or do the following:
 
 ### Processes
 
-* Have [Shovel Ready](https://en.wikipedia.org/wiki/Shovel_ready) work for new starters, create a backlog of work that be be easily done for new starters:
-        * Ideally work that is well defined, requires some research and adds value
-* Assign an on boarding buddy/mentor
-* Pair as soon and often as possible
-* When [and if] you do a Retro, then base on a known good baseline i.e.
+* Have [Shovel Ready](https://en.wikipedia.org/wiki/Shovel_ready) work for new starters, create a backlog of work that be be easily done by a new starter:
+        * Ideally work that is well defined, requires some research and adds value not grunt work e.g. document X.
+* Assign your new start an on boarding buddy/mentor
+* Pair with new start as soon and as often as possible
+* When [and if] you do a Retro, then base it against a known good baseline i.e.
 	* If you are doing production deploys in the wee hours of the night and it goes successfully, remember this is not necessarily reflect a **good** deployment.
-* Put as much detail into tasks / stories as possible including assumptions, reference information, narrow acceptance criteria.
+* Put as much detail into tasks / stories as possible including assumptions, reference information, existing implementations, narrow acceptance criteria.
 * Avoid on boarding during crunch times (important or critical planned releases)
-* Ideally have your accounts linked with some central or shared directory e.g. Github/Google/LDAP so you don’t have to remember 101 user/password combinations
+* Ideally have your accounts linked with some central or shared directory e.g. Github/Google/LDAP so your new starters don’t have to remember 101 user/password combinations
 * In your alerting system put context sensitive help that points to a helpful runbook
 * Configuration management test modes i.e. testing_mode on
 	* Blocking infrastructure tests or linters to catch mistakes early, e.g.
@@ -90,7 +89,7 @@ It's important to have or do the following:
     * Context / Situational awareness (how did we get from here to there?)
     * Tribal Knowledge
     * Culture
-* What are the Preferred practices?
+* What are the Preferred practices or ["Design Principles"](https://www.gov.uk/design-principles)?
 * Listen to their point of view they bring a fresh pair of eyes to the situation
 * Test your mentoring and on boarding process to flush out any shortfalls by getting the last person who joined to mentor the new joiner.
 
