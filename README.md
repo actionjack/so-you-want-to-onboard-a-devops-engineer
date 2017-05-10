@@ -1,5 +1,7 @@
 # So you want to Onboard a DevOps/WebOps Engineer/Consultant
 
+[![Build Status](https://travis-ci.org/actionjack/so-you-want-to-onboard-a-devops-engineer.svg?branch=master)](https://travis-ci.org/actionjack/so-you-want-to-onboard-a-devops-engineer)
+
 At the moment everyone seems to be so concerned with recruiting DevOps Engineers but I feel the process of on-boarding them is still very hit and miss especially in busy organisations.
 
 ## Making it easy to get work done from day one
