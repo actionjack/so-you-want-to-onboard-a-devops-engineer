@@ -94,9 +94,9 @@ It's important to either have or do the following:
 * Test your mentoring and on boarding process to flush out any shortfalls by getting the last person who joined to mentor the new joiner.
 
 ## Useful links
-[Onboarding and Mentoring Apprentices with DevOps Culture - Mercedes Coyle @benzobot](https://vimeo.com/115484860)
+* [Onboarding and Mentoring Apprentices with DevOps Culture - Mercedes Coyle @benzobot](https://vimeo.com/115484860)
 
-[How to Onboard Software Engineers – Interview with Kate Heddleston - @heddle317](http://blog.fogcreek.com/how-to-onboard-software-engineers-interview-with-kate-heddleston/)
+* [How to Onboard Software Engineers – Interview with Kate Heddleston - @heddle317](http://blog.fogcreek.com/how-to-onboard-software-engineers-interview-with-kate-heddleston/)
 
 See a problem here
 ===
