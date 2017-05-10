@@ -98,8 +98,8 @@ It's important to either have or do the following:
 
 * [How to Onboard Software Engineers – Interview with Kate Heddleston - @heddle317](http://blog.fogcreek.com/how-to-onboard-software-engineers-interview-with-kate-heddleston/)
 
-See a problem here
-===
+## See a problem here
+
 See a problem? Need something clarified? Raise and Issue and I'll try and fix it.
 
 ## Contributing
