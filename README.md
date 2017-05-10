@@ -1,5 +1,7 @@
 # So you want to Onboard a DevOps/WebOps Engineer/Consultant
 
+[![Build Status](https://travis-ci.org/actionjack/so-you-want-to-onboard-a-devops-engineer.svg?branch=master)](https://travis-ci.org/actionjack/so-you-want-to-onboard-a-devops-engineer)
+
 At the moment everyone seems to be so concerned with recruiting DevOps Engineers but I feel the process of on-boarding them is still very hit and miss especially in busy organisations.
 
 ## Making it easy to get work done from day one
@@ -11,7 +13,7 @@ Here are some easy tips on how to make your environment easy to onboard:
 
 ### Have Up to date Documentation
 
-It's important to have the following:
+It's important to have or do the following:
 
 * Regularly groom your documentation, old documents should be removed, outdated ones updated, if you touch it then update it
 * High-Level logical Architecture. e.g. ideally written in a Git friendly format:
