@@ -18,6 +18,7 @@ It's important to either have or do the following:
 * High-Level logical Architecture. E.g. ideally written in a Git friendly format:
 	* [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) diagrams in [github](https://github.com/blog/1902-svg-viewing-diffing) so you can see the infrastructure changes over time
 	* [Graphviz description language](http://www.graphviz.org/content/dot-language)
+	* [Graphvizo](http://gravizo.com/)
 * An overview of the company’s infrastructure.
 * A intranet/wiki or enterprise social network to Learn about different teams, key members with pictures. On day one, one can easily get overwhelmed with lots of new names and faces.
 * Have documentation for your alerts. If something is important enough to page the oncall person about, it's important enough to have a runbook entry about it. If you alert because _foo queue is too long_, there should be a runbook entry describing how to fix it.
