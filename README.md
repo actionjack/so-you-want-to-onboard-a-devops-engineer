@@ -14,7 +14,7 @@ Here is some guidance on how to make your environment easier to onboard:
 
 It's important to either have or do the following:
 
-* Regularly groom your documentation, old documents should be removed, outdated ones updated, if you touch it then update it
+* Regularly tidy your documentation, old documents should be removed, outdated ones updated, if you touch it then update it
 * High-Level logical Architecture. E.g. ideally written in a Git friendly format:
 	* [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) diagrams in [github](https://github.com/blog/1902-svg-viewing-diffing) so you can see the infrastructure changes over time
 	* [Graphviz description language](http://www.graphviz.org/content/dot-language)
@@ -36,7 +36,7 @@ It's important to either have or do the following:
         * [protected branches e.g. force pushes to master](https://github.com/blog/2051-protected-branches-and-required-status-checks)
         * Coding guidelines backed up by [CI checks](https://stickler-ci.com/)
 * Ensure your naming conventions makes sense, if something is called build_X and it actually deploys_X then change the name to deploys_X if possible to reduce confusion
-* Nobody should be able to do something catastrophic to an environment unless they are dead set on doing so i.e.
+* Nobody should be able to do something catastrophic to an environment unless they are determined on doing so i.e.
         * Use safety harnesses
                 * [Make](https://www.gnu.org/software/make/), [Gradle](https://gradle.org/) or [Rake](https://ruby.github.io/rake/) commands to do the most common tasks safety without the worry of screwing up e.g. Ansible tasks:
 

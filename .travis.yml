@@ -13,4 +13,4 @@ install:
   - npm install alex
 script:
   - awesome_bot README.md --allow-dupe --allow-redirect
-  - alex
+  - alex --diff
