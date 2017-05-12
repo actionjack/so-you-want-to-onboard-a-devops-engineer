@@ -26,7 +26,7 @@ It's important to either have or do the following:
    * Create an on-boarding wiki page (i.e. Confluence/Google Docs) e.g. https://wiki.mozilla.org/Devops/onboarding
    * :+1: For Open,online and easy to reach [checklists](https://github.com/annahsebok/onboarding-documents-1/blob/master/Checklists/team-based-checklists/devops-new-hire-checklist.md)
 * Write your documentation as if it's going to be [open](https://www.gov.uk/design-principles#tenth) to public scrutiny someday.
-* Have an easy to use and setup of shared resources e.g. URL links, .ssh/config files
+* Have an easy to use and setup of collection of shared resources e.g. URL links, .ssh/config files
 
 ### Operations
 
