@@ -14,10 +14,11 @@ Here is some guidance on how to make your environment easier to onboard:
 
 It's important to either have or do the following:
 
-* Regularly groom your documentation, old documents should be removed, outdated ones updated, if you touch it then update it
+* Regularly tidy your documentation, old documents should be removed, outdated ones updated, if you touch it then update it
 * High-Level logical Architecture. E.g. ideally written in a Git friendly format:
 	* [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) diagrams in [github](https://github.com/blog/1902-svg-viewing-diffing) so you can see the infrastructure changes over time
 	* [Graphviz description language](http://www.graphviz.org/content/dot-language)
+	* [Graphvizo](http://gravizo.com/)
 * An overview of the company’s infrastructure.
 * A intranet/wiki or enterprise social network to Learn about different teams, key members with pictures. On day one, one can easily get overwhelmed with lots of new names and faces.
 * Have documentation for your alerts. If something is important enough to page the oncall person about, it's important enough to have a runbook entry about it. If you alert because _foo queue is too long_, there should be a runbook entry describing how to fix it.
@@ -25,6 +26,7 @@ It's important to either have or do the following:
    * Create an on-boarding wiki page (i.e. Confluence/Google Docs) e.g. https://wiki.mozilla.org/Devops/onboarding
    * :+1: For Open,online and easy to reach [checklists](https://github.com/annahsebok/onboarding-documents-1/blob/master/Checklists/team-based-checklists/devops-new-hire-checklist.md)
 * Write your documentation as if it's going to be [open](https://www.gov.uk/design-principles#tenth) to public scrutiny someday.
+* Have an easy to use and setup of shared resources e.g. URL links, .ssh/config files
 
 ### Operations
 
@@ -34,7 +36,7 @@ It's important to either have or do the following:
         * [protected branches e.g. force pushes to master](https://github.com/blog/2051-protected-branches-and-required-status-checks)
         * Coding guidelines backed up by [CI checks](https://stickler-ci.com/)
 * Ensure your naming conventions makes sense, if something is called build_X and it actually deploys_X then change the name to deploys_X if possible to reduce confusion
-* Nobody should be able to do something catastrophic to an environment unless they are dead set on doing so i.e.
+* Nobody should be able to do something catastrophic to an environment unless they are determined on doing so i.e.
         * Use safety harnesses
                 * [Make](https://www.gnu.org/software/make/), [Gradle](https://gradle.org/) or [Rake](https://ruby.github.io/rake/) commands to do the most common tasks safety without the worry of screwing up e.g. Ansible tasks:
 
@@ -92,6 +94,7 @@ It's important to either have or do the following:
 * What are the Preferred practices or ["Design Principles"](https://www.gov.uk/design-principles)?
 * Listen to their point of view they bring a fresh pair of eyes to the situation
 * Test your mentoring and on boarding process to flush out any shortfalls by getting the last person who joined to mentor the new joiner.
+* Make your documentation inclusive e.g. this document is parsed using [alex](http://alexjs.com/) in order to catch insensitive and inconsiderate writing.
 
 ## Useful links
 * [Onboarding and Mentoring Apprentices with DevOps Culture - Mercedes Coyle @benzobot](https://vimeo.com/115484860)
