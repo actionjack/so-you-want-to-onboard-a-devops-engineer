@@ -8,7 +8,7 @@ At the moment everyone seems to be so concerned with recruiting DevOps Engineers
 
 Reduce the time spent learning the peculiarities of complex environments rather than improving or iterating them, with a dedication to making every engineer effective.
 
-Here is some guidance on how to make your environment easier to onboard:
+Here is some guidance on how to make your environment easier to onboard.
 
 ### Have up to date Documentation
 
@@ -36,9 +36,13 @@ It's important to either have or do the following:
         * [protected branches e.g. force pushes to master](https://github.com/blog/2051-protected-branches-and-required-status-checks)
         * Coding guidelines backed up by [CI checks](https://stickler-ci.com/)
 * Ensure your naming conventions makes sense, if something is called build_X and it actually deploys_X then change the name to deploys_X if possible to reduce confusion
+
+> "it's possible for good people, in perversely designed systems, to casually perpetrate acts of great harm on strangers, sometimes without ever realising it."
+>> [Ben Goldacre](http://www.badscience.net/), [Bad Pharma](https://www.amazon.co.uk/dp/0865478007?tag=contindelive-20), p. xi
+
 * Nobody should be able to do something catastrophic to an environment unless they are determined on doing so i.e.
-        * Use safety harnesses
-                * [Make](https://www.gnu.org/software/make/), [Gradle](https://gradle.org/) or [Rake](https://ruby.github.io/rake/) commands to do the most common tasks safety without the worry of screwing up e.g. Ansible tasks:
+	* Create safety harnesses
+	  * [Make](https://www.gnu.org/software/make/), [Gradle](https://gradle.org/) or [Rake](https://ruby.github.io/rake/) commands to do the most common tasks safety without the worry of screwing up e.g. Ansible tasks:
 
 ```
 - name: “Do something really Dangerous"
