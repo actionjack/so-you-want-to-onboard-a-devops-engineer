@@ -1,4 +1,4 @@
-# So you want to Onboard a DevOps/WebOps Engineer/Consultant
+# So you want to Onboard a DevOps Practitioner
 
 [![Build Status](https://travis-ci.org/actionjack/so-you-want-to-onboard-a-devops-engineer.svg?branch=master)](https://travis-ci.org/actionjack/so-you-want-to-onboard-a-devops-engineer)
 
