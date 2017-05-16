@@ -40,7 +40,7 @@ It's important to either have or do the following:
 > "it's possible for good people, in perversely designed systems, to casually perpetrate acts of great harm on strangers, sometimes without ever realising it."
 >> [Ben Goldacre](http://www.badscience.net/), [Bad Pharma](https://www.amazon.co.uk/dp/0865478007?tag=contindelive-20), p. xi
 
-* Nobody should be able to do something catastrophic to an environment unless they are determined on doing so i.e.
+* With the above in mind nobody should be able to do something catastrophic to an environment unless they are determined on doing so i.e.
 	* Create safety harnesses
 	  * [Make](https://www.gnu.org/software/make/), [Gradle](https://gradle.org/) or [Rake](https://ruby.github.io/rake/) commands to do the most common tasks safety without the worry of screwing up e.g. Ansible tasks:
 
