@@ -75,7 +75,7 @@ It's important to either have or do the following:
 ### Version control management
 
 * Document your coding standards and strategies in the open e.g.
-	* Version control branching strategy
+	* [Version control & branch strategy](https://www.infoq.com/articles/agile-version-control)
 	* Code review process
 	* Release handling management
 * Have an Up to date [README](https://thejunkland.com/blog/how-to-write-good-readme.html) documentation in all repos
