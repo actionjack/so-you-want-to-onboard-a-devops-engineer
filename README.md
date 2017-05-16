@@ -32,7 +32,8 @@ It's important to either have or do the following:
 ### Operations
 
 * Have all relevant accounts setup and ready
-* Have your work structured so people can see what needs to be done i.e. Kanban board backlog or todo lists
+* Hove your work structured so people can see what needs to be done i.e. Kanban board backlog or todo lists
+* Provide information regarding the applications that are maintained by the team and how to do the operations for those applications
 * Make it difficult to make mistakes e.g
         * [protected branches e.g. force pushes to master](https://github.com/blog/2051-protected-branches-and-required-status-checks)
         * Coding guidelines backed up by [CI checks](https://stickler-ci.com/)
@@ -71,6 +72,12 @@ It's important to either have or do the following:
 		* Serverspec - http://serverspec.org/
 		* Ansible --syntax-check
 * Add or invite individual to any relevant [Slack](https://slack.com/), [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat) channels or Mailing lists.
+* Provide information regarding relevant processes e.g.
+  * Incident, problem and change management
+  * Deploying changes / releases to the different environments
+  * Ordering infrastructure / tools
+  * Authorization for tools & applications
+  * Use of test environments and creating and using testdata
 
 ### Version control management
 
@@ -94,6 +101,7 @@ It's important to either have or do the following:
 
 ### Culture
 
+* Introduce the new engineer(s) to the relevant people within the organization
 * Remember not everyone maybe as smart as you are, they may be missing
     * Context / Situational awareness (how did we get from here to there?)
     * Tribal Knowledge
