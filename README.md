@@ -117,6 +117,10 @@ It's important to either have or do the following:
 
 * [How to Onboard Software Engineers – Interview with Kate Heddleston - @heddle317](http://blog.fogcreek.com/how-to-onboard-software-engineers-interview-with-kate-heddleston/)
 
+* [Onboarding New Hires with Trello - Elizabeth Hall - @Liz_Hall1](https://medium.com/@Liz_Hall1/onboarding-new-hires-with-trello-ecc87e87ffd5)
+
+* [If you want your new engineers to hit the ground running, give them a soft landing - Greg Slovacek - @slobak ](https://blog.asana.com/2013/02/onboarding-new-engineers/)
+
 ## See a problem here
 
 See a problem? Need something clarified? Raise and Issue and I'll try and fix it.
