@@ -62,7 +62,7 @@ It's important to either have or do the following:
     * adds value and;
     * is not grunt work e.g. document X.
 * Assign your new start an on boarding buddy/mentor
-* Pair with new start as soon and as often as possible
+* [Pair](https://www.agilealliance.org/glossary/pairing/) with new start as soon and as often as possible
 * When [and if] you do a Retro, then base it against a known good baseline i.e.
   * If you are doing production deploys in the wee hours of the night and it goes successfully, remember this is not necessarily reflect a **good** deployment.
 * Put as much detail into tasks / stories as possible including assumptions, reference information, existing implementations, narrow acceptance criteria.
