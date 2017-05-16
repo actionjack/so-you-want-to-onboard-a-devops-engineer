@@ -55,22 +55,27 @@ It's important to either have or do the following:
 ### Processes
 
 * Have [Shovel Ready](https://en.wikipedia.org/wiki/Shovel_ready) work for new starters, create a backlog of work that be be easily done by a new starter:
-        * Ideally work that is well defined, requires some research and adds value not grunt work e.g. document X.
+  * Ideally work that:
+    * is well defined,
+    * is easily explained,
+    * requires some research,
+    * adds value and;
+    * is not grunt work e.g. document X.
 * Assign your new start an on boarding buddy/mentor
 * Pair with new start as soon and as often as possible
 * When [and if] you do a Retro, then base it against a known good baseline i.e.
-	* If you are doing production deploys in the wee hours of the night and it goes successfully, remember this is not necessarily reflect a **good** deployment.
+  * If you are doing production deploys in the wee hours of the night and it goes successfully, remember this is not necessarily reflect a **good** deployment.
 * Put as much detail into tasks / stories as possible including assumptions, reference information, existing implementations, narrow acceptance criteria.
 * Avoid on boarding during crunch times (important or critical planned releases)
 * Ideally have your accounts linked with some central or shared directory e.g. Github/Google/LDAP so your new starters don’t have to remember 101 user/password combinations
 * In your alerting system put context sensitive help that points to a helpful runbook
 * Configuration management test modes i.e. testing_mode on
-	* Blocking infrastructure tests or linters to catch mistakes early, e.g.
-		* Yamllint https://github.com/adrienverge/yamllint
-		* Test Infra https://github.com/philpep/testinfra
-		* Inspec - http://inspec.io/
-		* Serverspec - http://serverspec.org/
-		* Ansible --syntax-check
+  * Blocking infrastructure tests or linters to catch mistakes early, e.g.
+    * Yamllint https://github.com/adrienverge/yamllint
+    * Test Infra https://github.com/philpep/testinfra
+    * Inspec - http://inspec.io/
+    * Serverspec - http://serverspec.org/
+    * Ansible --syntax-check
 * Add or invite individual to any relevant [Slack](https://slack.com/), [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat) channels or Mailing lists.
 * Provide information regarding relevant processes e.g.
   * Incident, problem and change management
@@ -82,28 +87,28 @@ It's important to either have or do the following:
 ### Version control management
 
 * Document your coding standards and strategies in the open e.g.
-	* [Version control & branch strategy](https://www.infoq.com/articles/agile-version-control)
-	* Code review process
-	* Release handling management
+  * [Version control & branch strategy](https://www.infoq.com/articles/agile-version-control)
+  * Code review process
+  * Release handling management
 * Have an Up to date [README](https://thejunkland.com/blog/how-to-write-good-readme.html) documentation in all repos
-    * :+1: have [sequence diagrams](https://en.wikipedia.org/wiki/Sequence_diagram) in all repos i.e. http://plantuml.com/
-    * :+1: have [Architecture Decision Records](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions) in your [repos](https://github.com/npryce/adr-tools)
-    * :+1: Have a well [structured git history](http://www.annashipman.co.uk/jfdi/good-pull-requests.html) in your repos
+  * :+1: have [sequence diagrams](https://en.wikipedia.org/wiki/Sequence_diagram) in all repos i.e. http://plantuml.com/
+  * :+1: have [Architecture Decision Records](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions) in your [repos](https://github.com/npryce/adr-tools)
+  * :+1: Have a well [structured git history](http://www.annashipman.co.uk/jfdi/good-pull-requests.html) in your repos
 
 ### Development environments
 
 * Have at least a minimally functioning [Continous Integration setup](https://www.thoughtworks.com/continuous-integration)
 * Make it easy to set up an easy to use cross platform or run a local environment that doesn’t mess up what’s currently there e.g. (https://cloud.gov/docs/ops/creating-a-local-dev-environment-in-Virtual-Box/)
-    * pyenv, jenv, Rbenv, venv, virtualenv, [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv)
-    * :+1: Vagrant boxen in ordet to test locally!
-    * :+1: Docker containers
-    * :+1: The ability to create individualized development environments in the cloud e.g. [AWS](https://aws.amazon.com/), [Azure](https://azure.microsoft.com), [Google](https://cloud.google.com/), [Digital Ocean](https://www.digitalocean.com/), etc in order to safely deploy, iterate and test in a separate (and safe) environment
+  * pyenv, jenv, Rbenv, venv, virtualenv, [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv)
+  * :+1: Vagrant boxen in ordet to test locally!
+  * :+1: Docker containers
+  * :+1: The ability to create individualized development environments in the cloud e.g. [AWS](https://aws.amazon.com/), [Azure](https://azure.microsoft.com), [Google](https://cloud.google.com/), [Digital Ocean](https://www.digitalocean.com/), etc in order to safely deploy, iterate and test in a separate (and safe) environment
 
 ### Culture
 
 * Introduce the new engineer(s) to the relevant people within the organization
 * Remember not everyone maybe as smart as you are, they may be missing
-    * Context / Situational awareness (how did we get from here to there?)
+  * Context / Situational awareness (how did we get from here to there?)
     * Tribal Knowledge
     * Culture
 * What are the Preferred practices or ["Design Principles"](https://www.gov.uk/design-principles)?
