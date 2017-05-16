@@ -24,7 +24,7 @@ It's important to either have or do the following:
 * A intranet/wiki or enterprise social network to Learn about different teams, key members with pictures. On day one, one can easily get overwhelmed with lots of new names and faces.
 * Have documentation for your alerts. If something is important enough to page the oncall person about, it's important enough to have a runbook entry about it. If you alert because _foo queue is too long_, there should be a runbook entry describing how to fix it.
 * Create a Glossary of Terms [e.g. a Minipedia] for describing any organisation specific acronyms or terms
-   * Create an on-boarding wiki page (i.e. Confluence/Google Docs) e.g. https://wiki.mozilla.org/Devops/onboarding
+   * [Create an on-boarding wiki page (i.e. Confluence/Google Docs)](https://wiki.mozilla.org/Devops/onboarding)
    * :+1: For Open,online and easy to reach [checklists](https://github.com/annahsebok/onboarding-documents-1/blob/master/Checklists/team-based-checklists/devops-new-hire-checklist.md)
 * Write your documentation as if it's going to be [open](https://www.gov.uk/design-principles#tenth) to public scrutiny someday.
 * Have an easy to use and setup collection of shared resources e.g. bookmark file of URL links, .ssh/config files
@@ -68,14 +68,14 @@ It's important to either have or do the following:
 * Put as much detail into tasks / stories as possible including assumptions, reference information, existing implementations, narrow acceptance criteria.
 * Avoid on boarding during crunch times (important or critical planned releases)
 * Ideally have your accounts linked with some central or shared directory e.g. Github/Google/LDAP so your new starters don’t have to remember 101 user/password combinations
-* In your alerting system put context sensitive help that points to a helpful runbook
+* In your alerting system put context sensitive help that points to a helpful [runbook](https://en.wikipedia.org/wiki/Runbook)
 * Configuration management test modes i.e. testing_mode on
   * Blocking infrastructure tests or linters to catch mistakes early, e.g.
-    * Yamllint https://github.com/adrienverge/yamllint
-    * Test Infra https://github.com/philpep/testinfra
-    * Inspec - http://inspec.io/
-    * Serverspec - http://serverspec.org/
-    * Ansible --syntax-check
+    * [Yamllint](https://github.com/adrienverge/yamllint)
+    * [Test Infra]( https://github.com/philpep/testinfra)
+    * [Inspec](http://inspec.io/)
+    * [Serverspec](http://serverspec.org/)
+    * [Ansible --syntax-check](https://raymii.org/s/tutorials/Ansible_-_Playbook_Testing.html)
 * Add or invite individual to any relevant [Slack](https://slack.com/), [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat) channels or Mailing lists.
 * Provide information regarding relevant processes e.g.
   * Incident, problem and change management
@@ -83,6 +83,7 @@ It's important to either have or do the following:
   * Ordering infrastructure / tools
   * Authorization for tools & applications
   * Use of test environments and creating and using testdata
+* Have [Clean code](https://blog.goyello.com/2013/01/21/top-9-principles-clean-code/) It really helps if your code is good, is sensibly organized and structured. If the code base is large, it should be broken apart in understandable segments
 
 ### Version control management
 
@@ -98,8 +99,8 @@ It's important to either have or do the following:
 ### Development environments
 
 * Have at least a minimally functioning [Continous Integration setup](https://www.thoughtworks.com/continuous-integration)
-* Make it easy to set up an easy to use cross platform or run a local environment that doesn’t mess up what’s currently there e.g. (https://cloud.gov/docs/ops/creating-a-local-dev-environment-in-Virtual-Box/)
-  * pyenv, jenv, Rbenv, venv, virtualenv, [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv)
+* Make it easy to set up an easy to use cross platform or run a local environment that doesn’t mess up what’s currently there e.g. in a [virtual machine](https://cloud.gov/docs/ops/creating-a-local-dev-environment-in-Virtual-Box/)
+  * [pyenv](https://github.com/pyenv/pyenv), [jenv](http://www.jenv.be/), [Rbenv](https://github.com/rbenv/rbenv), [venv](https://docs.python.org/3/library/venv.html), [virtualenv](https://virtualenv.pypa.io/en/stable/), [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv)
   * :+1: Vagrant boxen in ordet to test locally!
   * :+1: Docker containers
   * :+1: The ability to create individualized development environments in the cloud e.g. [AWS](https://aws.amazon.com/), [Azure](https://azure.microsoft.com), [Google](https://cloud.google.com/), [Digital Ocean](https://www.digitalocean.com/), etc in order to safely deploy, iterate and test in a separate (and safe) environment
