@@ -85,6 +85,7 @@ It's important to either have or do the following:
 
 ### Development environments
 
+* Have at least a minimally functioning [Continous Integration setup](https://martinfowler.com/articles/continuousIntegration.html)
 * Make it easy to set up an easy to use cross platform or run a local environment that doesn’t mess up what’s currently there e.g. (https://cloud.gov/docs/ops/creating-a-local-dev-environment-in-Virtual-Box/)
     * pyenv, jenv, Rbenv, venv, virtualenv, [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv)
     * :+1: Vagrant boxen in ordet to test locally!
