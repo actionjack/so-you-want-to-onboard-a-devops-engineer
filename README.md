@@ -20,6 +20,7 @@ It's important to either have or do the following:
 	* [Graphviz description language](http://www.graphviz.org/content/dot-language)
 	* [Graphvizo](http://gravizo.com/)
 * An overview of the company’s infrastructure.
+* Systems integration points and their third parties dependencies
 * A intranet/wiki or enterprise social network to Learn about different teams, key members with pictures. On day one, one can easily get overwhelmed with lots of new names and faces.
 * Have documentation for your alerts. If something is important enough to page the oncall person about, it's important enough to have a runbook entry about it. If you alert because _foo queue is too long_, there should be a runbook entry describing how to fix it.
 * Create a Glossary of Terms [e.g. a Minipedia] for describing any organisation specific acronyms or terms
@@ -31,7 +32,8 @@ It's important to either have or do the following:
 ### Operations
 
 * Have all relevant accounts setup and ready
-* Have your work structured so people can see what needs to be done i.e. Kanban board backlog or todo lists
+* Hove your work structured so people can see what needs to be done i.e. Kanban board backlog or todo lists
+* Provide information regarding the applications that are maintained by the team and how to do the operations for those applications
 * Make it difficult to make mistakes e.g
         * [protected branches e.g. force pushes to master](https://github.com/blog/2051-protected-branches-and-required-status-checks)
         * Coding guidelines backed up by [CI checks](https://stickler-ci.com/)
@@ -70,11 +72,17 @@ It's important to either have or do the following:
 		* Serverspec - http://serverspec.org/
 		* Ansible --syntax-check
 * Add or invite individual to any relevant [Slack](https://slack.com/), [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat) channels or Mailing lists.
+* Provide information regarding relevant processes e.g.
+  * Incident, problem and change management
+  * Deploying changes / releases to the different environments
+  * Ordering infrastructure / tools
+  * Authorization for tools & applications
+  * Use of test environments and creating and using testdata
 
 ### Version control management
 
 * Document your coding standards and strategies in the open e.g.
-	* Version control branching strategy
+	* [Version control & branch strategy](https://www.infoq.com/articles/agile-version-control)
 	* Code review process
 	* Release handling management
 * Have an Up to date [README](https://thejunkland.com/blog/how-to-write-good-readme.html) documentation in all repos
@@ -84,6 +92,7 @@ It's important to either have or do the following:
 
 ### Development environments
 
+* Have at least a minimally functioning [Continous Integration setup](https://martinfowler.com/articles/continuousIntegration.html)
 * Make it easy to set up an easy to use cross platform or run a local environment that doesn’t mess up what’s currently there e.g. (https://cloud.gov/docs/ops/creating-a-local-dev-environment-in-Virtual-Box/)
     * pyenv, jenv, Rbenv, venv, virtualenv, [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv)
     * :+1: Vagrant boxen in ordet to test locally!
@@ -92,6 +101,7 @@ It's important to either have or do the following:
 
 ### Culture
 
+* Introduce the new engineer(s) to the relevant people within the organization
 * Remember not everyone maybe as smart as you are, they may be missing
     * Context / Situational awareness (how did we get from here to there?)
     * Tribal Knowledge
@@ -100,6 +110,7 @@ It's important to either have or do the following:
 * Listen to their point of view they bring a fresh pair of eyes to the situation
 * Test your mentoring and on boarding process to flush out any shortfalls by getting the last person who joined to mentor the new joiner.
 * Make your documentation inclusive e.g. this document is parsed using [alex](http://alexjs.com/) in order to catch insensitive and inconsiderate writing.
+* Be wary of not overloading new starts with too much information there there is often quite a lot to learn (even more than you think), instead provide a set of useful links so people can research at their own pace.
 
 ## Useful links
 * [Onboarding and Mentoring Apprentices with DevOps Culture - Mercedes Coyle @benzobot](https://vimeo.com/115484860)
