@@ -32,6 +32,7 @@ It's important to either have or do the following:
 ### Operations
 
 * Have all relevant accounts setup and ready
+* Simply and reuse as much of your architecture as possible - [“Complexity exacts a staggering tax on your humans. Good ops engineers attempts to pay down that tax.” - Charity Majors @mipsytipsy](https://twitter.com/bridgetkromhout/status/647333814411358208)
 * Hove your work structured so people can see what needs to be done i.e. Kanban board backlog or todo lists
 * Provide information regarding the applications that are maintained by the team and how to do the operations for those applications
 * Make it difficult to make mistakes e.g
@@ -127,6 +128,8 @@ It's important to either have or do the following:
 * [Onboarding New Hires with Trello - Elizabeth Hall - @Liz_Hall1](https://medium.com/@Liz_Hall1/onboarding-new-hires-with-trello-ecc87e87ffd5)
 
 * [If you want your new engineers to hit the ground running, give them a soft landing - Greg Slovacek - @slobak ](https://blog.asana.com/2013/02/onboarding-new-engineers/)
+
+* [Building world class Ops teams by Charity Majors @@mipsytipsy](https://youtu.be/l4vKPZW-m0E?list=PLK4VB0cauli7-_RIvpmn651ePtddw9_Fp)
 
 ## See a problem here
 
