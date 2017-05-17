@@ -33,7 +33,11 @@ It's important to either have or do the following:
 
 * Have all relevant accounts setup and ready
 * Create Operational Checklists for your key processes
-* Simply and reuse as much of your architecture as possible - [“Complexity exacts a staggering tax on your humans. Good ops engineers attempts to pay down that tax.” - Charity Majors - @mipsytipsy](https://twitter.com/bridgetkromhout/status/647333814411358208)
+
+> [“Complexity exacts a staggering tax on your humans. Good Ops engineers attempts to pay down that tax.”](https://twitter.com/bridgetkromhout/status/647333814411358208)
+> >  [Charity Majors](https://twitter.com/mipsytipsy)
+
+* Simply and reuse as much of your architecture as possible
 * Hove your work structured so people can see what needs to be done i.e. Kanban board backlog or todo lists
 * Provide information regarding the applications that are maintained by the team and how to do the operations for those applications
 * Make it difficult to make mistakes e.g
@@ -42,7 +46,7 @@ It's important to either have or do the following:
 * Ensure your naming conventions makes sense, if something is called build_X and it actually deploys_X then change the name to deploys_X if possible to reduce confusion
 
 > "it's possible for good people, in perversely designed systems, to casually perpetrate acts of great harm on strangers, sometimes without ever realising it."
->> [Ben Goldacre](http://www.badscience.net/), [Bad Pharma](https://www.amazon.co.uk/dp/0865478007?tag=contindelive-20), p. xi
+> > [Ben Goldacre](http://www.badscience.net/), [Bad Pharma](https://www.amazon.co.uk/dp/0865478007?tag=contindelive-20), p. xi
 
 * With the above in mind nobody should be able to do something catastrophic to an environment unless they are determined on doing so i.e.
 	* Create safety harnesses
