@@ -126,15 +126,15 @@ It's important to either have or do the following:
 * Be wary of not overloading new starts with too much information there there is often quite a lot to learn (even more than you think), instead provide a set of useful links so people can research at their own pace.
 
 ## Useful links
-* [Onboarding and Mentoring Apprentices with DevOps Culture - Mercedes Coyle @benzobot](https://vimeo.com/115484860)
+* [Onboarding and Mentoring Apprentices with DevOps Culture](https://vimeo.com/115484860) by [Mercedes Coyle](https://twitter.com/benzobot)
 
-* [How to Onboard Software Engineers – Interview with Kate Heddleston - @heddle317](http://blog.fogcreek.com/how-to-onboard-software-engineers-interview-with-kate-heddleston/)
+* [How to Onboard Software Engineers](http://blog.fogcreek.com/how-to-onboard-software-engineers-interview-with-kate-heddleston/) Interview with [Kate Heddleston](https://twitter.com/heddle317)
 
-* [Onboarding New Hires with Trello - Elizabeth Hall - @Liz_Hall1](https://medium.com/@Liz_Hall1/onboarding-new-hires-with-trello-ecc87e87ffd5)
+* [Onboarding New Hires with Trello](https://medium.com/@Liz_Hall1/onboarding-new-hires-with-trello-ecc87e87ffd5) by [Elizabeth Hall](https://twitter.com/Liz_Hall1)
 
-* [If you want your new engineers to hit the ground running, give them a soft landing - Greg Slovacek - @slobak ](https://blog.asana.com/2013/02/onboarding-new-engineers/)
+* [If you want your new engineers to hit the ground running, give them a soft landing](https://blog.asana.com/2013/02/onboarding-new-engineers/) by [Greg Slovacek](https://twitter.com/slobak)
 
-* [Building world class Ops teams by Charity Majors @mipsytipsy](https://youtu.be/l4vKPZW-m0E?list=PLK4VB0cauli7-_RIvpmn651ePtddw9_Fp)
+* [Building world class Ops teams](https://youtu.be/l5vKPZW-m0E?list=PLK4VB0cauli7-_RIvpmn651ePtddw9_Fp) by [Charity Majors](https://twitter.com/mipsytipsy)
 
 ## See a problem here
 
