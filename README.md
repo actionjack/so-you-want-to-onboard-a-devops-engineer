@@ -110,8 +110,8 @@ It's important to either have or do the following:
 * Introduce the new engineer(s) to the relevant people within the organization
 * Remember not everyone maybe as smart as you are, they may be missing
   * Context / Situational awareness (how did we get from here to there?)
-    * Tribal Knowledge
-    * Culture
+  * Tribal Knowledge
+  * Culture
 * What are the Preferred practices or ["Design Principles"](https://www.gov.uk/design-principles)?
 * Listen to their point of view. Bringing in a new person is a prime opportunity to find out where the code needs improvement
 * Test your mentoring and on boarding process to flush out any shortfalls by getting the last person who joined to mentor the new joiner.
