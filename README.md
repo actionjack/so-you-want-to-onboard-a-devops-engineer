@@ -32,6 +32,7 @@ It's important to either have or do the following:
 ### Operations
 
 * Have all relevant accounts setup and ready
+* Create Operational Checklists for your key processes
 * Simply and reuse as much of your architecture as possible - [“Complexity exacts a staggering tax on your humans. Good ops engineers attempts to pay down that tax.” - Charity Majors - @mipsytipsy](https://twitter.com/bridgetkromhout/status/647333814411358208)
 * Hove your work structured so people can see what needs to be done i.e. Kanban board backlog or todo lists
 * Provide information regarding the applications that are maintained by the team and how to do the operations for those applications
