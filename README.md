@@ -16,16 +16,16 @@ It's important to either have or do the following:
 
 * Regularly tidy your documentation, old documents should be removed, outdated ones updated, if you touch it then update it
 * High-Level logical Architecture. E.g. ideally written in a Git friendly format:
-	* [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) diagrams in [github](https://github.com/blog/1902-svg-viewing-diffing) so you can see the infrastructure changes over time
-	* [Graphviz description language](http://www.graphviz.org/content/dot-language)
-	* [Graphvizo](http://gravizo.com/)
+  * [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) diagrams in [github](https://github.com/blog/1902-svg-viewing-diffing) so you can see the infrastructure changes over time
+  * [Graphviz description language](http://www.graphviz.org/content/dot-language)
+  * [Graphvizo](http://gravizo.com/)
 * An overview of the company’s infrastructure.
 * Systems integration points and their third parties dependencies
 * A intranet/wiki or enterprise social network to Learn about different teams, key members with pictures. On day one, one can easily get overwhelmed with lots of new names and faces.
 * Have documentation for your alerts. If something is important enough to page the oncall person about, it's important enough to have a runbook entry about it. If you alert because _foo queue is too long_, there should be a [runbook](http://holyhandgrenade.org/blog/2011/08/runbooks-are-stupid-and-youre-doing-them-wrong/) entry describing how to fix it.
 * Create a Glossary of Terms [e.g. a Minipedia] for describing any organisation specific acronyms or terms
-   * [Create an on-boarding wiki page (i.e. Confluence/Google Docs)](https://wiki.mozilla.org/Devops/onboarding)
-   * :+1: For Open,online and easy to reach [checklists](https://github.com/annahsebok/onboarding-documents-1/blob/master/Checklists/team-based-checklists/devops-new-hire-checklist.md)
+  * [Create an on-boarding wiki page (i.e. Confluence/Google Docs)](https://wiki.mozilla.org/Devops/onboarding)
+  * :+1: For Open,online and easy to reach [checklists](https://github.com/annahsebok/onboarding-documents-1/blob/master/Checklists/team-based-checklists/devops-new-hire-checklist.md)
 * Write your documentation as if it's going to be [open](https://www.gov.uk/design-principles#tenth) to public scrutiny someday.
 * Have an easy to use and setup collection of shared resources e.g. bookmark file of URL links, .ssh/config files
 
@@ -41,16 +41,16 @@ It's important to either have or do the following:
 * Hove your work structured so people can see what needs to be done i.e. Kanban board backlog or todo lists
 * Provide information regarding the applications that are maintained by the team and how to do the operations for those applications
 * Make it difficult to make mistakes e.g
-        * [protected branches e.g. force pushes to master](https://github.com/blog/2051-protected-branches-and-required-status-checks)
-        * Coding guidelines backed up by CI checks
+  * [protected branches e.g. force pushes to master](https://github.com/blog/2051-protected-branches-and-required-status-checks)
+  * Coding guidelines backed up by CI checks
 * Ensure your naming conventions makes sense, if something is called build_X and it actually deploys_X then change the name to deploys_X if possible to reduce confusion
 
 > "it's possible for good people, in perversely designed systems, to casually perpetrate acts of great harm on strangers, sometimes without ever realising it."
 > > [Ben Goldacre](http://www.badscience.net/), [Bad Pharma](https://www.amazon.co.uk/dp/0865478007?tag=contindelive-20), p. xi
 
 * With the above in mind nobody should be able to do something catastrophic to an environment unless they are determined on doing so i.e.
-	* Create safety harnesses
-	  * [Make](https://www.gnu.org/software/make/), [Gradle](https://gradle.org/) or [Rake](https://ruby.github.io/rake/) commands to do the most common tasks safety without the worry of screwing up e.g. Ansible tasks:
+  * Create safety harnesses
+    * [Make](https://www.gnu.org/software/make/), [Gradle](https://gradle.org/) or [Rake](https://ruby.github.io/rake/) commands to do the most common tasks safety without the worry of screwing up e.g. Ansible tasks:
 
 ```
 - name: “Do something really Dangerous"
