@@ -49,8 +49,14 @@ It's important to either have or do the following:
 > > [Ben Goldacre](http://www.badscience.net/), [Bad Pharma](https://www.amazon.co.uk/dp/0865478007?tag=contindelive-20), p. xi
 
 * With the above in mind nobody should be able to do something catastrophic to an environment unless they are determined on doing so i.e.
-  * Create safety harnesses
-    * [Make](https://www.gnu.org/software/make/), [Gradle](https://gradle.org/) or [Rake](https://ruby.github.io/rake/) commands to do the most common tasks safety without the worry of screwing up e.g. Ansible tasks:
+  * Create safety harnesses using build or scripting tools like the following list to do the most common tasks safety without the worry of screwing up:
+    * [Make](https://www.gnu.org/software/make/),
+    * [Gradle](https://gradle.org/) ,
+    * [Rake](https://ruby.github.io/rake/),
+    * [Invoke](http://www.pyinvoke.org/),
+    * [Fabric](http://www.fabfile.org/),
+    * [Paver](https://github.com/paver/paver)
+  * Put safety  conditionals in your configuration management to do be able to test runs without the worry of screwing up e.g. Ansible tasks:
 
 ```
 - name: “Do something really Dangerous"
