@@ -145,6 +145,8 @@ It's important to either have or do the following:
 
 * [Building world class Ops teams](https://youtu.be/l5vKPZW-m0E?list=PLK4VB0cauli7-_RIvpmn651ePtddw9_Fp) by [Charity Majors](https://twitter.com/mipsytipsy)
 
+*[ Ops and Operability](https://vimeo.com/209681251) by [Dan North](https://twitter.com/tastapod)
+
 ## See a problem here
 
 See a problem? Need something clarified? Raise and Issue and I'll try and fix it.
