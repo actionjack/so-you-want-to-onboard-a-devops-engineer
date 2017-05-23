@@ -42,7 +42,7 @@ It's important to either have or do the following:
 * Provide information regarding the applications that are maintained by the team and how to do the operations for those applications
 * Make it difficult to make mistakes e.g
   * [protected branches e.g. force pushes to master](https://github.com/blog/2051-protected-branches-and-required-status-checks)
-  * Coding guidelines backed up by [CI checks](https://stickler-ci.com/)
+  * Coding guidelines backed up by [CI checks](https://en.wikipedia.org/wiki/Continuous_integration)
 * Ensure your naming conventions makes sense, if something is called build_X and it actually deploys_X then change the name to deploys_X if possible to reduce confusion
 
 > "it's possible for good people, in perversely designed systems, to casually perpetrate acts of great harm on strangers, sometimes without ever realising it."
@@ -144,6 +144,8 @@ It's important to either have or do the following:
 * [If you want your new engineers to hit the ground running, give them a soft landing](https://blog.asana.com/2013/02/onboarding-new-engineers/) by [Greg Slovacek](https://twitter.com/slobak)
 
 * [Building world class Ops teams](https://youtu.be/l5vKPZW-m0E?list=PLK4VB0cauli7-_RIvpmn651ePtddw9_Fp) by [Charity Majors](https://twitter.com/mipsytipsy)
+
+*[ Ops and Operability](https://vimeo.com/209681251) by [Dan North](https://twitter.com/tastapod)
 
 ## See a problem here
 
