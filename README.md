@@ -134,7 +134,7 @@ It's important to either have or do the following:
 * Listen to their point of view. Bringing in a new person is a prime opportunity to find out where the code needs improvement
 * Test your mentoring and on boarding process to flush out any shortfalls by getting the last person who joined to mentor the new joiner.
 * Make your documentation inclusive e.g. this document is parsed using [alex](http://alexjs.com/) in order to catch insensitive and inconsiderate writing.
-* Be wary of not overloading new starts with too much information there there is often quite a lot to learn (even more than you think), instead provide a set of useful links so people can research at their own pace.
+* Be wary of not overloading new starts with too much information. There is often quite a lot to learn (even more than you think), instead provide a set of useful links so people can research at their own pace.
 
 ## Useful links
 * [Onboarding and Mentoring Apprentices with DevOps Culture](https://vimeo.com/115484860) by [Mercedes Coyle](https://twitter.com/benzobot)
