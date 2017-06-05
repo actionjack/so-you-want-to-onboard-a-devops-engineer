@@ -34,7 +34,7 @@ It's important to either have or do the following:
 ### Operations
 
 * Have all relevant accounts setup and ready
-* Create Operational Checklists for your key processes
+* Create [Operational Checklists](http://atulgawande.com/book/the-checklist-manifesto/) for your key processes
 
 > [“Complexity exacts a staggering tax on your humans. Good Ops engineers attempts to pay down that tax.”](https://twitter.com/bridgetkromhout/status/647333814411358208)
 > >  [Charity Majors](https://twitter.com/mipsytipsy)
