@@ -34,7 +34,7 @@ It's important to either have or do the following:
 ### Operations
 
 * Have all relevant accounts setup and ready
-* Create [Operational Checklists](http://atulgawande.com/book/the-checklist-manifesto/) for your key processes
+* Create [Operations Checklists](http://atulgawande.com/book/the-checklist-manifesto/) for your key processes
 
 > [“Complexity exacts a staggering tax on your humans. Good Ops engineers attempts to pay down that tax.”](https://twitter.com/bridgetkromhout/status/647333814411358208)
 > >  [Charity Majors](https://twitter.com/mipsytipsy)
@@ -117,7 +117,7 @@ It's important to either have or do the following:
 
 ### Development environments
 
-* Have at least a minimally functioning [Continous Integration setup](https://www.thoughtworks.com/continuous-integration)
+* Have at least a minimally functioning [Continuous Integration setup](https://www.thoughtworks.com/continuous-integration)
 * Make it easy to set up an easy to use cross platform or run a local environment that doesn’t mess up what’s currently there e.g. in a [virtual machine](https://cloud.gov/docs/ops/creating-a-local-dev-environment-in-Virtual-Box/)
   * [pyenv](https://github.com/pyenv/pyenv), [jenv](http://www.jenv.be/), [Rbenv](https://github.com/rbenv/rbenv), [venv](https://docs.python.org/3/library/venv.html), [virtualenv](https://virtualenv.pypa.io/en/stable/), [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv)
   * :+1: Vagrant boxen in ordet to test locally!
@@ -126,6 +126,7 @@ It's important to either have or do the following:
 
 ### Culture
 
+* Do not create a [Blame and Train](https://www.snafucatchers.com/single-post/2017/06/04/BorkedTheDatabaseCase) where failure is handled by blaming and shaming the employee (and sometimes terminating their employment) and then train other employees using the incident as an example
 * Introduce the new engineer(s) to the relevant people within the organization
 * Remember not everyone maybe as smart as you are, they may be missing
   * Context / Situational awareness (how did we get from here to there?)
