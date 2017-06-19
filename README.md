@@ -34,7 +34,7 @@ It's important to either have or do the following:
 ### Operations
 
 * Have all relevant accounts setup and ready
-* Create [Operational Checklists](http://atulgawande.com/book/the-checklist-manifesto/) for your key processes
+* Create [Operations Checklists](http://atulgawande.com/book/the-checklist-manifesto/) for your key processes
 
 > [“Complexity exacts a staggering tax on your humans. Good Ops engineers attempts to pay down that tax.”](https://twitter.com/bridgetkromhout/status/647333814411358208)
 > >  [Charity Majors](https://twitter.com/mipsytipsy)
@@ -101,6 +101,7 @@ It's important to either have or do the following:
 * Have [Clean code](https://blog.goyello.com/2013/01/21/top-9-principles-clean-code/) It really helps if your code is good, is sensibly organized and structured. If the code base is large, it should be broken apart in understandable segments
 * Create a [Papercuts.md](https://gist.github.com/actionjack/ee8408733b756fc101aa22488bb464a1) in your Repos, These are a log of things that have hurt us in the current environment, they may not be actual [technical debt](https://en.wikipedia.org/wiki/Technical_debt),however they could be things for us to discuss and possibly fix in the future.
 * If you have adopted a particular [coding style guideline](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Coding_Style) on your project then document or reference it for new joiners to easily reference and adopt
+* [Story kickoffs](https://elabor8.com.au/how-to-introduce-story-kickoffs-to-your-team/) can be extremely useful to new starters by helping them getting to the mindset of the team, identify areas that aren't immediately visible in the code base and generally reduce constant rework due to missing acceptance criteria.
 
 ### Version control management
 
@@ -116,7 +117,7 @@ It's important to either have or do the following:
 
 ### Development environments
 
-* Have at least a minimally functioning [Continous Integration setup](https://www.thoughtworks.com/continuous-integration)
+* Have at least a minimally functioning [Continuous Integration setup](https://www.thoughtworks.com/continuous-integration)
 * Make it easy to set up an easy to use cross platform or run a local environment that doesn’t mess up what’s currently there e.g. in a [virtual machine](https://cloud.gov/docs/ops/creating-a-local-dev-environment-in-Virtual-Box/)
   * [pyenv](https://github.com/pyenv/pyenv), [jenv](http://www.jenv.be/), [Rbenv](https://github.com/rbenv/rbenv), [venv](https://docs.python.org/3/library/venv.html), [virtualenv](https://virtualenv.pypa.io/en/stable/), [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv)
   * :+1: Vagrant boxen in ordet to test locally!
@@ -125,6 +126,7 @@ It's important to either have or do the following:
 
 ### Culture
 
+* Do not create a [Blame and Train](https://www.snafucatchers.com/single-post/2017/06/04/BorkedTheDatabaseCase) where failure is handled by blaming and shaming the employee (and sometimes terminating their employment) and then train other employees using the incident as an example
 * Introduce the new engineer(s) to the relevant people within the organization
 * Remember not everyone maybe as smart as you are, they may be missing
   * Context / Situational awareness (how did we get from here to there?)
