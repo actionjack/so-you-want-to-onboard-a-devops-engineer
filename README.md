@@ -36,11 +36,11 @@ It's important to either have or do the following:
 * Have all relevant accounts setup and ready
 * Create [Operations Checklists](http://atulgawande.com/book/the-checklist-manifesto/) for your key processes
 
-> [“Complexity exacts a staggering tax on your humans. Good Ops engineers attempts to pay down that tax.”](https://twitter.com/bridgetkromhout/status/647333814411358208)
+> [“Complexity exacts a staggering tax on your humans. Good Ops engineers attempt to pay down that tax.”](https://twitter.com/bridgetkromhout/status/647333814411358208)
 > >  [Charity Majors](https://twitter.com/mipsytipsy)
 
 * Simply and reuse as much of your architecture as possible
-* Hove your work structured so people can see what needs to be done i.e. Kanban board backlog or todo lists
+* Have your work structured so people can see what needs to be done i.e. Kanban board backlog or todo lists
 * Provide information regarding the applications that are maintained by the team and how to do the operations for those applications
 * Make it difficult to make mistakes e.g
   * [protected branches e.g. force pushes to master](https://github.com/blog/2051-protected-branches-and-required-status-checks)
