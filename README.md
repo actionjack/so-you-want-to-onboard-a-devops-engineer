@@ -40,7 +40,7 @@ It's important to either have or do the following:
 > >  [Charity Majors](https://twitter.com/mipsytipsy)
 
 * Simply and reuse as much of your architecture as possible
-* Hove your work structured so people can see what needs to be done i.e. Kanban board backlog or todo lists
+* Have your work structured so people can see what needs to be done i.e. Kanban board backlog or todo lists
 * Provide information regarding the applications that are maintained by the team and how to do the operations for those applications
 * Make it difficult to make mistakes e.g
   * [protected branches e.g. force pushes to master](https://github.com/blog/2051-protected-branches-and-required-status-checks)
