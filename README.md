@@ -12,7 +12,25 @@ Reduce the time spent learning the peculiarities of complex environments rather 
 
 Here is some guidance on how to make your environment easier to onboard.
 
+### Culture
+<details>
+
+* Do not create a [Blame and Train](https://www.snafucatchers.com/single-post/2017/06/04/BorkedTheDatabaseCase) culture where failure is handled by blaming and shaming the employee (and sometimes terminating their employment) and then train other employees using the incident as an example
+* Introduce the new engineer(s) to the relevant people within the organization
+* Remember not everyone maybe as smart as you are, they may be missing
+  * Context / Situational awareness (how did we get from here to there?)
+  * Tribal Knowledge
+  * Culture
+* What are the Preferred practices or ["Design Principles"](https://www.gov.uk/design-principles)?
+* Listen to their point of view. Bringing in a new person is a prime opportunity to find out where the code needs improvement
+* Test your mentoring and on boarding process to flush out any shortfalls by getting the last person who joined to mentor the new joiner.
+* Make your documentation inclusive e.g. this document is parsed using [alex](http://alexjs.com/) in order to catch insensitive and inconsiderate writing.
+* Be wary of not overloading new starts with too much information. There is often quite a lot to learn (even more than you think), instead provide a set of useful links so people can research at their own pace.
+</details>
+
+
 ### Have up to date Documentation
+<details>
 
 It's important to either have or do the following:
 
@@ -30,8 +48,12 @@ It's important to either have or do the following:
   * :+1: For Open,online and easy to reach [checklists](https://github.com/annahsebok/onboarding-documents-1/blob/master/Checklists/team-based-checklists/devops-new-hire-checklist.md)
 * Write your documentation as if it's going to be [open](https://www.gov.uk/design-principles#tenth) to public scrutiny someday.
 * Have an easy to use and setup collection of shared resources e.g. bookmark file of URL links, .ssh/config files
+</details>
+
 
 ### Operations
+
+<details>
 
 * Have all relevant accounts setup and ready
 * Create [Operations Checklists](http://atulgawande.com/book/the-checklist-manifesto/) for your key processes
@@ -66,8 +88,12 @@ It's important to either have or do the following:
   command: /sbin/something —could —be —dangerous --if --run --it --in --prod
   when: testmode == “Off"
 ```
+</details>
+
 
 ### Processes
+
+<details>
 
 * Have [Shovel Ready](https://en.wikipedia.org/wiki/Shovel_ready) work for new starters, create a backlog of work that be be easily done by a new starter:
   * Ideally work that:
@@ -103,7 +129,11 @@ It's important to either have or do the following:
 * If you have adopted a particular [coding style guideline](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Coding_Style) on your project then document or reference it for new joiners to easily reference and adopt
 * [Story kickoffs](https://elabor8.com.au/how-to-introduce-story-kickoffs-to-your-team/) can be extremely useful to new starters by helping them getting to the mindset of the team, identify areas that aren't immediately visible in the code base and generally reduce constant rework due to missing acceptance criteria.
 
+</details>
+
 ### Version control management
+
+<details>
 
 * Document your coding standards and strategies in the open e.g.
   * [Version control & branch strategy](https://www.infoq.com/articles/agile-version-control)
@@ -115,7 +145,11 @@ It's important to either have or do the following:
   * :+1: Have a well [structured git history](http://www.annashipman.co.uk/jfdi/good-pull-requests.html) in your repos
 * If at all possible make [Pull Requests](https://help.github.com/articles/about-pull-requests/) a first class citizen nothing is more demoralising than having a Pull Request sitting around without [feedback](http://engineering.leadgenius.com/post/129799259649/the-pull-request-review-checklist) and a chance of being merged.
 
+</details>
+
 ### Development environments
+
+<details>
 
 * Have at least a minimally functioning [Continuous Integration setup](https://www.thoughtworks.com/continuous-integration)
 * Make it easy to set up an easy to use cross platform or run a local environment that doesn’t mess up what’s currently there e.g. in a [virtual machine](https://cloud.gov/docs/ops/creating-a-local-dev-environment-in-Virtual-Box/)
@@ -124,21 +158,12 @@ It's important to either have or do the following:
   * :+1: Docker containers
   * :+1: The ability to create individualized development environments in the cloud e.g. [AWS](https://aws.amazon.com/), [Azure](https://azure.microsoft.com), [Google](https://cloud.google.com/), [Digital Ocean](https://www.digitalocean.com/), etc in order to safely deploy, iterate and test in a separate (and safe) environment
 
-### Culture
-
-* Do not create a [Blame and Train](https://www.snafucatchers.com/single-post/2017/06/04/BorkedTheDatabaseCase) culture where failure is handled by blaming and shaming the employee (and sometimes terminating their employment) and then train other employees using the incident as an example
-* Introduce the new engineer(s) to the relevant people within the organization
-* Remember not everyone maybe as smart as you are, they may be missing
-  * Context / Situational awareness (how did we get from here to there?)
-  * Tribal Knowledge
-  * Culture
-* What are the Preferred practices or ["Design Principles"](https://www.gov.uk/design-principles)?
-* Listen to their point of view. Bringing in a new person is a prime opportunity to find out where the code needs improvement
-* Test your mentoring and on boarding process to flush out any shortfalls by getting the last person who joined to mentor the new joiner.
-* Make your documentation inclusive e.g. this document is parsed using [alex](http://alexjs.com/) in order to catch insensitive and inconsiderate writing.
-* Be wary of not overloading new starts with too much information. There is often quite a lot to learn (even more than you think), instead provide a set of useful links so people can research at their own pace.
+</details>
 
 ## Useful links
+
+<details>
+
 * [Onboarding and Mentoring Apprentices with DevOps Culture](https://vimeo.com/115484860) by [Mercedes Coyle](https://twitter.com/benzobot)
 
 * [How to Onboard Software Engineers](http://blog.fogcreek.com/how-to-onboard-software-engineers-interview-with-kate-heddleston/) Interview with [Kate Heddleston](https://twitter.com/heddle317)
@@ -150,6 +175,8 @@ It's important to either have or do the following:
 * [Building world class Ops teams](https://youtu.be/l5vKPZW-m0E?list=PLK4VB0cauli7-_RIvpmn651ePtddw9_Fp) by [Charity Majors](https://twitter.com/mipsytipsy)
 
 * [Ops and Operability](https://vimeo.com/209681251) by [Dan North](https://twitter.com/tastapod)
+
+</details>
 
 ## See a problem here
 
