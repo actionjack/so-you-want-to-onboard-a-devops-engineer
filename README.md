@@ -14,8 +14,9 @@ Here is some guidance on how to make your environment easier to onboard.
 
 ### Culture
 <details>
+<summary>Aim to create a culture of psychological safety </summary>
 
-* Do not create a [Blame and Train](https://www.snafucatchers.com/single-post/2017/06/04/BorkedTheDatabaseCase) culture where failure is handled by blaming and shaming the employee (and sometimes terminating their employment) and then train other employees using the incident as an example
+* Do not create a [Blame and Train](https://www.snafucatchers.com/single-post/2017/06/04/BorkedTheDatabaseCase) culture where mistakes are handled by blaming and shaming the employee (and sometimes terminating their employment) and then train other employees using the incident as an example
 * Introduce the new engineer(s) to the relevant people within the organization
 * Remember not everyone maybe as smart as you are, they may be missing
   * Context / Situational awareness (how did we get from here to there?)
@@ -61,7 +62,7 @@ It's important to either have or do the following:
 > [“Complexity exacts a staggering tax on your humans. Good Ops engineers attempt to pay down that tax.”](https://twitter.com/bridgetkromhout/status/647333814411358208)
 > >  [Charity Majors](https://twitter.com/mipsytipsy)
 
-* Simply and reuse as much of your architecture as possible
+* Simplify and reuse as much of your architecture as possible
 * Have your work structured so people can see what needs to be done i.e. Kanban board backlog or todo lists
 * Provide information regarding the applications that are maintained by the team and how to do the operations for those applications
 * Make it difficult to make mistakes e.g
