@@ -110,7 +110,7 @@ It's important to either have or do the following:
 * [Pair](https://www.agilealliance.org/glossary/pairing/) with new start as soon and as often as possible
 * When [and if] you do a Retro, then base it against a known good baseline i.e.
   * If you are doing production deploys in the wee hours of the night and it goes successfully, remember this is not necessarily reflect a **good** deployment.
-* Put as much detail into tasks / stories as possible including assumptions, reference information, existing implementations, narrow acceptance criteria.
+* Put as much detail into tasks / stories as possible including assumptions, reference information, existing implementations, attempt to narrow down the acceptance criteria in order to prevent un-necessary research or rework.
 * Avoid on boarding during crunch times (important or critical planned releases)
 * Ideally have your accounts linked with some central or shared directory e.g. Github/Google/LDAP so your new starters don’t have to remember 101 user/password combinations
 * In your alerting system put context sensitive help that points to a helpful [runbook](https://en.wikipedia.org/wiki/Runbook)
