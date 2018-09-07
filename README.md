@@ -14,7 +14,7 @@ Here is some guidance on how to make your environment easier to onboard.
 
 ### Culture
 <details>
-<summary>Aim to create a culture of psychological safety </summary>
+<summary>Aim to create a culture of empathy and psychological safety </summary>
 
 * Do not create a [Blame and Train](https://www.snafucatchers.com/single-post/2017/06/04/BorkedTheDatabaseCase) culture where mistakes are handled by blaming and shaming the employee (and sometimes terminating their employment) and then train other employees using the incident as an example
 * Introduce the new engineer(s) to the relevant people within the organization
@@ -32,6 +32,7 @@ Here is some guidance on how to make your environment easier to onboard.
 
 ### Have up to date Documentation
 <details>
+<summary>Make it easy to understand and do the things</summary>
 
 It's important to either have or do the following:
 
@@ -55,6 +56,7 @@ It's important to either have or do the following:
 ### Operations
 
 <details>
+<summary>Make it easy to get shit done</summary>
 
 * Have all relevant accounts setup and ready
 * Create [Operations Checklists](http://atulgawande.com/book/the-checklist-manifesto/) for your key processes
@@ -95,6 +97,7 @@ It's important to either have or do the following:
 ### Processes
 
 <details>
+<summary>How should we do stuff</summary>
 
 * Have [Shovel Ready](https://en.wikipedia.org/wiki/Shovel_ready) work for new starters, create a backlog of work that be be easily done by a new starter:
   * Ideally work that:
@@ -135,6 +138,7 @@ It's important to either have or do the following:
 ### Version control management
 
 <details>
+<summary>How do we safely change things</summary>
 
 * Document your coding standards and strategies in the open e.g.
   * [Version control & branch strategy](https://www.infoq.com/articles/agile-version-control)
@@ -151,6 +155,7 @@ It's important to either have or do the following:
 ### Development environments
 
 <details>
+<summary>How do we safely change things</summary>
 
 * Have at least a minimally functioning [Continuous Integration setup](https://www.thoughtworks.com/continuous-integration)
 * Make it easy to set up an easy to use cross platform or run a local environment that doesn’t mess up what’s currently there e.g. in a [virtual machine](https://cloud.gov/docs/ops/creating-a-local-dev-environment-in-Virtual-Box/)
@@ -164,6 +169,7 @@ It's important to either have or do the following:
 ## Useful links
 
 <details>
+<summary>Would you like to know more?</summary>
 
 * [Onboarding and Mentoring Apprentices with DevOps Culture](https://vimeo.com/115484860) by [Mercedes Coyle](https://twitter.com/benzobot)
 
