@@ -158,7 +158,7 @@ It's important to either have or do the following:
 <summary>How do we safely change things</summary>
 
 * Have at least a minimally functioning [Continuous Integration setup](https://www.thoughtworks.com/continuous-integration)
-* Make it easy to set up an easy to use cross platform or run a local environment that doesn’t mess up what’s currently there e.g. in a [virtual machine](https://cloud.gov/docs/ops/creating-a-local-dev-environment-in-Virtual-Box/)
+* Make it easy to set up an easy to use cross platform or run a local environment that doesn’t mess up what’s currently there e.g. in a [virtual machine](https://medium.com/@jevgenijdmitrijev/how-to-creating-a-ubuntu-development-environment-with-help-of-virtual-box-f2cc198e1c63)
   * [pyenv](https://github.com/pyenv/pyenv), [jenv](http://www.jenv.be/), [Rbenv](https://github.com/rbenv/rbenv), [venv](https://docs.python.org/3/library/venv.html), [virtualenv](https://virtualenv.pypa.io/en/stable/), [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv)
   * :+1: Vagrant boxen in ordet to test locally!
   * :+1: Docker containers
@@ -181,7 +181,7 @@ It's important to either have or do the following:
 
 * [Building world class Ops teams](https://youtu.be/l5vKPZW-m0E?list=PLK4VB0cauli7-_RIvpmn651ePtddw9_Fp) by [Charity Majors](https://twitter.com/mipsytipsy)
 
-* [Ops and Operability](https://vimeo.com/209681251) by [Dan North](https://twitter.com/tastapod)
+* [Ops and Operability](https://vimeo.com/205526857) by [Dan North](https://twitter.com/tastapod)
 
 * [Engineering a culture of psychological safety](https://blog.intercom.com/psychological-safety/)
 
