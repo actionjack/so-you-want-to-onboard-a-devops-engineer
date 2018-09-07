@@ -16,7 +16,7 @@ Here is some guidance on how to make your environment easier to onboard.
 <details>
 <summary>Aim to create a culture of psychological safety </summary>
 
-* Do not create a [Blame and Train](https://www.snafucatchers.com/single-post/2017/06/04/BorkedTheDatabaseCase) culture where failure is handled by blaming and shaming the employee (and sometimes terminating their employment) and then train other employees using the incident as an example
+* Do not create a [Blame and Train](https://www.snafucatchers.com/single-post/2017/06/04/BorkedTheDatabaseCase) culture where mistakes are handled by blaming and shaming the employee (and sometimes terminating their employment) and then train other employees using the incident as an example
 * Introduce the new engineer(s) to the relevant people within the organization
 * Remember not everyone maybe as smart as you are, they may be missing
   * Context / Situational awareness (how did we get from here to there?)
