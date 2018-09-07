@@ -1,5 +1,9 @@
 {
-  "dependencies": {
+  "scripts": {
+    "test-doc": "alex",
+    "test": "npm run test-doc"
+  },
+  "devDependencies": {
     "alex": "^1.0.0"
   }
 }
