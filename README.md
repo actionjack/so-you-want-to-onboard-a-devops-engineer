@@ -185,6 +185,8 @@ It's important to either have or do the following:
 
 * [Engineering a culture of psychological safety](https://blog.intercom.com/psychological-safety/)
 
+* [GOV.UK Platform as a Service Team Manual](https://team-manual.cloud.service.gov.uk/#paas-team-manual)
+
 </details>
 
 ## See a problem here
