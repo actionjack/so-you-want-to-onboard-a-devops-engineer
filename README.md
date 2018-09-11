@@ -187,6 +187,8 @@ It's important to either have or do the following:
 
 * [GOV.UK Platform as a Service Team Manual](https://team-manual.cloud.service.gov.uk/#paas-team-manual)
 
+* [Empathy: The Essence of DevOps](https://medium.com/@jeffsussna/empathy-the-essence-of-devops-572ed2a7f42b)
+
 </details>
 
 ## See a problem here
