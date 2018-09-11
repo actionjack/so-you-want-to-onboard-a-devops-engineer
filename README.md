@@ -42,7 +42,7 @@ It's important to either have or do the following:
   * [Graphviz description language](http://www.graphviz.org/content/dot-language)
   * [Graphvizo](http://gravizo.com/)
 * An overview of the company’s infrastructure.
-* Systems integration points and their third parties dependencies
+* Systems integration points and their third party dependencies
 * A intranet/wiki or enterprise social network to Learn about different teams, key members with pictures. On day one, one can easily get overwhelmed with lots of new names and faces.
 * Have documentation for your alerts. If something is important enough to page the on-call person about, it's important enough to have a runbook entry about it. If you alert because _foo queue is too long_, there should be a [runbook](http://holyhandgrenade.org/blog/2011/08/runbooks-are-stupid-and-youre-doing-them-wrong/) entry describing how to fix it.
 * Create a Glossary of Terms [e.g. a Minipedia] for describing any organisation specific acronyms or terms
@@ -149,6 +149,7 @@ It's important to either have or do the following:
   * :+1: have [Architecture Decision Records](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions) in your [repos](https://github.com/npryce/adr-tools)
   * :+1: Have a well [structured git history](http://www.annashipman.co.uk/jfdi/good-pull-requests.html) in your repos
 * If at all possible make [Pull Requests](https://help.github.com/articles/about-pull-requests/) a first class citizen nothing is more demoralising than having a Pull Request sitting around without [feedback](http://engineering.leadgenius.com/post/129799259649/the-pull-request-review-checklist) and a chance of being merged.
+* Good [Pull Requests](https://github.com/alphagov/frontend/pull/784) can also be an excellent teaching tool for new starts or old hands alike, a good PR tell's you want was implement, why and how so if you neeed to do something similar in the future it will make things a lot easier than relying on your memory or tribal knowledge.
 
 </details>
 
@@ -186,6 +187,8 @@ It's important to either have or do the following:
 * [Engineering a culture of psychological safety](https://blog.intercom.com/psychological-safety/)
 
 * [GOV.UK Platform as a Service Team Manual](https://team-manual.cloud.service.gov.uk/#paas-team-manual)
+
+* [Empathy: The Essence of DevOps](https://medium.com/@jeffsussna/empathy-the-essence-of-devops-572ed2a7f42b)
 
 </details>
 
