@@ -8,7 +8,7 @@ At the moment everyone seems to be so concerned with recruiting DevOps Engineers
 
 ## Making it easy to get work done from day one
 
-Reduce the time spent learning the peculiarities of complex environments rather than improving or iterating them, with a dedication to making every engineer effective.
+Reduce the time spent learning the peculiarities of complex environments rather than improving or iterating them, with a dedication to making every engineer effective in the shortest possible amount of time.
 
 Here is some guidance on how to make your environment easier to onboard.
 
@@ -189,6 +189,8 @@ It's important to either have or do the following:
 * [GOV.UK Platform as a Service Team Manual](https://team-manual.cloud.service.gov.uk/#paas-team-manual)
 
 * [Empathy: The Essence of DevOps](https://medium.com/@jeffsussna/empathy-the-essence-of-devops-572ed2a7f42b)
+
+* [The (written) unwritten guide to pull requests](https://www.atlassian.com/blog/git/written-unwritten-guide-pull-requests)
 
 </details>
 
