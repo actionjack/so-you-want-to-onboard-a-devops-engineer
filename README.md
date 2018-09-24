@@ -192,6 +192,8 @@ It's important to either have or do the following:
 
 * [The (written) unwritten guide to pull requests](https://www.atlassian.com/blog/git/written-unwritten-guide-pull-requests)
 
+* [Mike Pountney's Pull Request Etiquette](https://gist.github.com/mikepea/863f63d6e37281e329f8)
+
 </details>
 
 ## See a problem here
