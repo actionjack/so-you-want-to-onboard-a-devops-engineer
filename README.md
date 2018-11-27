@@ -8,7 +8,7 @@ At the moment everyone seems to be so concerned with recruiting DevOps Engineers
 
 ## Making it easy to get work done from day one
 
-Reduce the time spent learning the peculiarities of complex environments rather than improving or iterating them, with a dedication to making every engineer effective.
+Reduce the time spent learning the peculiarities of complex environments rather than improving or iterating them, with a dedication to making every engineer effective in the shortest possible amount of time.
 
 Here is some guidance on how to make your environment easier to onboard.
 
@@ -150,6 +150,7 @@ It's important to either have or do the following:
   * :+1: Have a well [structured git history](http://www.annashipman.co.uk/jfdi/good-pull-requests.html) in your repos
 * If at all possible make [Pull Requests](https://help.github.com/articles/about-pull-requests/) a first class citizen nothing is more demoralising than having a Pull Request sitting around without [feedback](http://engineering.leadgenius.com/post/129799259649/the-pull-request-review-checklist) and a chance of being merged.
 * Good [Pull Requests](https://github.com/alphagov/frontend/pull/784) can also be an excellent teaching tool for new starts or old hands alike, a good PR tell's you want was implement, why and how so if you neeed to do something similar in the future it will make things a lot easier than relying on your memory or tribal knowledge.
+* If you use [slack](https://slack.com) or something similiar consider adding a notification bot for pull request and push activities, e.g. for [bitbucket](https://marketplace.atlassian.com/apps/1213042/slack-notifications-plugin?hosting=server&tab=overview) or [github](https://github.com/Talkdesk/pr-police)
 
 </details>
 
@@ -160,7 +161,7 @@ It's important to either have or do the following:
 
 * Have at least a minimally functioning [Continuous Integration setup](https://www.thoughtworks.com/continuous-integration)
 * Make it easy to set up an easy to use cross platform or run a local environment that does not mess up what’s currently there e.g. in a [virtual machine](https://medium.com/@jevgenijdmitrijev/how-to-creating-a-ubuntu-development-environment-with-help-of-virtual-box-f2cc198e1c63)
-  * [pyenv](https://github.com/pyenv/pyenv), [jenv](http://www.jenv.be/), [Rbenv](https://github.com/rbenv/rbenv), [venv](https://docs.python.org/3/library/venv.html), [virtualenv](https://virtualenv.pypa.io/en/stable/), [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv)
+  * [pyenv](https://github.com/pyenv/pyenv), [jenv](http://www.jenv.be/), [Rbenv](https://github.com/rbenv/rbenv), [venv](https://docs.python.org/3/library/venv.html), [virtualenv](https://virtualenv.pypa.io/en/stable/), [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv), [pipenv](https://pipenv.readthedocs.io/en/latest/)
   * :+1: Vagrant boxen in order to test locally!
   * :+1: Docker containers
   * :+1: The ability to create individualized development environments in the cloud e.g. [AWS](https://aws.amazon.com/), [Azure](https://azure.microsoft.com), [Google](https://cloud.google.com/), [Digital Ocean](https://www.digitalocean.com/), etc in order to safely deploy, iterate and test in a separate (and safe) environment
@@ -189,6 +190,10 @@ It's important to either have or do the following:
 * [GOV.UK Platform as a Service Team Manual](https://team-manual.cloud.service.gov.uk/#paas-team-manual)
 
 * [Empathy: The Essence of DevOps](https://medium.com/@jeffsussna/empathy-the-essence-of-devops-572ed2a7f42b)
+
+* [The (written) unwritten guide to pull requests](https://www.atlassian.com/blog/git/written-unwritten-guide-pull-requests)
+
+* [Mike Pountney's Pull Request Etiquette](https://gist.github.com/mikepea/863f63d6e37281e329f8)
 
 </details>
 
