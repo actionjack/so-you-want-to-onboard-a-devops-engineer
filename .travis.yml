@@ -12,5 +12,5 @@ install:
   - npm install alex
   - npm install
 script:
-  - awesome_bot README.md --allow-dupe --allow-redirect
+  - awesome_bot README.md --allow-dupe --allow-redirect --allow 403
   - npm test
