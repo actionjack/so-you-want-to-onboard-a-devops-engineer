@@ -13,7 +13,6 @@ Reduce the time spent learning the peculiarities of complex environments rather 
 Here is some guidance on how to make your environment easier to onboard.
 
 ### Culture
-<details>
 <summary>Aim to create a culture of empathy and psychological safety </summary>
 
 * Do not create a [Blame and Train](https://www.snafucatchers.com/single-post/2017/06/04/BorkedTheDatabaseCase) culture where mistakes are handled by blaming and shaming the employee (and sometimes terminating their employment) and then train other employees using the incident as an example
@@ -27,11 +26,9 @@ Here is some guidance on how to make your environment easier to onboard.
 * Test your mentoring and on boarding process to flush out any shortfalls by getting the last person who joined to mentor the new joiner.
 * Make your documentation inclusive e.g. this document is parsed using [alex](http://alexjs.com/) in order to catch insensitive and inconsiderate writing.
 * Be wary of not overloading new starts with too much information. There is often quite a lot to learn (even more than you think), instead provide a set of useful links so people can research at their own pace.
-</details>
 
 
 ### Have up to date Documentation
-<details>
 <summary>Make it easy to understand and do the things</summary>
 
 It's important to either have or do the following:
@@ -50,12 +47,10 @@ It's important to either have or do the following:
   * :+1: For Open,online and easy to reach [checklists](https://github.com/annahsebok/onboarding-documents-1/blob/master/Checklists/team-based-checklists/devops-new-hire-checklist.md)
 * Write your documentation as if it's going to be [open](https://www.gov.uk/design-principles#tenth) to public scrutiny someday.
 * Have an easy to use and setup collection of shared resources e.g. bookmark file of URL links, .ssh/config files
-</details>
 
 
 ### Operations
 
-<details>
 <summary>Make it easy to get shit done</summary>
 
 * Have all relevant accounts setup and ready
@@ -91,12 +86,10 @@ It's important to either have or do the following:
   command: /sbin/something —could —be —dangerous --if --run --it --in --prod
   when: testmode == “Off"
 ```
-</details>
 
 
 ### Processes
 
-<details>
 <summary>How should we do stuff</summary>
 
 * Have [Shovel Ready](https://en.wikipedia.org/wiki/Shovel_ready) work for new starters, create a backlog of work that be be easily done by a new starter:
@@ -133,11 +126,9 @@ It's important to either have or do the following:
 * If you have adopted a particular [coding style guideline](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Coding_Style) on your project then document or reference it for new joiners to easily reference and adopt
 * [Story kickoffs](https://elabor8.com.au/how-to-introduce-story-kickoffs-to-your-team/) can be extremely useful to new starters by helping them getting to the mindset of the team, identify areas that aren't immediately visible in the code base and generally reduce constant rework due to missing acceptance criteria.
 
-</details>
 
 ### Version control management
 
-<details>
 <summary>How do we safely change things</summary>
 
 * Document your coding standards and strategies in the open e.g.
@@ -145,18 +136,16 @@ It's important to either have or do the following:
   * Code review process
   * Release handling management
 * Have an Up to date [README](https://thejunkland.com/blog/how-to-write-good-readme.html) documentation in all repos
-  * :+1: have [sequence diagrams](https://en.wikipedia.org/wiki/Sequence_diagram) in all repos i.e. http://plantuml.com/
+  * :+1: have [sequence diagrams](https://en.wikipedia.org/wiki/Sequence_diagram) in all repos e.g. [plantuml](http://plantuml.com/) or [mermaid](https://mermaidjs.github.io/)
   * :+1: have [Architecture Decision Records](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions) in your [repos](https://github.com/npryce/adr-tools)
   * :+1: Have a well [structured git history](http://www.annashipman.co.uk/jfdi/good-pull-requests.html) in your repos
 * If at all possible make [Pull Requests](https://help.github.com/articles/about-pull-requests/) a first class citizen nothing is more demoralising than having a Pull Request sitting around without [feedback](http://engineering.leadgenius.com/post/129799259649/the-pull-request-review-checklist) and a chance of being merged.
 * Good [Pull Requests](https://github.com/alphagov/frontend/pull/784) can also be an excellent teaching tool for new starts or old hands alike, a good PR tell's you want was implement, why and how so if you neeed to do something similar in the future it will make things a lot easier than relying on your memory or tribal knowledge.
 * If you use [slack](https://slack.com) or something similiar consider adding a notification bot for pull request and push activities, e.g. for [bitbucket](https://marketplace.atlassian.com/apps/1213042/slack-notifications-plugin?hosting=server&tab=overview) or [github](https://github.com/Talkdesk/pr-police) to notify your colleagues that a Pull Request is ready for review.
 
-</details>
 
 ### Development environments
 
-<details>
 <summary>How do we safely change things</summary>
 
 * Have at least a minimally functioning [Continuous Integration setup](https://www.thoughtworks.com/continuous-integration)
@@ -166,7 +155,6 @@ It's important to either have or do the following:
   * :+1: Docker containers
   * :+1: The ability to create individualized development environments in the cloud e.g. [AWS](https://aws.amazon.com/), [Azure](https://azure.microsoft.com), [Google](https://cloud.google.com/), [Digital Ocean](https://www.digitalocean.com/), etc in order to safely deploy, iterate and test in a separate (and safe) environment
 
-</details>
 
 ## Useful links
 
