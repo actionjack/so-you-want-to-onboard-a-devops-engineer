@@ -15,6 +15,7 @@ Here is some guidance on how to make your environment easier to onboard.
 ### Culture
 <summary>Aim to create a culture of empathy and psychological safety </summary>
 
+* Embrace the standard of [The Humble Learner][https://www.linkedin.com/pulse/myth-sufficiently-smart-engineer-aaron-blohowiak/], The Humble Learner accepts the limits of human capacity while seeking to grow their technical and empathetic skills
 * Do not create a [Blame and Train](https://www.snafucatchers.com/single-post/2017/06/04/BorkedTheDatabaseCase) culture where mistakes are handled by blaming and shaming the employee (and sometimes terminating their employment) and then train other employees using the incident as an example
 * Introduce the new engineer(s) to the relevant people within the organization
 * Remember not everyone maybe as smart as you are, they may be missing
