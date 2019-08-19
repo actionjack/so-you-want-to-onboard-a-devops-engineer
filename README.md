@@ -12,12 +12,21 @@ Reduce the time spent learning the peculiarities of complex environments rather 
 
 Here is some guidance on how to make your environment easier to onboard.
 
+## Basics
+<summary>The raw basics</summary>
+
+* Have internet access sorted out for new starts or let them know if there isn't any.
+* Locker access (if you supply lockers for hot-desk environments).
+* Let security know that they are coming.
+* Let people know if they are required to use their own equipment or are being supplied with specified equipment and what Operating System.
+
+
 ### Culture
 <summary>Aim to create a culture of empathy and psychological safety </summary>
 
 * Embrace the standard of [The Humble Learner](https://www.linkedin.com/pulse/myth-sufficiently-smart-engineer-aaron-blohowiak/), The Humble Learner accepts the limits of human capacity while seeking to grow their technical and empathetic skills
 * Do not create a [Blame and Train](https://www.snafucatchers.com/single-post/2017/06/04/BorkedTheDatabaseCase) culture where mistakes are handled by blaming and shaming the employee (and sometimes terminating their employment) and then train other employees using the incident as an example
-* Introduce the new engineer(s) to the relevant people within the organization
+* Introduce the new engineer(s) to the relevant people within the organisation
 * Remember not everyone maybe as smart as you are, they may be missing
   * Context / Situational awareness (how did we get from here to there?)
   * Tribal Knowledge
@@ -99,7 +108,7 @@ It's important to either have or do the following:
     * is easily explained,
     * requires some research,
     * adds value and;
-    * is not grunt work e.g. document X.
+    * is not grunt work e.g. documentation.
 * Assign your new start an on boarding buddy/mentor
 * [Pair](https://www.agilealliance.org/glossary/pairing/) with new start as soon and as often as possible
 * When [and if] you do a Retro, then base it against a known good baseline i.e.
