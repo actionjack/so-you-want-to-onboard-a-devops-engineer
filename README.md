@@ -80,7 +80,7 @@ It's important to either have or do the following:
   * Coding guidelines backed up by [CI checks](https://en.wikipedia.org/wiki/Continuous_integration)
 * Ensure your naming conventions makes sense, if something is called build_X and it actually deploys_X then change the name to deploys_X if possible to reduce confusion
 
-> "it's possible for good people, in perversely designed systems, to casually perpetrate acts of great harm on strangers, sometimes without ever realising it."
+> "It's possible for good people, in perversely designed systems, to casually perpetrate acts of great harm on strangers, sometimes without ever realising it."
 > > [Ben Goldacre](http://www.badscience.net/), [Bad Pharma](https://www.amazon.co.uk/dp/0865478007?tag=contindelive-20), p. xi
 
 * With the above in mind nobody should be able to do something catastrophic to an environment unless they are determined on doing so i.e.
