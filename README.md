@@ -73,7 +73,7 @@ It's important to either have or do the following:
 * Have your work structured so people can see what needs to be done i.e. Kanban board backlog or To Do lists
 * Provide information regarding the applications that are maintained by the team and how to do the operations for those applications
 * Make it difficult to make mistakes e.g
-  * [protected branches e.g. force pushes to master](https://github.com/blog/2051-protected-branches-and-required-status-checks)
+  * [protected branches e.g. to prevent force pushes to master](https://github.com/blog/2051-protected-branches-and-required-status-checks)
   * Coding guidelines backed up by [CI checks](https://en.wikipedia.org/wiki/Continuous_integration)
 * Ensure your naming conventions makes sense, if something is called build_X and it actually deploys_X then change the name to deploys_X if possible to reduce confusion
 
