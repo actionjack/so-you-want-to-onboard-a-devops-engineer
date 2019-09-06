@@ -161,7 +161,7 @@ It's important to either have or do the following:
 
 <summary>How do we safely change things</summary>
 
-* Make it easy to set up your local development environment you should not have to do the following just so you can start work:
+* Make it easy to set up your local development environment, you should not have to do the following just so you can start work:
   * Log multiple service requests
   * Read through multiple wiki pages
   * hunt down multiple individuals
