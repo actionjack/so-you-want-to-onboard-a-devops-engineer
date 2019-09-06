@@ -27,6 +27,9 @@ Here is some guidance on how to make your environment easier to onboard.
 ### Culture
 <summary>Aim to create a culture of empathy and psychological safety </summary>
 
+> "It's possible for good people, in perversely designed systems, to casually perpetrate acts of great harm on strangers, sometimes without ever realising it."
+> > [Ben Goldacre](http://www.badscience.net/), [Bad Pharma](https://www.amazon.co.uk/dp/0865478007?tag=contindelive-20), p. xi
+
 * Embrace the standard of [The Humble Learner](https://www.linkedin.com/pulse/myth-sufficiently-smart-engineer-aaron-blohowiak/), The Humble Learner accepts the limits of human capacity while seeking to grow their technical and empathetic skills
 * Do not create a [Blame and Train](https://www.snafucatchers.com/single-post/2017/06/04/BorkedTheDatabaseCase) culture where mistakes are handled by blaming and shaming the employee (and sometimes terminating their employment) and then train other employees using the incident as an example
 * Introduce the new engineer(s) to the relevant people within the organisation
@@ -79,10 +82,6 @@ It's important to either have or do the following:
   * [protected branches e.g. to prevent force pushes to master](https://github.com/blog/2051-protected-branches-and-required-status-checks)
   * Coding guidelines backed up by [CI checks](https://en.wikipedia.org/wiki/Continuous_integration)
 * Ensure your naming conventions makes sense, if something is called build_X and it actually deploys_X then change the name to deploys_X if possible to reduce confusion
-
-> "It's possible for good people, in perversely designed systems, to casually perpetrate acts of great harm on strangers, sometimes without ever realising it."
-> > [Ben Goldacre](http://www.badscience.net/), [Bad Pharma](https://www.amazon.co.uk/dp/0865478007?tag=contindelive-20), p. xi
-
 * With the above in mind nobody should be able to do something catastrophic to an environment unless they are determined on doing so i.e.
   * Make the right thing the easy thing to do by creating safety harnesses using build or scripting tools like the following list to do the most common tasks safety without the worry of screwing up:
     * [Make](https://www.gnu.org/software/make/)
