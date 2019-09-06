@@ -80,7 +80,7 @@ It's important to either have or do the following:
 * Provide information regarding the applications that are maintained by the team and how to do the operations for those applications
 * Make it difficult to make mistakes e.g
   * [protected branches e.g. to prevent force pushes to master](https://github.com/blog/2051-protected-branches-and-required-status-checks)
-  * Coding guidelines backed up by [CI checks](https://en.wikipedia.org/wiki/Continuous_integration)
+  * If you have code standards, don't just document them back them up with [Automated Code standards](https://medium.com/@biratkirat/step-4-automate-your-coding-standard-filip-van-laenen-5b1c486e4883) triggered by [CI checks](https://en.wikipedia.org/wiki/Continuous_integration) or [pre-commit hooks](https://githooks.com/)
 * Ensure your naming conventions makes sense, if something is called build_X and it actually deploys_X then change the name to deploys_X if possible to reduce confusion
 * With the above in mind nobody should be able to do something catastrophic to an environment unless they are determined on doing so i.e.
   * Make the right thing the easy thing to do by creating safety harnesses using build or scripting tools like the following list to do the most common tasks safety without the worry of screwing up:
