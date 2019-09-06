@@ -54,7 +54,8 @@ It's important to either have or do the following:
 * An overview of the company’s infrastructure.
 * Systems integration points and their third party dependencies
 * A intranet/wiki or enterprise social network to Learn about different teams, key members with pictures. On day one, one can easily get overwhelmed with lots of new names and faces.
-* Have documentation for your alerts. If something is important enough to page the on-call person about, it's important enough to have a runbook entry about it. If you alert because _foo queue is too long_, there should be a [runbook](http://holyhandgrenade.org/blog/2011/08/runbooks-are-stupid-and-youre-doing-them-wrong/) entry describing how to fix it.
+* Have documentation for your alerts. If something is important enough to page the on-call person about, it's important enough to have a runbook entry about it. If you alert because _foo queue is too long_, there should be a [runbook](http://holyhandgrenade.org/blog/2011/08/runbooks-are-stupid-and-youre-doing-them-wrong/) entry describing how to fix it. 
+  * At one client I worked with we actually managed to configure the monitoring system so the alerts themselves actually had a link to the relevant runbook entry :+1: :clap:
 * Create a Glossary of Terms [e.g. a Minipedia] for describing any organisation specific acronyms or terms
   * [Create an on-boarding wiki page (i.e. Confluence/Google Docs)](https://wiki.mozilla.org/Devops/onboarding)
   * :+1: For Open,online and easy to reach [checklists](https://github.com/annahsebok/onboarding-documents-1/blob/master/Checklists/team-based-checklists/devops-new-hire-checklist.md)
