@@ -62,7 +62,7 @@ It's important to either have or do the following:
   * At one client I worked with we actually managed to configure the monitoring system so the alerts themselves actually had a link to the relevant runbook entry :+1: :clap:
 * Create a Glossary of Terms [e.g. a Minipedia] for describing any organisation specific acronyms or terms
   * [Create an on-boarding wiki page (i.e. Confluence/Google Docs)](https://wiki.mozilla.org/Devops/onboarding)
-  * :+1: For Open,online and easy to reach [checklists](https://github.com/annahsebok/onboarding-documents-1/blob/master/Checklists/team-based-checklists/devops-new-hire-checklist.md)
+  * :+1: For Open,online and easy to reach [checklists](https://github.com/annahsgraves/onboarding-documents-1/tree/master/Checklists/team-based-checklists)
 * Write your documentation as if it's going to be [open](https://www.gov.uk/design-principles#tenth) to public scrutiny someday.
 * Have an easy to use and setup collection of shared resources e.g. bookmark file of URL links, .ssh/config files
 
