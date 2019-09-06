@@ -161,6 +161,12 @@ It's important to either have or do the following:
 
 <summary>How do we safely change things</summary>
 
+* Make it easy to set up your local development environment you should not have to do the following just so you can start work:
+  * Log multiple service requests
+  * Read through multiple wiki pages
+  * hunt down multiple individuals
+  * get lots of emails with multiple links
+  * Ask several people how their personal environment is configured
 * Have at least a minimally functioning [Continuous Integration setup](https://www.thoughtworks.com/continuous-integration)
 * Make it easy to set up an easy to use cross platform or run a local environment that does not mess up what’s currently there e.g. in a [virtual machine](https://medium.com/@jevgenijdmitrijev/how-to-creating-a-ubuntu-development-environment-with-help-of-virtual-box-f2cc198e1c63)
   * [pyenv](https://github.com/pyenv/pyenv), [jenv](http://www.jenv.be/), [Rbenv](https://github.com/rbenv/rbenv), [venv](https://docs.python.org/3/library/venv.html), [virtualenv](https://virtualenv.pypa.io/en/stable/), [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv), [pipenv](https://pipenv.readthedocs.io/en/latest/)
