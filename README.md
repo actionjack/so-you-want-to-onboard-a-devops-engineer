@@ -67,12 +67,11 @@ It's important to either have or do the following:
 
 <summary>Make it easy to get shit done</summary>
 
-* Have all relevant accounts setup and ready
-* Create [Operations Checklists](http://atulgawande.com/book/the-checklist-manifesto/) for your key processes
-
 > [“Complexity exacts a staggering tax on your humans. Good Ops engineers attempt to pay down that tax.”](https://twitter.com/bridgetkromhout/status/647333814411358208)
 > >  [Charity Majors](https://twitter.com/mipsytipsy)
 
+* Have all relevant accounts setup and ready
+* Create [Operations Checklists](http://atulgawande.com/book/the-checklist-manifesto/) for your key processes
 * Simplify and reuse as much of your architecture as possible
 * Have your work structured so people can see what needs to be done i.e. Kanban board backlog or To Do lists
 * Provide information regarding the applications that are maintained by the team and how to do the operations for those applications
