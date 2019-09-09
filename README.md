@@ -86,7 +86,13 @@ It's important to either have or do the following:
 * Make it difficult to make mistakes e.g
   * [protected branches e.g. to prevent force pushes to master](https://github.com/blog/2051-protected-branches-and-required-status-checks)
   * If you have code standards, don't just document them back them up with [Automated Code standards](https://medium.com/@biratkirat/step-4-automate-your-coding-standard-filip-van-laenen-5b1c486e4883) triggered by [CI checks](https://en.wikipedia.org/wiki/Continuous_integration) or [pre-commit hooks](https://githooks.com/)
-* Ensure your naming conventions makes sense, if something is called build_X and it actually deploys_X then change the name to deploys_X if possible to reduce confusion
+* Ensure your naming conventions are consistent and make sense:
+  * If something is called build_X and it actually deploys_X then change the name to deploys_X if possible to reduce confusion,
+  * If your environment structure is env-productgroup-application then make sure the naming is consistent across all environments e.g.
+    * Development-Acme-Bomb
+    * Test-Acme-Bomb
+    * PreProduction-Acme-Bomb
+    * Production-Acme-Bomb
 * With the above in mind nobody should be able to do something catastrophic to an environment unless they are determined on doing so i.e.
   * Make the right thing the easy thing to do by creating safety harnesses using build or scripting tools like the following list to do the most common tasks safety without the worry of screwing up:
     * [Make](https://www.gnu.org/software/make/)
