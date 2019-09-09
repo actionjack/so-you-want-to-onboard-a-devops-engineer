@@ -48,6 +48,9 @@ Here is some guidance on how to make your environment easier to onboard.
 ### Have up to date Documentation
 <summary>Make it easy to understand and do the things</summary>
 
+> “If it’s not documented, it didn’t happen.”
+>> Every Regulatory Agency Inspector
+
 It's important to either have or do the following:
 
 * Regularly tidy your documentation, old documents should be removed, outdated ones updated, if you touch it then update it
