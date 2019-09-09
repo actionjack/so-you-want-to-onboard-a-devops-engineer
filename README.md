@@ -195,7 +195,7 @@ It's important to either have or do the following:
 
 * [Onboarding and Mentoring Apprentices with DevOps Culture](https://vimeo.com/115484860) by [Mercedes Coyle](https://twitter.com/benzobot)
 
-* [How to Onboard Software Engineers](http://blog.fogcreek.com/how-to-onboard-software-engineers-interview-with-kate-heddleston/) Interview with [Kate Heddleston](https://twitter.com/heddle317)
+* [How to Onboard Software Engineers](https://medium.com/therobinkim/kate-heddleton-how-to-onboard-software-engineers-559785163686) Interview with [Kate Heddleston](https://twitter.com/heddle317)
 
 * [Onboarding New Hires with Trello](https://medium.com/@Liz_Hall1/onboarding-new-hires-with-trello-ecc87e87ffd5) by [Elizabeth Hall](https://twitter.com/Liz_Hall1)
 
