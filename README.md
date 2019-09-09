@@ -149,6 +149,9 @@ It's important to either have or do the following:
 
 ### Version control management
 
+> "A generation which ignores history has no past and no future."
+>> Robert Heinlein
+
 <summary>How do we safely change things</summary>
 
 * Document your coding standards and strategies in the open e.g.
@@ -167,6 +170,9 @@ It's important to either have or do the following:
 ### Development environments
 
 <summary>How do we safely change things</summary>
+
+> "Measure twice, cut once"
+>> Proverb
 
 * Make it easy to set up your local development environment, you should not have to do the following just so you can start work:
   * Log multiple service requests
