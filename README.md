@@ -35,7 +35,7 @@ Here is some guidance on how to make your environment easier to onboard.
   * Instead recognise each failure as what it is, a lesson, identify what went wrong and how we can ensure it does not go wrong again (this does not mean produce lots of documentation)
 * Try to foster a culture of improvement, review your organisation against some form of [maturity model](https://devopsguys.wordpress.com/2013/02/06/maturing-the-continuous-delivery-pipeline/) to see the gaps and try to close them.
 * Introduce the new engineer(s) to the relevant people within the organisation
-* Remember not everyone maybe as smart as you are, they may be missing
+* Remember not everyone is as smart as you are, they may be missing
   * Context / Situational awareness (how did we get from here to there?)
   * Tribal Knowledge
   * Culture
@@ -94,15 +94,13 @@ It's important to either have or do the following:
     * Test-Acme-Bomb
     * PreProduction-Acme-Bomb
     * Production-Acme-Bomb
-* With the above in mind nobody should be able to do something catastrophic to an environment unless they are determined on doing so i.e.
-  * Make the right thing the easy thing to do by creating safety harnesses using build or scripting tools like the following list to do the most common tasks safety without the worry of screwing up:
+* Nobody should be able to do something catastrophic to an environment unless they are determined on doing so i.e.
+  * Make doing the right thing easy to do by creating safety harnesses using build or scripting tools like the following list to do the most common tasks safety without the worry of screwing up:
+    * [Bash Scripts](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_02_01.html)
     * [Make](https://www.gnu.org/software/make/)
     * [Gradle](https://gradle.org/)
     * [Rake](https://ruby.github.io/rake/)
-    * [Thor](http://whatisthor.com/)
-    * [Invoke](http://www.pyinvoke.org/)
     * [Fabric](http://www.fabfile.org/)
-    * [Paver](https://github.com/paver/paver)
   * Put safe  conditionals in your configuration management to do be able to test runs without the worry of screwing up e.g. Ansible tasks:
 
 ```
