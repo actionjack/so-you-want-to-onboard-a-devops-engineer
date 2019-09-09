@@ -109,6 +109,9 @@ It's important to either have or do the following:
 
 <summary>How should we do stuff</summary>
 
+> "If you can't describe what you are doing as a process, you don't know what you're doing."
+>> W. Edwards Deming
+
 * Have [Shovel Ready](https://en.wikipedia.org/wiki/Shovel_ready) work for new starters, create a backlog of work that be be easily done by a new starter:
   * Ideally work that:
     * is well defined,
