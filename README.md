@@ -33,6 +33,7 @@ Here is some guidance on how to make your environment easier to onboard.
 * Embrace the standard of [The Humble Learner](https://www.linkedin.com/pulse/myth-sufficiently-smart-engineer-aaron-blohowiak/), The Humble Learner accepts the limits of human capacity while seeking to grow their technical and empathetic skills
 * Do not create a [Blame and Train](https://www.snafucatchers.com/single-post/2017/06/04/BorkedTheDatabaseCase) culture where mistakes are handled by blaming and shaming the employee (and sometimes terminating their employment) and then train other employees using the incident as an example
   * Instead recognise each failure as what it is, a lesson, identify what went wrong and how we can ensure it does not go wrong again (this does not mean produce lots of documentation)
+* Try to foster an environment of improvement, review your organisation against some form of [maturity model](https://devopsguys.wordpress.com/2013/02/06/maturing-the-continuous-delivery-pipeline/) to see the gaps and try to close them.
 * Introduce the new engineer(s) to the relevant people within the organisation
 * Remember not everyone maybe as smart as you are, they may be missing
   * Context / Situational awareness (how did we get from here to there?)
