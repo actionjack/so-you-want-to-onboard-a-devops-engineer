@@ -38,7 +38,7 @@ Here is some guidance on how to make your environment easier to onboard.
 * Remember not everyone is as smart as you are, they may be missing
   * Context / Situational awareness (how did we get from here to there?)
   * Tribal Knowledge
-  * Culture
+  * Cultural awareness (How we do things around here)
 * What are the Preferred practices or ["Design Principles"](https://www.gov.uk/design-principles)?
 * Listen to their point of view. Bringing in a new person is a prime opportunity to find out where the code or process needs improvement
 * Test your mentoring and on boarding process to flush out any shortfalls by getting the last person who joined to mentor the new joiner.
