@@ -224,6 +224,8 @@ It's important to either have or do the following:
 
 * [Mike Pountney's Pull Request Etiquette](https://gist.github.com/mikepea/863f63d6e37281e329f8)
 
+* [Write good git commit message](https://juffalow.com/other/write-good-git-commit-message)
+
 </details>
 
 ## See a problem here
