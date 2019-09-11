@@ -129,6 +129,10 @@ It's important to either have or do the following:
 * When [and if] you do a Retro, then base it against a known good baseline i.e.
   * If you are doing production deploys in the wee hours of the night and it goes successfully, remember this is not necessarily reflect a **good** deployment.
 * Put as much detail into tasks / stories as possible including assumptions, reference information, existing implementations, attempt to narrow down the acceptance criteria in order to prevent unnecessary research or rework.
+* Ideally make your [Tasks/Stories as small as possible](https://www.leadingagile.com/2014/01/small-stories-reduce-variability-velocity-improve-predictability/) this is for a number of reasons some of those being:
+  * It makes them easier to handle and get your head around
+  * You are less likely to have to context switch within a story if it has a narrow domain
+  * You are more likely to actually finish that one story and not have to pick up a new one and have to go back to it since the smaller it is the less likely it is to run into some sort of unpredicted blockage.
 * Avoid on boarding during crunch times (important or critical planned releases)
 * Ideally have your accounts linked with some central or shared directory e.g. Github/Google/LDAP so your new starters don’t have to remember 101 user/password combinations
 * In your alerting system put context sensitive help that points to a helpful [runbook](https://en.wikipedia.org/wiki/Runbook)
