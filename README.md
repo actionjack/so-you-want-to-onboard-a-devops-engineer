@@ -10,12 +10,12 @@ At the moment everyone seems to be so concerned with recruiting DevOps Engineers
 >> Jim Hickstein
 
 ## Making it easy to get work done from day one
-<summary>keep it simple and straightforward</summary>
+<summary>Simplify, Simplify and after that Simplify a little more</summary>
 
 > “Everything should be made as simple as possible, but no simpler.”
 >> Albert Einstein
 
-Reduce the time spent learning the peculiarities of complex environments by focusing on a dedication of making it possible for every new engineer to become effective in the shortest possible amount of time.
+Reduce the time spent learning complex environments by building them to be simple to understand, with a focus on a making it possible for every engineer to become effective in the shortest possible amount of time.
 
 Here is some guidance on how to make your environment easier to onboard.
 
