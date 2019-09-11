@@ -10,7 +10,7 @@ At the moment everyone seems to be so concerned with recruiting DevOps Engineers
 >> Jim Hickstein
 
 ## Making it easy to get work done from day one
-<summary>"keep it simple, stupid!</summary>
+<summary>keep it simple and straightforward</summary>
 
 > “Everything should be made as simple as possible, but no simpler.”
 >> Albert Einstein
