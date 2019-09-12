@@ -17,7 +17,7 @@ At the moment everyone seems to be so concerned with recruiting DevOps Engineers
 
 Reduce the time spent learning complex environments by building them to be simple to understand, with a focus on a making it possible for every engineer to become effective in the shortest possible amount of time.
 
-Here is some guidance on how to make your environment easier to onboard.
+Here is some guidance on how to make your environment easier to onboard and keep people working on them happy.
 
 ## Basics
 <summary>The raw basics</summary>
