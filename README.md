@@ -4,23 +4,26 @@ Author: Martin Jackson - [@actionjack](https://twitter.com/actionjack)
 
 [![Build Status](https://travis-ci.org/actionjack/so-you-want-to-onboard-a-devops-engineer.svg?branch=master)](https://travis-ci.org/actionjack/so-you-want-to-onboard-a-devops-engineer)
 
-At the moment everyone seems to be so concerned with recruiting DevOps Engineers but I feel the process of on-boarding them is still very hit and miss especially in busy organisations.
+At the moment everyone seems to be so concerned with recruiting DevOps Engineers but I feel the process of on-boarding them is still very hit and miss, especially in busy organisations.
 
 > “Suffering increases in proportion to knowledge of a better way.”
 >> Jim Hickstein
 
 ## Making it easy to get work done from day one
-<summary>Simplify, Simplify and after that Simplify a little more</summary>
+<summary>Simplify, Simplify and after that Simplify some more</summary>
 
 > “Everything should be made as simple as possible, but no simpler.”
 >> Albert Einstein
 
-Reduce the time spent learning complex environments by building them to be simple to understand, with a focus on a making it possible for every engineer to become effective in the shortest possible amount of time.
+Reduce the time spent learning environments by building them to be simple to understand, with a focus on a making it possible for every engineer (new or old) to become effective in the shortest possible amount of time.
 
-Here is some guidance on how to make your environment easier to onboard and keep people working on them happy.
+Here is some guidance on how to make your environment easier to onboard and keep the people working on them happy.
 
 ## Basics
 <summary>The raw basics</summary>
+
+> "The only way you can stay on top is to remember to touch bottom and get back to basics."
+>> Shane Black
 
 * Have internet access sorted out for new starts or let them know if there isn't any.
 * Locker access (if you supply lockers for hot-desk environments).
@@ -37,13 +40,13 @@ Here is some guidance on how to make your environment easier to onboard and keep
 > > [Ben Goldacre](http://www.badscience.net/), [Bad Pharma](https://www.amazon.co.uk/dp/0865478007?tag=contindelive-20), p. xi
 
 * Embrace the standard of [The Humble Learner](https://www.linkedin.com/pulse/myth-sufficiently-smart-engineer-aaron-blohowiak/), The Humble Learner accepts the limits of human capacity while seeking to grow their technical and empathetic skills
-* Do not create a [Blame and Train](https://www.snafucatchers.com/single-post/2017/06/04/BorkedTheDatabaseCase) culture where mistakes are handled by blaming and shaming the employee (and sometimes terminating their employment) and then train other employees using the incident as an example
-  * Instead recognise each failure as what it is, a lesson, identify what went wrong and how we can ensure it does not go wrong again (this does not mean produce lots of documentation)
+* Do not create a [Blame and Train](https://www.snafucatchers.com/single-post/2017/06/04/BorkedTheDatabaseCase) culture where mistakes are handled by openly blaming and shaming the employee (and sometimes terminating their employment) and then train other employees using the incident as an example
+  * Instead recognise each failure as what it is, a lesson, identify what went wrong and how we can ensure it does not go wrong again (and no, this does not mean this is an excuse to produce lots more documentation:stuck_out_tongue_winking_eye:)
 * Try to foster a culture of improvement, review your organisation against some form of [maturity model](https://devopsguys.wordpress.com/2013/02/06/maturing-the-continuous-delivery-pipeline/) to see the gaps and try to close them.
 * Introduce the new engineer(s) to the relevant people within the organisation
-* Remember not everyone is as smart as you are, they may be missing
+* Remember not everyone may be as smart as you are, they may be missing
   * Context / Situational awareness (how did we get from here to there?)
-  * Tribal Knowledge
+  * Tribal Knowledge (This is where our ancestors bodies were buried!)
   * Cultural awareness (How we do things around here)
 * What are the Preferred practices or ["Design Principles"](https://www.gov.uk/design-principles)?
 * Listen to their point of view. Bringing in a new person is a prime opportunity to find out where the code or process needs improvement
@@ -61,20 +64,20 @@ Here is some guidance on how to make your environment easier to onboard and keep
 It's important to either have or do the following:
 
 * Regularly tidy your documentation, old documents should be removed, outdated ones updated, if you touch it then update it
-  * Consolidate your documentation, nothing is so disheartening as searching your Wiki for "Password Policy" and 40 search results coming up :-1:
-* High-Level logical Architecture. E.g. ideally written in a Git friendly format:
+  * Consolidate your documentation, nothing is so disheartening as searching your Wiki for "Password Management Policy" and 40+ search results coming up :-1:
+* Have a High-Level logical Architecture. E.g. ideally written in a Git friendly format:
   * [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) diagrams in [github](https://github.com/blog/1902-svg-viewing-diffing) so you can see the infrastructure changes over time
   * [Graphviz description language](http://www.graphviz.org/content/dot-language)
   * [Graphvizo](http://gravizo.com/)
 * An overview of the company’s infrastructure.
 * Systems integration points and their third party dependencies
 * A intranet/wiki or enterprise social network to Learn about different teams, key members with pictures. On day one, one can easily get overwhelmed with lots of new names and faces.
-* Have documentation for your alerts. If something is important enough to page the on-call person about, it's important enough to have a runbook entry about it. If you alert because _foo queue is too long_, there should be a [runbook](http://holyhandgrenade.org/blog/2011/08/runbooks-are-stupid-and-youre-doing-them-wrong/) entry describing how to fix it. 
+* Have documentation for your alerts. If something is important enough to disturb the on-call person about, it's important enough to have a runbook entry about it. If you alert because _foo queue is too long_, there should be a [runbook](http://holyhandgrenade.org/blog/2011/08/runbooks-are-stupid-and-youre-doing-them-wrong/) entry describing how to fix it. 
   * At one client I worked with we actually managed to configure the monitoring system so the alerts themselves actually had a link to the relevant runbook entry :+1: :clap:
 * Create a Glossary of Terms [e.g. a Minipedia] for describing any organisation specific acronyms or terms
   * [Create an on-boarding wiki page (i.e. Confluence/Google Docs)](https://wiki.mozilla.org/Devops/onboarding)
   * :+1: For Open,online and easy to reach [checklists](https://github.com/annahsgraves/onboarding-documents-1/tree/master/Checklists/team-based-checklists)
-  * One cool thing that I have seen recently are [acronym decoder chatbots](https://wonderus.app/) for slack that watch for team acronyms and explain them in the chat
+  * One cool thing that I have seen recently are [acronym decoder chatbots](https://wonderus.app/) for slack that watch for team acronyms and explain them real-time in the chat room
 * Write your documentation as if it's going to be [open](https://www.gov.uk/design-principles#tenth) to public scrutiny someday.
 * Have an easy to use and setup collection of shared resources e.g. bookmark file of URL links, .ssh/config files
 
@@ -86,14 +89,13 @@ It's important to either have or do the following:
 > [“Complexity exacts a staggering tax on your humans. Good Ops engineers attempt to pay down that tax.”](https://twitter.com/bridgetkromhout/status/647333814411358208)
 > >  [Charity Majors](https://twitter.com/mipsytipsy)
 
-* Have all relevant accounts setup and ready
+* Have all relevant user accounts and access setup and ready
 * Create [Operations Checklists](http://atulgawande.com/book/the-checklist-manifesto/) for your key processes
-* Simplify and reuse as much of your architecture as possible
 * Have your work structured so people can see what needs to be done i.e. Kanban board backlog or To Do lists
 * Provide information regarding the applications that are maintained by the team and how to do the operations for those applications
 * Make it difficult to make mistakes e.g
   * [protected branches e.g. to prevent force pushes to master](https://github.com/blog/2051-protected-branches-and-required-status-checks)
-  * If you have code standards, don't just document them back them up with [Automated Code standards](https://medium.com/@biratkirat/step-4-automate-your-coding-standard-filip-van-laenen-5b1c486e4883) triggered by [CI checks](https://en.wikipedia.org/wiki/Continuous_integration) or [pre-commit hooks](https://githooks.com/)
+  * If you have code standards, don't __just document them__ back them up with [Automated Code standards](https://medium.com/@biratkirat/step-4-automate-your-coding-standard-filip-van-laenen-5b1c486e4883) triggered by [CI checks](https://en.wikipedia.org/wiki/Continuous_integration) or [pre-commit hooks](https://githooks.com/)
 * Ensure your naming conventions are consistent and make sense:
   * If something is called build_X and it actually deploys_X then change the name to deploys_X if possible to reduce confusion,
   * If your environment structure is env-productgroup-application then make sure the naming is consistent across all environments e.g.
@@ -119,38 +121,44 @@ It's important to either have or do the following:
 
 ### Processes
 
-<summary>How should we do stuff</summary>
+<summary>How should we be doing the stuff</summary>
 
 > "If you can't describe what you are doing as a process, you don't know what you're doing."
 >> W. Edwards Deming
 
+* Everyone seems to have their own particular spin on Agile Scrum or Kanban, so explain up front what the process is and refine when and if necessary.
 * Have [Shovel Ready](https://en.wikipedia.org/wiki/Shovel_ready) work for new starters, create a backlog of work that be be easily done by a new starter:
-  * Ideally work that:
+  * Ideally [work that](https://www.visual-paradigm.com/scrum/write-user-story-smart-goals/):
     * is well defined,
     * is easily explained,
     * requires some research,
     * adds value and;
-    * is not grunt work e.g. documentation.
-* Assign your new start an on boarding buddy/mentor
+    * is __not__ grunt work e.g. documentation.
+* Assign your new start an [on boarding buddy/mentor](https://hbr.org/2019/06/every-new-employee-needs-an-onboarding-buddy) 
+  * Ensure that this "Buddy" has enough free cycles to be there for the new start if needed
 * [Pair](https://www.agilealliance.org/glossary/pairing/) with new start as soon and as often as possible
 * When [and if] you do a Retro, then base it against a known good baseline i.e.
-  * If you are doing production deploys in the wee hours of the night and it goes successfully, remember this is not necessarily reflect a **good** deployment.
-* Put as much detail into tasks / stories as possible including assumptions, reference information, existing implementations, attempt to narrow down the acceptance criteria in order to prevent unnecessary research or rework.
+  * If you are doing production deploys in the early hours of the night and it goes successfully, remember this is not necessarily reflect a **good** deployment.
+* Put as much detail into tasks / stories as possible including:
+  * Assumptions, 
+  * Reference information and existing implementations
+  * Ensuring to narrow down the acceptance criteria in order to prevent [unnecessary research or rework](https://idioms.thefreedictionary.com/go+down+the+rabbit+hole)
 * Ideally make your [Tasks/Stories as small as possible](https://www.leadingagile.com/2014/01/small-stories-reduce-variability-velocity-improve-predictability/) this is for a number of reasons some of those being:
   * It makes them easier to handle and get your head around
   * You are less likely to have to [context switch](https://simpleprogrammer.com/context-switching/) within a story if it has a narrow [problem domain](https://en.wikipedia.org/wiki/Problem_domain)
-  * You are more likely to actually finish that one story and not have to pick up a new one and have to go back to it since the smaller it is the less likely it is to run into some sort of unpredicted blockage.
-* Avoid on boarding during crunch times (important or critical planned releases)
-* Ideally have your accounts linked with some central or shared directory e.g. Github/Google/LDAP so your new starters don’t have to remember 101 user/password combinations
-* In your alerting system put context sensitive help that points to a helpful [runbook](https://en.wikipedia.org/wiki/Runbook)
-* Configuration management test modes i.e. testing_mode on
+  * You are more likely to actually finish that particular story and not have to pick up a new one and have to go back to the original story, since the smaller it is the less likely it is to run into some sort of unpredicted blockage.
+* Avoid onboarding during crunch times (important or critical planned releases)
+* Ideally have your accounts linked with some central or shared directory e.g. Github/Google/LDAP so your new starters don’t have to  create and remember 101 user/password combinations
+* Use configuration management that has a [dry run feature](https://en.wikipedia.org/wiki/Dry_run_(testing)) e.g. `--testing_mode on`
   * Blocking infrastructure tests or linters to catch mistakes early, e.g.
     * [Yamllint](https://github.com/adrienverge/yamllint)
     * [Test Infra]( https://github.com/philpep/testinfra)
     * [Inspec](http://inspec.io/)
     * [Serverspec](http://serverspec.org/)
     * [Ansible --syntax-check](https://raymii.org/s/tutorials/Ansible_-_Playbook_Testing.html)
-* Add or invite individual to any relevant [Slack](https://slack.com/), [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat) channels or Mailing lists.
+    * [cfg_nag](https://github.com/stelligent/cfn_nag)
+    * [terratest](https://github.com/gruntwork-io/terratest)
+* Add or invite individual to any relevant [Slack](https://slack.com/), [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat) or [Microsoft Teams](https://products.office.com/en-us/microsoft-teams/group-chat-software) channels or Mailing lists.
 * Provide information regarding relevant processes e.g.
   * Incident, problem and change management
   * Deploying changes / releases to the different environments
@@ -160,7 +168,7 @@ It's important to either have or do the following:
 * Have [Clean code](https://blog.goyello.com/2013/01/21/top-9-principles-clean-code/) It really helps if your code is good, is sensibly organized and structured. If the code base is large, it should be broken apart in understandable segments
 * Create a [Papercuts.md](https://gist.github.com/actionjack/ee8408733b756fc101aa22488bb464a1) in your Repos, These are a log of things that have hurt us in the current environment, they may not be actual [technical debt](https://en.wikipedia.org/wiki/Technical_debt),however they could be things for us to discuss and possibly fix in the future.
 * If you have adopted a particular [coding style guideline](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Coding_Style) on your project then document or reference it for new joiners to easily reference and adopt
-* [Story kickoffs](https://elabor8.com.au/how-to-introduce-story-kickoffs-to-your-team/) can be extremely useful to new starters by helping them getting to the mindset of the team, identify areas that aren't immediately visible in the code base and generally reduce constant rework due to missing acceptance criteria.
+* [Story kickoffs](https://elabor8.com.au/how-to-introduce-story-kickoffs-to-your-team/) can be extremely useful to new starters by helping them getting to the mindset of the team, identify areas that aren't immediately visible in the code base and generally reduce constant rework due to poor or missing acceptance criteria.
 
 
 ### Version control management
@@ -168,7 +176,7 @@ It's important to either have or do the following:
 > "A generation which ignores history has no past and no future."
 >> Robert Heinlein
 
-<summary>How do we safely change things</summary>
+<summary>How do we safely change the things</summary>
 
 * Document your coding standards and strategies in the open e.g.
   * [Version control & branch strategy](https://www.infoq.com/articles/agile-version-control)
@@ -181,6 +189,7 @@ It's important to either have or do the following:
 * If at all possible make [Pull Requests](https://help.github.com/articles/about-pull-requests/) a first class citizen nothing is more demoralising than having a Pull Request sitting around without [feedback](http://engineering.leadgenius.com/post/129799259649/the-pull-request-review-checklist) and a chance of being merged.
 * Good [Pull Requests](https://github.com/alphagov/frontend/pull/784) can also be an excellent teaching tool for new starts or old hands alike, a good PR tell's you what was implemented, why and how so if you (or anyone else) need to do something similar in the future it will make things a lot easier than relying on your memory or tribal knowledge.
 * If you use [slack](https://slack.com) or something similiar consider adding a notification bot for pull request and push activities, e.g. for [bitbucket](https://marketplace.atlassian.com/apps/1213042/slack-notifications-plugin?hosting=server&tab=overview) or [github](https://github.com/Talkdesk/pr-police) to notify your colleagues that a Pull Request is ready for review.
+* Keep your pull request list short and tidy, [merge good requests quickly](https://medium.com/@biratkirat/step-52-let-your-project-speak-for-itself-daniel-lindner-e45a0b1ce2c7) and close poor ones or those that are never going to be merged.
 
 
 ### Development environments
@@ -197,7 +206,7 @@ It's important to either have or do the following:
   * get multiple emails with multiple links
   * Ask multiple people how their personal environment is configured
 * Have at least a minimally functioning [Continuous Integration setup](https://www.thoughtworks.com/continuous-integration)
-* Make it easy to set up an easy to use cross platform or run a local environment that does not mess up what’s currently there e.g. in a [virtual machine](https://medium.com/@jevgenijdmitrijev/how-to-creating-a-ubuntu-development-environment-with-help-of-virtual-box-f2cc198e1c63)
+* Make your tooling easy to set up an easy to use cross platform or run a local environment that does not mess up what’s currently there e.g. in a [virtual machine](https://medium.com/@jevgenijdmitrijev/how-to-creating-a-ubuntu-development-environment-with-help-of-virtual-box-f2cc198e1c63)
   * [pyenv](https://github.com/pyenv/pyenv), [jenv](http://www.jenv.be/), [Rbenv](https://github.com/rbenv/rbenv), [venv](https://docs.python.org/3/library/venv.html), [virtualenv](https://virtualenv.pypa.io/en/stable/), [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv), [pipenv](https://pipenv.readthedocs.io/en/latest/)
   * :+1: Vagrant boxen in order to test locally!
   * :+1: Docker containers
