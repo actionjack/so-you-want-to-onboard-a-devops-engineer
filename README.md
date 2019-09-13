@@ -53,6 +53,7 @@ Here is some guidance on how to make your environment easier to onboard and keep
 * Test your mentoring and on boarding process to flush out any shortfalls by getting the last person who joined to mentor the new joiner.
 * Make your documentation inclusive e.g. this document is parsed using [alex](http://alexjs.com/) in order to catch insensitive and inconsiderate writing.
 * Be wary of not overloading new starts with too much information. There is often quite a lot to learn (even more than you think), instead provide a set of useful links so people can research at their own pace.
+* Write code that takes into account how future maintainers will feel reading it, let your code be [empathetic](https://www.benjaminjohnson.me/blog/empathetic-code/)
 
 
 ### Have up to date Documentation
