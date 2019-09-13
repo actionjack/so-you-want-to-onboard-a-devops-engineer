@@ -244,6 +244,8 @@ It's important to either have or do the following:
 
 * [Write good git commit messages](https://juffalow.com/other/write-good-git-commit-message)
 
+* [Code for the maintainer](http://wiki.c2.com/?CodeForTheMaintainer)
+
 </details>
 
 ## See a problem here
