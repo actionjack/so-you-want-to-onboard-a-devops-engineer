@@ -4,7 +4,7 @@ Author: Martin Jackson - [@actionjack](https://twitter.com/actionjack)
 
 [![Build Status](https://travis-ci.org/actionjack/so-you-want-to-onboard-a-devops-engineer.svg?branch=master)](https://travis-ci.org/actionjack/so-you-want-to-onboard-a-devops-engineer)
 
-At the moment everyone seems to be so concerned with recruiting DevOps Engineers but I feel the process of on-boarding them is still very hit and miss, especially in busy organisations.
+At the moment everyone seems to be so concerned with recruiting DevOps Engineers but I feel the process of on-boarding them is still a very hit and miss affair, especially in busy organisations.
 
 > “Suffering increases in proportion to knowledge of a better way.”
 >> Jim Hickstein
