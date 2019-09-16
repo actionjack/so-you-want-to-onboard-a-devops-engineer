@@ -6,7 +6,7 @@ Author: Martin Jackson - [@actionjack](https://twitter.com/actionjack)
 
 At the moment everyone seems to be so concerned with recruiting DevOps Engineers but I feel the process of on-boarding them is still a very hit and miss affair, especially in busy organisations.
 
-I also need voice that bad environments do not attract non retain top talent.
+I also need to state that bad environments do not attract nor retain top talent
 
 > “Suffering increases in proportion to knowledge of a better way.”
 >> Jim Hickstein
