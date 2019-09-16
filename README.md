@@ -101,7 +101,7 @@ It's important to either have or do the following:
   * [protected branches e.g. to prevent force pushes to master](https://github.com/blog/2051-protected-branches-and-required-status-checks)
   * If you have code standards, don't __just document them__ back them up with [Automated Code standards](https://medium.com/@biratkirat/step-4-automate-your-coding-standard-filip-van-laenen-5b1c486e4883) triggered by [CI checks](https://en.wikipedia.org/wiki/Continuous_integration) or [pre-commit hooks](https://githooks.com/)
 * Ensure your naming conventions are consistent and make sense:
-  * If something is called build_X and it actually deploys_X then change the name to deploys_X if possible to reduce confusion,
+  * If something is called build_X and it actually deploys_X then change the name to deploys_X if possible to reduce confusion and prevent [information hiding](https://en.wikipedia.org/wiki/Information_hiding),
   * If your environment structure is env-productgroup-application then make sure the naming is consistent across all environments e.g.
     * Development-Acme-Bomb
     * Test-Acme-Bomb
@@ -190,7 +190,7 @@ It's important to either have or do the following:
   * :+1: have [sequence diagrams](https://en.wikipedia.org/wiki/Sequence_diagram) in all repos e.g. [plantuml](http://plantuml.com/) or [mermaid](https://mermaidjs.github.io/)
   * :+1: have [Architecture Decision Records](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions) in your [repos](https://github.com/npryce/adr-tools)
   * :+1: Have a Clear and concise [git history](http://www.annashipman.co.uk/jfdi/good-pull-requests.html) that clearly and easily documents the changes done and the reasons why in your repositories
-* Make [Pull Requests](https://help.github.com/articles/about-pull-requests/) a first class citizen nothing is more demoralising than having a Pull Request sitting around without [feedback](http://engineering.leadgenius.com/post/129799259649/the-pull-request-review-checklist) and a chance of being merged.
+* Make [Pull Requests](https://help.github.com/articles/about-pull-requests/) a first class citizen, nothing is more demoralising than having a Pull Request sitting around without [feedback](http://engineering.leadgenius.com/post/129799259649/the-pull-request-review-checklist) and a chance of being merged especially if it needs to be continually rebased.
 * Good [Pull Requests](https://github.com/alphagov/frontend/pull/784) can also be an excellent teaching tool for new starts or old hands alike, a good PR tell's you what was implemented, why and how so if you (or anyone else) need to do something similar in the future it will make things a lot easier than relying on your memory or tribal knowledge.
 * If you use [slack](https://slack.com) or something similiar consider adding a notification bot for pull request and push activities, e.g. for [bitbucket](https://marketplace.atlassian.com/apps/1213042/slack-notifications-plugin?hosting=server&tab=overview) or [github](https://github.com/Talkdesk/pr-police) to notify your colleagues that a Pull Request is ready for review.
 * Keep your pull request list short and tidy, [merge good requests quickly](https://medium.com/@biratkirat/step-52-let-your-project-speak-for-itself-daniel-lindner-e45a0b1ce2c7) and close poor ones or those that are never going to be merged.
