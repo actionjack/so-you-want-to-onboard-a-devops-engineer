@@ -7,7 +7,7 @@ Author: Martin Jackson - [@actionjack](https://twitter.com/actionjack)
 At the moment everyone seems to be so concerned with recruiting DevOps Engineers but I feel the process of on-boarding them is still a very hit and miss affair, especially in busy organisations.
 
 Also nobody (at least nobody I know...) wants to work in a difficult environment:
-* Bad environments (and broken cultures) do not attract nor retain top talent. In fact it does the exact opposite.
+* Bad environments (and [broken cultures](https://www.forbes.com/sites/forbescoachescouncil/2018/06/21/toxic-corporate-culture-10-warning-signs-to-watch-for/#10af593499ec)) do not attract nor retain top talent. In fact it does the exact opposite.
 
 > “Suffering increases in proportion to knowledge of a better way.”
 >> Jim Hickstein
