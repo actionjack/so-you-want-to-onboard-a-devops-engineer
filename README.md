@@ -85,10 +85,17 @@ It's important to either have or do the following:
 * Write your documentation as if it's going to be [open](https://www.gov.uk/design-principles#tenth) to public scrutiny someday.
 * Have an easy to use and setup collection of shared resources e.g. bookmark file of URL links, .ssh/config files
 * If possible keep your documentation as close to the code as possible (possibly as [Markdown](https://www.markdownguide.org/)) rather than referencing external resources like wikis or, use a [static site generator](https://www.docslikecode.com/learn/) like [hugo](https://gohugo.io/), [sphinx](https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html) or [Jekyll](https://jekyllrb.com/) to build your documentation website directly from the codebase, this way you are more likely to have up to date documentation, since you get immediate feedback when you do a review of code changes rather than having to separately review a PR and a Wiki Page.
-* If there are problems that you have to work around in your code then in comments link to some permanent record (e.g. a URL of a Jira story or [ADR](https://github.com/joelparkerhenderson/architecture_decision_record)) of why, the following code comment caused me to do a lot of running around (The `git blame' gave me a commit that lead to a PR that had zero details in it, authored by someone who could not remember why they put that in the code.):
+* If there are problems that you have to work around in your code then in the comments link to some sort of permanent record (e.g. a URL of a Jira story or [ADR](https://github.com/joelparkerhenderson/architecture_decision_record)) for why, the following code comment caused me to do a lot of running around (The `git blame' gave me a commit that lead to a PR that had zero details in it, authored by someone who could not remember why they put that in the code.):
 ```
     instance_type: m4.4xlarge # Larger than this currently causes issues on our AMIs...
 ```
+* what would have been more helpful would have been:
+
+```
+    instance_type: m4.4xlarge # Larger than this type causes issues see REF-2019
+```
+
+
 
 ### Operations
 
