@@ -263,6 +263,8 @@ It's important to either have or do the following:
 
 * [Code for the maintainer](http://wiki.c2.com/?CodeForTheMaintainer)
 
+* [Become a Better Programmer by Making It Hard to Write Bad Code](https://blog.daftcode.pl/become-a-better-programmer-by-making-it-hard-to-write-bad-code-d118ab90e0f7)
+
 </details>
 
 ## See a problem here
