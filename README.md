@@ -265,6 +265,8 @@ It's important to either have or do the following:
 
 * [Become a Better Programmer by Making It Hard to Write Bad Code](https://blog.daftcode.pl/become-a-better-programmer-by-making-it-hard-to-write-bad-code-d118ab90e0f7)
 
+* [Avoiding Stupidity is Easier than Seeking Brilliance](https://fs.blog/2014/06/avoiding-stupidity/)
+
 </details>
 
 ## See a problem here
