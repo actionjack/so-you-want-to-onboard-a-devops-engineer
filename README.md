@@ -4,7 +4,7 @@ Author: Martin Jackson - [@actionjack](https://twitter.com/actionjack)
 
 [![Build Status](https://travis-ci.org/actionjack/so-you-want-to-onboard-a-devops-engineer.svg?branch=master)](https://travis-ci.org/actionjack/so-you-want-to-onboard-a-devops-engineer)
 
-At the moment everyone seems to be so concerned with recruiting DevOps Engineers but I feel the process of on-boarding them is still a very hit and miss affair, especially in busy organisations.
+At the moment everyone seems to be so concerned with recruiting DevOps Engineers but I feel the process of on-boarding them and giving them the environment to succeed is still a very hit and miss affair, especially in busy organisations.
 
 Also nobody (at least nobody I know...) wants to work in a difficult environment:
 * Bad environments (and [broken cultures](https://www.forbes.com/sites/forbescoachescouncil/2018/06/21/toxic-corporate-culture-10-warning-signs-to-watch-for/#10af593499ec)) do not attract nor retain top talent. In fact it does the exact opposite.
