@@ -51,7 +51,7 @@ Here is some guidance on how to make your environment easier to onboard and keep
   * Context / Situational awareness (how did we get from here to there?)
   * Tribal Knowledge (This is where our ancestors bodies were buried!)
   * Cultural awareness (How we do things around here)
-  * [Technical Expertise in that specific problem domain](https://en.wikipedia.org/wiki/Hindsight_bias)
+  * [Technical Expertise in that specific problem domain](https://team-manual.cloud.service.gov.uk/team/orientation/#avoid-assuming-expertise)
 * What are the Preferred practices or ["Design Principles"](https://www.gov.uk/design-principles)?
 * Listen to their point of view. Bringing in a new person is a prime opportunity to find out where the code or process needs improvement
 * Test your mentoring and on boarding process to flush out any shortfalls by getting the last person who joined to mentor the new joiner.
