@@ -158,7 +158,7 @@ It's important to either have or do the following:
     * is __not__ grunt work e.g. documentation.
 * Assign your new start an [on boarding buddy/mentor](https://hbr.org/2019/06/every-new-employee-needs-an-onboarding-buddy) 
   * Ensure that this "Buddy" has enough free cycles to be there for the new start if needed
-* [Pair](https://www.agilealliance.org/glossary/pairing/) with new start as soon and as often as possible
+* [Pair](https://www.agilealliance.org/glossary/pairing/) with new start as soon and as often as possible depending on the complexity of the environment this could go on for weeks, don't be afraid to pick up this pairing at a later date if the engineer has never touched that code block before.
 * When [and if] you do a Retro, then base it against a known good baseline i.e.
   * If you are doing production deploys in the early hours of the night and it goes successfully, remember this is not necessarily reflect a **good** deployment.
 * Put as much detail into tasks / stories as possible including:
