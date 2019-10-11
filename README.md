@@ -212,6 +212,7 @@ It's important to either have or do the following:
 * Good [Pull Requests](https://github.com/alphagov/frontend/pull/784) can also be an excellent teaching tool for new starts or old hands alike, a good PR tell's you what was implemented, why and how so if you (or anyone else) need to do something similar in the future it will make things a lot easier than relying on your memory or tribal knowledge.
 * If you use [slack](https://slack.com) or something similiar consider adding a notification bot for pull request and push activities, e.g. for [bitbucket](https://marketplace.atlassian.com/apps/1213042/slack-notifications-plugin?hosting=server&tab=overview) or [github](https://github.com/Talkdesk/pr-police) to notify your colleagues that a Pull Request is ready for review.
 * Keep your pull request list short and tidy, [merge good requests quickly](https://medium.com/@biratkirat/step-52-let-your-project-speak-for-itself-daniel-lindner-e45a0b1ce2c7) and close poor ones or those that are never going to be merged.
+* Integrate your git history with your external issue tracker so that it can automatically reference the changes related to a story and put in place some [automated branch naming pattern protection](https://help.github.com/en/articles/configuring-protected-branches) to ensure that any branches match the issue trackers issue reference format, this way you enforce the best practice of a branch matching a historical record in (for example) Jira as to why something was created, changed or deleted.
 
 
 ### Development environments
