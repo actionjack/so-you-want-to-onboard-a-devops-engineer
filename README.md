@@ -132,7 +132,7 @@ It's important to either have or do the following:
     * [Gradle](https://gradle.org/)
     * [Rake](https://ruby.github.io/rake/)
     * [Fabric](http://www.fabfile.org/)
-  * Put safe  conditionals in your configuration management to do be able to test runs without the worry of screwing up e.g. Ansible tasks:
+  * Use the **Guard Rail Pattern** by putting safe  conditionals in your configuration management to do be able to test runs without the worry of screwing up e.g. Ansible tasks:
 
 ```
 - name: “Do something really Dangerous"
