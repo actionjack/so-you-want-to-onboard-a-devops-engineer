@@ -4,10 +4,10 @@ Author: Martin Jackson - [@actionjack](https://twitter.com/actionjack)
 
 [![Build Status](https://travis-ci.org/actionjack/so-you-want-to-onboard-a-devops-engineer.svg?branch=master)](https://travis-ci.org/actionjack/so-you-want-to-onboard-a-devops-engineer)
 
-At the moment everyone seems to be so concerned with recruiting DevOps Engineers but I feel the process of on-boarding them and giving them the environment to succeed is still a very hit and miss affair, especially in busy organisations.
+At the moment everyone seems to be so concerned with recruiting DevOps Engineers but I feel the process of on-boarding them and giving them the environment to succeed is still a hit and miss affair, especially in busy organisations.
 
-Also nobody (at least nobody I know...) wants to work in a difficult environment:
-* Bad environments (and [broken cultures](https://www.forbes.com/sites/forbescoachescouncil/2018/06/21/toxic-corporate-culture-10-warning-signs-to-watch-for/#10af593499ec)) do not attract nor retain top talent. In fact it does the exact opposite.
+Also nobody (at least nobody I know…) wants to work in a difficult environment:
+* Bad environments (and [broken cultures](https://www.forbes.com/sites/forbescoachescouncil/2018/06/21/toxic-corporate-culture-10-warning-signs-to-watch-for/#10af593499ec)) do not attract nor retain top talent. In fact it does the opposite.
 
 > “Suffering increases in proportion to knowledge of a better way.”
 >> Jim Hickstein
@@ -25,7 +25,7 @@ Here is some guidance on how to make your environment easier to onboard and keep
 ## Basics
 <summary>The raw basics</summary>
 
-> "The only way you can stay on top is to remember to touch bottom and get back to basics."
+> “The only way you can stay on top is to remember to touch bottom and get back to basics.”
 >> Shane Black
 
 * Have internet access sorted out for new starts or let them know if there isn't any.
@@ -39,7 +39,7 @@ Here is some guidance on how to make your environment easier to onboard and keep
 ### Culture
 <summary>Aim to create a culture of empathy and psychological safety </summary>
 
-> "It's possible for good people, in perversely designed systems, to casually perpetrate acts of great harm on strangers, sometimes without ever realising it."
+> “It's possible for good people, in perversely designed systems, to casually perpetrate acts of great harm on strangers, sometimes without ever realising it.”
 > > [Ben Goldacre](http://www.badscience.net/), [Bad Pharma](https://www.amazon.co.uk/dp/0865478007?tag=contindelive-20), p. xi
 
 * Embrace the standard of [The Humble Learner](https://www.linkedin.com/pulse/myth-sufficiently-smart-engineer-aaron-blohowiak/), The Humble Learner accepts the limits of human capacity while seeking to grow their technical and empathetic skills
@@ -49,7 +49,7 @@ Here is some guidance on how to make your environment easier to onboard and keep
 * Introduce the new engineer(s) to the relevant people within the organisation
 * Remember not everyone may be as smart as you are, they may be missing
   * Context / Situational awareness (how did we get from here to there?)
-  * Tribal Knowledge (This is where our ancestors bodies were buried!)
+  * Tribal Knowledge (This is where our ancestors bodies were buried)
   * Cultural awareness (How we do things around here)
   * [Technical Expertise in that specific problem domain](https://team-manual.cloud.service.gov.uk/team/orientation/#avoid-assuming-expertise)
   * The local Taxonomy - concepts and language does vary for work place to work place. e.g. pre-approved changes and standard changes many not necessarily mean the same thing from job to job.
@@ -93,7 +93,7 @@ It's important to either have or do the following:
   * [Jekyll](https://jekyllrb.com/)
 * If there are problems that you have to work around in your code then in the comments link to some sort of permanent record (e.g. a URL of a Jira story or [ADR](https://github.com/joelparkerhenderson/architecture_decision_record)) for why, the following code comment caused me to do a lot of running around (The `git blame' gave me a commit that lead to a PR that had zero details in it, authored by someone who could not remember why they put that in the code.):
 ```
-    instance_type: m4.4xlarge # Larger than this currently causes issues on our AMIs...
+    instance_type: m4.4xlarge # Larger than this currently causes issues on our AMIs…
 ```
 * what would have been more helpful would have been:
 
@@ -105,7 +105,7 @@ It's important to either have or do the following:
 
 ### Operations
 
-<summary>Make it easy to get shit done</summary>
+<summary>Make it easy to get stuff done</summary>
 
 > [“Complexity exacts a staggering tax on your humans. Good Ops engineers attempt to pay down that tax.”](https://twitter.com/bridgetkromhout/status/647333814411358208)
 > >  [Charity Majors](https://twitter.com/mipsytipsy)
