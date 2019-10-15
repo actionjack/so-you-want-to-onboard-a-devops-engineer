@@ -148,7 +148,7 @@ It's important to either have or do the following:
 
 <summary>How should we be doing the stuff</summary>
 
-> "If you can't describe what you are doing as a process, you don't know what you're doing."
+> “If you can't describe what you are doing as a process, you don't know what you're doing.”
 >> W. Edwards Deming
 
 * Everyone seems to have their own particular spin on Agile Scrum or Kanban, so explain up front what the process is and refine when and if necessary.
@@ -198,7 +198,7 @@ It's important to either have or do the following:
 
 ### Version control management
 
-> "A generation which ignores history has no past and no future."
+> “A generation which ignores history has no past and no future.”
 >> Robert Heinlein
 
 <summary>How do we safely change the things</summary>
@@ -222,7 +222,7 @@ It's important to either have or do the following:
 
 <summary>How do we safely change things</summary>
 
-> "Measure twice, cut once"
+> “Measure twice, cut once”
 >> Proverb
 
 * Make it easy to set up your local development environment, you should not have to do the following just so you can start work:
@@ -234,7 +234,7 @@ It's important to either have or do the following:
 * Have at least a minimally functioning [Continuous Integration setup](https://www.thoughtworks.com/continuous-integration)
 * Make your tooling easy to set up an easy to use cross platform or run a local environment that does not mess up what’s currently there e.g. in a [virtual machine](https://medium.com/@jevgenijdmitrijev/how-to-creating-a-ubuntu-development-environment-with-help-of-virtual-box-f2cc198e1c63)
   * [pyenv](https://github.com/pyenv/pyenv), [jenv](http://www.jenv.be/), [Rbenv](https://github.com/rbenv/rbenv), [venv](https://docs.python.org/3/library/venv.html), [virtualenv](https://virtualenv.pypa.io/en/stable/), [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv), [pipenv](https://pipenv.readthedocs.io/en/latest/)
-  * :+1: Vagrant boxen in order to test locally!
+  * :+1: Vagrant boxen in order to test locally
   * :+1: Docker containers
   * :+1: The ability to create individualized development environments in the cloud e.g. [AWS](https://aws.amazon.com/), [Azure](https://azure.microsoft.com), [Google](https://cloud.google.com/), [Digital Ocean](https://www.digitalocean.com/), etc in order to safely deploy, iterate and test in a separate (and safe) environment
 
