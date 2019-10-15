@@ -134,6 +134,8 @@ It's important to either have or do the following:
     * [Fabric](http://www.fabfile.org/)
   * If you use configuration management tools then use them repeatly and/or test them, try to avoid one shot configuration managment i.e. the operation is only run once once  to configure a resource even one you do not expect to change, because it will change and it will break and you will be rushing around trying to figure out what happened.
   * Put safe  conditionals in your configuration management to do be able to test runs without the worry of screwing up e.g. Ansible tasks:
+  * Use the **Guard Rail Pattern** by putting safe  conditionals in your configuration management to do be able to test runs without the worry of screwing up e.g. Ansible tasks:
+
 
 ```
 - name: “Do something really Dangerous"
