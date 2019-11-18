@@ -64,8 +64,8 @@ Here is some guidance on how to make your environment easier to onboard and keep
 ### Have up to date Documentation
 <summary>Make it easy to understand and do the things</summary>
 
-> “If it’s not documented, it didn’t happen.”
->> Every Regulatory Agency Inspector
+> “Stale documentation is not only misleading, it is positively harmful.”
+>> Riona MacNamara (@rionam)
 
 It's important to either have or do the following:
 
