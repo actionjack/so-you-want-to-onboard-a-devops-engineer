@@ -120,6 +120,7 @@ It's important to either have or do the following:
   * [protected branches e.g. to prevent force pushes to master](https://github.com/blog/2051-protected-branches-and-required-status-checks)
   * If you have code standards, don't __just document them__ back them up with [Automated Code standards](https://medium.com/@biratkirat/step-4-automate-your-coding-standard-filip-van-laenen-5b1c486e4883) triggered by [CI checks](https://en.wikipedia.org/wiki/Continuous_integration) or [pre-commit hooks](https://githooks.com/)
   * [Avoiding committing secrets and credentials into git repositories](https://github.com/awslabs/git-secrets)
+* If you have Policies on how to handle certain tasks e.g. Doing Spikes document them and link to them in your stories. e.g. here's the link to how you handle spikes.
 * Ensure your naming conventions are consistent and make sense:
   * If something is called build_X and it actually deploys_X then change the name to deploys_X if possible to reduce confusion and prevent [information hiding](https://en.wikipedia.org/wiki/Information_hiding),
   * If your environment structure is env-productgroup-application then make sure the naming is consistent across all environments e.g.
