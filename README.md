@@ -4,7 +4,7 @@ Author: Martin Jackson - [@actionjack](https://twitter.com/actionjack)
 
 [![Build Status](https://travis-ci.org/actionjack/so-you-want-to-onboard-a-devops-engineer.svg?branch=master)](https://travis-ci.org/actionjack/so-you-want-to-onboard-a-devops-engineer)
 
-At the moment everyone seems to be so concerned with recruiting DevOps Engineers but I feel the process of on-boarding them and giving them the environment to succeed is still a hit and miss affair, especially in busy organisations.
+At the moment everyone seems to be so concerned with recruiting DevOps practitioners but I feel the process of on-boarding them and giving them the environment to succeed is still a hit and miss affair, especially in busy organisations.
 
 Also nobody (at least nobody I know…) wants to work in a difficult environment:
 * Bad environments (and [broken cultures](https://julesx.com/toxic-work-culture-forcing-best-employees-quit/)) do not attract nor retain top talent. In fact it does the opposite.
@@ -18,7 +18,7 @@ Also nobody (at least nobody I know…) wants to work in a difficult environment
 > “Everything should be made as simple as possible, but no simpler.”
 >> Albert Einstein
 
-Reduce the time spent learning environments by building them to be easy to understand, with a focus on a making it possible for every engineer (new or old) to become effective in the shortest possible amount of time.
+Reduce the time spent learning environments by building them to be easy to understand, with a focus on a making it possible for every developer (new or old) to become effective in the shortest possible amount of time.
 
 Here is some guidance on how to make your environment easier to onboard and keep the people working on them happy.
 
@@ -55,11 +55,11 @@ Here is some guidance on how to make your environment easier to onboard and keep
   * [Technical Expertise in that specific problem domain](https://team-manual.cloud.service.gov.uk/team/orientation/#avoid-assuming-expertise)
   * The local Taxonomy - concepts and language does vary for work place to work place. e.g. pre-approved changes and standard changes many not necessarily mean the same thing from job to job.
 * What are the Preferred practices or ["Design Principles"](https://www.gov.uk/design-principles)?
-* Listen to their point of view. Bringing in a new person is a prime opportunity to find out where the code or process needs improvement
+* Listen to their point of view. Bringing in a new person is a prime opportunity to find out where the code or process needs improvement.
 * Test your mentoring and on boarding process to flush out any shortfalls by getting the last person who joined to mentor the new joiner.
 * Make your documentation inclusive e.g. this document is parsed using [alex](http://alexjs.com/) in order to catch insensitive and inconsiderate writing.
 * Be wary of not overloading new starts with too much information. There is often quite a lot to learn (even more than you think), instead provide a set of useful links so people can research at their own pace.
-* Write code that takes into account how future maintainers will feel reading it, let your code be [empathetic](https://www.benjaminjohnson.me/blog/empathetic-code/)
+* Write code that takes into account how future maintainers will feel reading it, let your code be [empathetic](https://www.benjaminjohnson.me/blog/empathetic-code/).
 
 
 ### Have up to date Documentation
@@ -79,7 +79,7 @@ It's important to either have or do the following:
 * An overview of the company’s infrastructure.
 * Systems integration points and their third party dependencies
 * A intranet/wiki or enterprise social network to Learn about different teams, key members with pictures. On day one, one can easily get overwhelmed with lots of new names and faces.
-* Have documentation for your alerts. If something is important enough to disturb the on-call person about, it's important enough to have a runbook entry about it. If you alert because _foo queue is too long_, there should be a [runbook](http://holyhandgrenade.org/blog/2011/08/runbooks-are-stupid-and-youre-doing-them-wrong/) entry describing how to fix it. 
+* Have documentation for your alerts. If something is important enough to disturb the on-call person about, it's important enough to have a runbook entry about it. If you alert because _foo queue is too long_, there should be a [runbook](http://holyhandgrenade.org/blog/2011/08/runbooks-are-stupid-and-youre-doing-them-wrong/) entry describing how to fix it.
   * At one client I worked with we actually managed to configure the monitoring system so the alerts themselves actually had a link to the relevant runbook entry :+1: :clap:
 * Create a Glossary of Terms [e.g. a Minipedia] for describing any organisation specific acronyms or terms
   * [Create an on-boarding wiki page (i.e. Confluence/Google Docs)](https://wiki.mozilla.org/Devops/onboarding)
@@ -135,7 +135,7 @@ It's important to either have or do the following:
     * [Gradle](https://gradle.org/)
     * [Rake](https://ruby.github.io/rake/)
     * [Fabric](http://www.fabfile.org/)
-  * If you use configuration management tools then use them repeatly and/or test them, try to avoid one shot configuration managment i.e. the operation is only run once once  to configure a resource even one you do not expect to change, because it will change and it will break and you will be rushing around trying to figure out what happened.
+  * If you use configuration management tools then use them repeatedly and/or test them, try to avoid one shot configuration management i.e. the operation is only run once once  to configure a resource even one you do not expect to change, because it will change and it will break and you will be rushing around trying to figure out what happened.
   * Put safe  conditionals in your configuration management to do be able to test runs without the worry of screwing up e.g. Ansible tasks:
   * Use the **Guard Rail Pattern** by putting safe  conditionals in your configuration management to do be able to test runs without the worry of screwing up e.g. Ansible tasks:
 
@@ -216,7 +216,7 @@ It's important to either have or do the following:
   * :+1: Have a Clear and concise [git history](http://www.annashipman.co.uk/jfdi/good-pull-requests.html) that [clearly](https://commitizen.github.io/cz-cli/) and easily documents the changes done and the reasons why in your repositories
 * Make [Pull Requests](https://help.github.com/articles/about-pull-requests/) a first class citizen, nothing is more demoralising than having a Pull Request sitting around without [feedback](https://devchecklists.com/pull-requests-checklist/) and a chance of being merged especially if it needs to be continually rebased.
 * Good [Pull Requests](https://github.com/alphagov/frontend/pull/784) can also be an excellent teaching tool for new starts or old hands alike, a good PR tell's you what was implemented, why and how, so if you (or anyone else) need to do something similar in the future it will make things a lot easier than relying on your memory or tribal knowledge. You can also prompt for good Pull Requests by using [Pull Request Templates](https://docs.gitlab.com/ee/user/project/description_templates.html) that suggest your best practice format.
-* If you use [slack](https://slack.com) or something similiar consider adding a notification bot for pull request and push activities, e.g. for [bitbucket](https://marketplace.atlassian.com/apps/1213042/slack-notifications-plugin?hosting=server&tab=overview) or [github](https://github.com/Talkdesk/pr-police) to notify your colleagues that a Pull Request is ready for review.
+* If you use [slack](https://slack.com) or something similar consider adding a notification bot for pull request and push activities, e.g. for [bitbucket](https://marketplace.atlassian.com/apps/1213042/slack-notifications-plugin?hosting=server&tab=overview) or [github](https://github.com/Talkdesk/pr-police) to notify your colleagues that a Pull Request is ready for review.
 * Keep your pull request list short and tidy, [merge good requests quickly](https://medium.com/@biratkirat/step-52-let-your-project-speak-for-itself-daniel-lindner-e45a0b1ce2c7) and close poor ones or those that are never going to be merged.
 * Integrate your git history with your external issue tracker so that it can automatically reference the changes related to a story and put in place some [automated branch naming pattern protection](https://help.github.com/en/articles/configuring-protected-branches) to ensure that any branches match the issue trackers issue reference format, this way you enforce the best practice of a branch matching a historical record in (for example) Jira as to why something was created, changed or deleted.
 
