@@ -294,11 +294,21 @@ I'm open to [well structured Pull Requests](http://www.annashipman.co.uk/jfdi/go
 
 ## License
 
+This work is licensed under a [Creative Commons Attribution 4.0 International
+License][cc-by].
 
-[MIT][license] © [Martin Jackson][author]
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[CC Attribution 4.0 International][license] © [Martin Jackson][author]
 
 <!-- Definitions. -->
 
 [license]: LICENSE
 
 [author]: http://uncommonsense-uk.com/
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
