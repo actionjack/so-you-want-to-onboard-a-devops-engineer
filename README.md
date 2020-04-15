@@ -198,6 +198,8 @@ It's important to either have or do the following:
 * Create a [Papercuts.md](https://gist.github.com/actionjack/ee8408733b756fc101aa22488bb464a1) in your Repos, These are a log of things that have hurt us in the current environment, they may not be actual [technical debt](https://en.wikipedia.org/wiki/Technical_debt),however they could be things for us to discuss and possibly fix in the future.
 * If you have adopted a particular [coding style guideline](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Coding_Style) on your project then document or reference it for new joiners to easily reference and adopt
 * [Story kickoffs](https://elabor8.com.au/how-to-introduce-story-kickoffs-to-your-team/) can be extremely useful to new starters by helping them getting to the mindset of the team, identify areas that aren't immediately visible in the code base and generally reduce constant rework due to poor or missing acceptance criteria.
+* Embed you processes in your code. If your process requires you to hand off to another team to get the thing you want done e.g. After issuing a Pull Request you need to notify another team to run a Jenkins pipeline, then put the team and the contact information in the documentation (e.g. Slack Channel).
+
 
 ### Version control management
 
