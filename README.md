@@ -53,15 +53,15 @@ Here is some guidance on how to make your environment easier to onboard and keep
 * Introduce the new engineer(s) to the relevant people within the organisation
 * Remember not everyone may be as smart as you are, they may be missing
   * Context / Situational awareness (how did we get from here to there?)
-  * Tribal Knowledge (This is where our ancestors bodies were buried)
+  * Tribal Knowledge (This is where our ancestors bodies are buried)
   * Cultural awareness (How we do things around here)
   * [Technical Expertise in that specific problem domain](https://team-manual.cloud.service.gov.uk/team/orientation/#avoid-assuming-expertise)
-  * The local Taxonomy - concepts and language does vary for work place to work place. e.g. pre-approved changes and standard changes many not necessarily mean the same thing from job to job.
+  * The local Taxonomy - concepts and language does vary from work place to work place. e.g. pre-approved changes and standard changes many not necessarily mean the same thing from job to job.
 * What are the Preferred practices or ["Design Principles"](https://www.gov.uk/design-principles)?
 * Listen to their point of view. Bringing in a new person is a prime opportunity to find out where the code or process needs improvement.
 * Test your mentoring and on boarding process to flush out any shortfalls by getting the last person who joined to mentor the new joiner.
 * Make your documentation inclusive e.g. this document is parsed using [alex](http://alexjs.com/) in order to catch insensitive and inconsiderate writing.
-* Be wary of not overloading new starts with too much information. There is often quite a lot to learn (even more than you think), instead provide a set of useful links so people can research at their own pace.
+* Be wary of not overloading new starts with too much information. There is often quite a lot to learn (often more than you think), instead provide a set of useful links so people can research at their own pace.
 * Write code that takes into account how future maintainers will feel reading it, let your code be [empathetic](https://www.benjaminjohnson.me/blog/empathetic-code/).
 
 ### Have up to date Documentation
@@ -83,7 +83,7 @@ It's important to either have or do the following:
 * Systems integration points and their third party dependencies
 * A intranet/wiki or enterprise social network to Learn about different teams, key members with pictures. On day one, one can easily get overwhelmed with lots of new names and faces.
 * Have documentation for your alerts. If something is important enough to disturb the on-call person about, it's important enough to have a runbook entry about it. If you alert because _foo queue is too long_, there should be a [runbook](https://web.archive.org/web/20191005043445/http://holyhandgrenade.org:80/blog/2011/08/runbooks-are-stupid-and-youre-doing-them-wrong/) entry describing how to fix it.
-  * At one client I worked with we actually managed to configure the monitoring system so the alerts themselves actually had a link to the relevant runbook entry :+1: :clap:
+  * At one client I worked with we configured the monitoring system so the alerts themselves actually had a link to the relevant runbook entry :+1: :clap:
 * Create a Glossary of Terms [e.g. a Minipedia] for describing any organisation specific acronyms or terms
   * [Create an on-boarding wiki page (i.e. Confluence/Google Docs)](https://wiki.mozilla.org/Devops/onboarding)
   * :+1: For Open,online and easy to reach [checklists](https://github.com/annahsgraves/onboarding-documents-1/tree/master/Checklists/team-based-checklists)
@@ -139,7 +139,6 @@ It's important to either have or do the following:
     * [Rake](https://ruby.github.io/rake/)
     * [Fabric](http://www.fabfile.org/)
   * If you use configuration management tools then use them repeatedly and/or test them, try to avoid one shot configuration management i.e. the operation is only run once once  to configure a resource even one you do not expect to change, because it will change and it will break and you will be rushing around trying to figure out what happened.
-  * Put safe  conditionals in your configuration management to do be able to test runs without the worry of screwing up e.g. Ansible tasks:
   * Use the **Guard Rail Pattern** by putting safe  conditionals in your configuration management to do be able to test runs without the worry of screwing up e.g. Ansible tasks:
 
   ```yaml
@@ -156,28 +155,29 @@ It's important to either have or do the following:
 >> W. Edwards Deming
 
 * Everyone seems to have their own particular spin on Agile Scrum or Kanban, so explain up front what the process is and refine when and if necessary.
-* Have [Shovel Ready](https://en.wikipedia.org/wiki/Shovel_ready) work for new starters, create a backlog of work that be be easily done by a new starter:
+* Have [Shovel Ready](https://en.wikipedia.org/wiki/Shovel_ready) work for new starters, create a backlog of work that can be easily done by a new starter:
   * Ideally [work that](https://www.visual-paradigm.com/scrum/write-user-story-smart-goals/):
     * is well defined,
     * is easily explained,
     * requires some research,
     * adds value and;
     * is __not__ grunt work e.g. documentation.
-* Assign your new start an [on boarding buddy/mentor](https://hbr.org/2019/06/every-new-employee-needs-an-onboarding-buddy)
+* Assign your new starter an [on boarding buddy/mentor](https://hbr.org/2019/06/every-new-employee-needs-an-onboarding-buddy)
   * Ensure that this "Buddy" has enough free cycles to be there for the new start if needed
-* [Pair](https://www.agilealliance.org/glossary/pairing/) with new start as soon and as often as possible depending on the complexity of the environment this could go on for weeks, don't be afraid to pick up this pairing at a later date if the engineer has never touched that code block before.
+* [Pair](https://www.agilealliance.org/glossary/pairing/) with new start as soon and as often as possible depending on the complexity of the environment this could go on for weeks (if not months), don't be afraid to pick up this pairing at a later date if the engineer has never touched that code block before.
 * When [and if] you do a Retro, then base it against a known good baseline i.e.
   * If you are doing production deploys in the early hours of the night and it goes successfully, remember this is not necessarily reflect a **good** deployment.
 * Put as much detail into tasks / stories as possible including:
   * Assumptions,
-  * Reference information and existing implementations
-  * Ensuring to narrow down the acceptance criteria in order to prevent [unnecessary research or rework](https://idioms.thefreedictionary.com/go+down+the+rabbit+hole)
-* Ideally make your [Tasks/Stories as small as possible](https://www.leadingagile.com/2014/01/small-stories-reduce-variability-velocity-improve-predictability/) this is for a number of reasons some of those being:
+  * Reference information and existing implementations,
+  * Ensuring to narrow down the acceptance criteria in order to prevent [unnecessary research or rework](https://idioms.thefreedictionary.com/go+down+the+rabbit+hole),
+  * Diagrams.
+* Ideally make your [Tasks/Stories as small an atomic as possible](https://www.leadingagile.com/2014/01/small-stories-reduce-variability-velocity-improve-predictability/) this is for a number of reasons some of those being:
   * It makes them easier to handle and get your head around
   * You are less likely to have to [context switch](https://simpleprogrammer.com/context-switching/) within a story if it has a narrow [problem domain](https://en.wikipedia.org/wiki/Problem_domain)
   * You are more likely to actually finish that particular story and not have to pick up a new one and have to go back to the original story, since the smaller it is the less likely it is to run into some sort of unpredicted blockage.
-* Avoid onboarding during crunch times (important or critical planned releases)
-* Ideally have your accounts linked with some central or shared directory e.g. Github/Google/LDAP so your new starters don’t have to  create and remember 101 user/password combinations
+* Avoid [if possible] onboarding during crunch times (important or critical planned releases)
+* Ideally have your accounts linked with some central or shared directory e.g. Github/Google/LDAP so your new starters don’t have to  create and remember 101 user/password combinations or have to request access to multiple applications separately.
 * Use configuration management that has a [dry run feature](https://en.wikipedia.org/wiki/Dry_run_(testing)) e.g. `--testing_mode on`
   * Blocking infrastructure tests or linters to catch mistakes early, e.g.
     * [Yamllint](https://github.com/adrienverge/yamllint)
@@ -194,7 +194,7 @@ It's important to either have or do the following:
   * Ordering infrastructure / tools
   * Authorization for tools & applications
   * Use of test environments and creating and using testdata
-* Have [Clean code](https://blog.goyello.com/2013/01/21/top-9-principles-clean-code/) It really helps if your code is good, is sensibly organized and structured. If the code base is large, it should be broken down into understandable segments
+* Have [Clean code](https://blog.goyello.com/2013/01/21/top-9-principles-clean-code/) It really helps if your code is good, sensibly organized and well structured. If the code base is large, it should be broken down into smaller understandable segments
 * Create a [Papercuts.md](https://gist.github.com/actionjack/ee8408733b756fc101aa22488bb464a1) in your Repos, These are a log of things that have hurt us in the current environment, they may not be actual [technical debt](https://en.wikipedia.org/wiki/Technical_debt),however they could be things for us to discuss and possibly fix in the future.
 * If you have adopted a particular [coding style guideline](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Coding_Style) on your project then document or reference it for new joiners to easily reference and adopt
 * [Story kickoffs](https://elabor8.com.au/how-to-introduce-story-kickoffs-to-your-team/) can be extremely useful to new starters by helping them getting to the mindset of the team, identify areas that aren't immediately visible in the code base and generally reduce constant rework due to poor or missing acceptance criteria.
@@ -237,7 +237,7 @@ It's important to either have or do the following:
   * Ask multiple people how their personal environment is configured
 * Have at least a minimally functioning [Continuous Integration setup](https://www.thoughtworks.com/continuous-integration)
 * Make your tooling easy to set up an easy to use cross platform or run a local environment that does not mess up what’s currently there e.g. in a [virtual machine](https://medium.com/@jevgenijdmitrijev/how-to-creating-a-ubuntu-development-environment-with-help-of-virtual-box-f2cc198e1c63)
-  * [pyenv](https://github.com/pyenv/pyenv), [jenv](http://www.jenv.be/), [Rbenv](https://github.com/rbenv/rbenv), [venv](https://docs.python.org/3/library/venv.html), [virtualenv](https://virtualenv.pypa.io/en/stable/), [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv), [pipenv](https://pipenv.readthedocs.io/en/latest/)
+  * Version managers for example: [asdf](https://github.com/asdf-vm/asdf) [pyenv](https://github.com/pyenv/pyenv), [jenv](http://www.jenv.be/), [Rbenv](https://github.com/rbenv/rbenv), [venv](https://docs.python.org/3/library/venv.html), [virtualenv](https://virtualenv.pypa.io/en/stable/), [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv), [pipenv](https://pipenv.readthedocs.io/en/latest/)
   * :+1: Vagrant boxen in order to test locally
   * :+1: Docker containers e.g. [using the Three Musketters pattern](https://3musketeers.io/docs/patterns.html#make)
   * :+1: The ability to create individualized development environments in the cloud e.g. [AWS](https://aws.amazon.com/), [Azure](https://azure.microsoft.com), [Google](https://cloud.google.com/), [Digital Ocean](https://www.digitalocean.com/), etc in order to safely deploy, iterate and test in a separate (and safe) environment
