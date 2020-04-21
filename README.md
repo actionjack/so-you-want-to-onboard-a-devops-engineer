@@ -134,10 +134,7 @@ It's important to either have or do the following:
 * Nobody should be able to do something catastrophic to an environment unless they are determined on doing so i.e.
   * Make doing the right thing easy to do by creating safety harnesses using build or scripting tools like the following list to do the most common tasks safety without the worry of screwing up:
     * [Bash Scripts](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_02_01.html)
-    * [Make](https://www.gnu.org/software/make/)
     * [Gradle](https://gradle.org/)
-    * [Rake](https://ruby.github.io/rake/)
-    * [Fabric](http://www.fabfile.org/)
   * If you use configuration management tools then use them repeatedly and/or test them, try to avoid one shot configuration management i.e. the operation is only run once once  to configure a resource even one you do not expect to change, because it will change and it will break and you will be rushing around trying to figure out what happened.
   * Use the **Guard Rail Pattern** by putting safe  conditionals in your configuration management to do be able to test runs without the worry of screwing up e.g. Ansible tasks:
 
