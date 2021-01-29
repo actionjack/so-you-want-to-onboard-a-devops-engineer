@@ -196,6 +196,7 @@ It's important to either have or do the following:
 * If you have adopted a particular [coding style guideline](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Coding_Style) on your project then document or reference it for new joiners to easily reference and adopt
 * [Story kickoffs](https://elabor8.com.au/how-to-introduce-story-kickoffs-to-your-team/) can be extremely useful to new starters by helping them getting to the mindset of the team, identify areas that aren't immediately visible in the code base and generally reduce constant rework due to poor or missing acceptance criteria.
 * Embed you processes in your code. If your process requires you to hand off to another team to get the thing you want done e.g. After issuing a Pull Request you need to notify another team to run a Jenkins pipeline, then put the team and the contact information in the documentation (e.g. Slack Channel).
+* Use code formatters to standardize the structure your code e.g. `terraform fmt` this can make reading diffs a lot easier since you don't have to deal with things like differing indentation.
 
 
 ### Version control management
