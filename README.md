@@ -276,6 +276,8 @@ It's important to either have or do the following:
 
 * [Avoiding Stupidity is Easier than Seeking Brilliance](https://fs.blog/2014/06/avoiding-stupidity/)
 
+* [Telling Stories Through Your Commits](https://blog.mocoso.co.uk/talks/2015/01/12/telling-stories-through-your-commits/) by [Joel Chippindale](https://twitter.com/joelchippindale)
+
 </details>
 
 ## See a problem here
