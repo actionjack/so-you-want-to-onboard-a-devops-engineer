@@ -6,7 +6,7 @@ Author: Martin Jackson - [@actionjack](https://twitter.com/actionjack)
 
 At the moment everyone seems to be so concerned with recruiting DevOps practitioners but I feel the process of on-boarding them and giving them a supportive environment to be able to succeed and thrive is still a bit of hit and miss affair, especially in busy organisations.
 
-Also nobody (at least nobody I know…) wants to work in a difficult environment:
+Nobody (at least nobody I know…) *wants* to work in a difficult environment:
 
 * Bad environments (and [broken cultures](https://julesx.com/toxic-work-culture-forcing-best-employees-quit/)) do not attract nor retain top talent. In fact it does the exact opposite.
 
