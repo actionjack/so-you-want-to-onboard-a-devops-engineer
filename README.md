@@ -24,7 +24,7 @@ Reduce the time spent learning environments by building them to be easy to under
 
 Here is some guidance on how to make your environment easier to onboard and keep the people working on them happy.
 
-## Basics
+## The Basics
 
 <summary>The raw basics</summary>
 
