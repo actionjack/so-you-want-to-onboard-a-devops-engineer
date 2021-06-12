@@ -8,7 +8,7 @@ At the moment everyone seems to be so concerned with recruiting DevOps practitio
 
 Also nobody (at least nobody I know…) wants to work in a difficult environment:
 
-* Bad environments (and [broken cultures](https://julesx.com/toxic-work-culture-forcing-best-employees-quit/)) do not attract nor retain top talent. In fact it does the opposite.
+* Bad environments (and [broken cultures](https://julesx.com/toxic-work-culture-forcing-best-employees-quit/)) do not attract nor retain top talent. In fact it does the exact opposite.
 
 > “Suffering increases in proportion to knowledge of a better way.”
 >> Jim Hickstein
