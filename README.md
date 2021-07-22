@@ -4,7 +4,7 @@ Author: Martin Jackson - [@actionjack](https://twitter.com/actionjack)
 
 [![Build Status](https://travis-ci.org/actionjack/so-you-want-to-onboard-a-devops-engineer.svg?branch=master)](https://travis-ci.org/actionjack/so-you-want-to-onboard-a-devops-engineer)
 
-At the moment everyone seems to be so concerned with recruiting DevOps practitioners but I feel the process of on-boarding them and giving them a supportive environment to be able to succeed and thrive is still a bit of hit and miss affair, especially in busy organisations.
+At the moment everyone seems to be very interested in recruiting DevOps practitioners but I feel the process of on-boarding them and giving them a supportive environment to be able to succeed and thrive is still a bit of hit and miss affair, especially in busy organisations.
 
 Nobody (at least nobody I know…) *wants* to work in a difficult environment:
 
