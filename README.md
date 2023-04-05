@@ -62,7 +62,7 @@ Here is some guidance on how to make your environment easier to onboard and keep
 * Test your mentoring and on boarding process to flush out any shortfalls by getting the last person who joined to mentor the new joiner.
 * Make your documentation inclusive e.g. this document is parsed using [alex](http://alexjs.com/) in order to catch insensitive and inconsiderate writing.
 * Be wary of not overloading new starts with too much information. There is often quite a lot to learn (often more than you think), instead provide a set of useful links so people can research at their own pace.
-* Write code that takes into account how future maintainers will feel reading it, let your code be [empathetic](https://www.benjaminjohnson.me/blog/empathetic-code/).
+* Write code that takes into account how future maintainers will feel reading it, let your code be [empathetic](https://www.benjaminjohnson.me/empathetic-code/).
 
 ### Have up to date Documentation
 
@@ -201,8 +201,8 @@ It's important to either have or do the following:
 
 ### Version control management
 
-> “A generation which ignores history has no past and no future.”
->> Robert Heinlein
+> “Those who cannot remember the past are condemned to repeat it.”
+>> George Santayana
 
 <summary>How do we safely change the things</summary>
 
