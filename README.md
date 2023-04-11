@@ -197,6 +197,7 @@ It's important to either have or do the following:
 * [Story kickoffs](https://elabor8.com.au/how-to-introduce-story-kickoffs-to-your-team/) can be extremely useful to new starters by helping them getting to the mindset of the team, identify areas that aren't immediately visible in the code base and generally reduce constant rework due to poor or missing acceptance criteria.
 * Embed you processes in your code. If your process requires you to hand off to another team to get the thing you want done e.g. After issuing a Pull Request you need to notify another team to run a Jenkins pipeline, then put the team and the contact information in the documentation (e.g. Slack Channel).
 * Use code formatters to standardize the structure your code e.g. `terraform fmt` this can make reading diffs a lot easier since you don't have to deal with things like differing indentation.
+* Encourage [Swarming](https://www.jrothman.com/mpd/project-management/2016/07/pairing-swarming-and-mobbing/) on difficult issues or development blockages (e.g. blocked pipelines) where the entire team  works together on a single task
 
 
 ### Version control management
