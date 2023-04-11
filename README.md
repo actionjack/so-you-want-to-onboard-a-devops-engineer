@@ -28,8 +28,8 @@ Here is some guidance on how to make your environment easier to onboard and keep
 
 <summary>The raw basics</summary>
 
-> “The only way you can stay on top is to remember to touch bottom and get back to basics.”
->> Shane Black
+> "Without a solid foundation of raw basics, any structure built upon it is liable to crumble and fall."
+>> Unknown
 
 * Have internet access sorted out for new starts or let them know if there isn't any.
 * Locker access (if you supply lockers for hot-desk environments).
