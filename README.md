@@ -43,11 +43,11 @@ environment:
 
 ## Making it easy to get work done from day one
 
-```{=html}
+```
 <summary>
 ```
 Simplify, simplify and after that simplify some more
-```{=html}
+```
 </summary>
 ```
 > "Everything should be made as simple as possible, but no simpler."
@@ -64,11 +64,11 @@ and keep the people working on them happy.
 
 ## The Basics
 
-```{=html}
+```
 <summary>
 ```
 The raw basics
-```{=html}
+```
 </summary>
 ```
 > "Without a solid foundation of raw basics, any structure built upon it
@@ -103,11 +103,11 @@ The raw basics
 
 ## Culture
 
-```{=html}
+```
 <summary>
 ```
 Aim to create a culture of empathy and psychological safety
-```{=html}
+```
 </summary>
 ```
 > "It's possible for good people, in perversely designed systems, to
@@ -169,11 +169,11 @@ Aim to create a culture of empathy and psychological safety
 
 ## Documentation
 
-```{=html}
+```
 <summary>
 ```
 Make it easy to understand and do the things
-```{=html}
+```
 </summary>
 ```
 > "Stale documentation is not only misleading, it is positively
@@ -274,11 +274,11 @@ It's important to either have or do the following:
 
 ## Operations
 
-```{=html}
+```
 <summary>
 ```
 Make it easy to get stuff done
-```{=html}
+```
 </summary>
 ```
 > ["Complexity exacts a staggering tax on your humans. Good Ops
@@ -351,11 +351,11 @@ Make it easy to get stuff done
 
 ## Processes
 
-```{=html}
+```
 <summary>
 ```
 How should we be doing the stuff
-```{=html}
+```
 </summary>
 ```
 > "If you can't describe what you are doing as a process, you don't know
@@ -480,11 +480,11 @@ How should we be doing the stuff
 
 > > George Santayana
 
-```{=html}
+```
 <summary>
 ```
 How do we safely change the things
-```{=html}
+```
 </summary>
 ```
 -   Document your coding standards and strategies in the open e.g.
@@ -544,11 +544,11 @@ How do we safely change the things
 
 ## Development environments
 
-```{=html}
+```
 <summary>
 ```
 How do we safely change things
-```{=html}
+```
 </summary>
 ```
 > "Measure twice, cut once"
@@ -589,14 +589,14 @@ How do we safely change things
 
 ## Useful links
 
-```{=html}
+```
 <details>
 ```
-```{=html}
+```
 <summary>
 ```
 Would you like to know more?
-```{=html}
+```
 </summary>
 ```
 -   [Onboarding and Mentoring Apprentices with DevOps
@@ -653,7 +653,7 @@ Would you like to know more?
     Commits](https://blog.mocoso.co.uk/talks/2015/01/12/telling-stories-through-your-commits/)
     by [Joel Chippindale](https://twitter.com/joelchippindale)
 
-```{=html}
+```
 </details>
 ```
 ## See a problem here
