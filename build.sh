@@ -15,9 +15,14 @@ generate_toc () {
        	peterdavehello/npm-doctoc doctoc /app/${guide}
 }
 
+cleanup () {
+	gsed -i 's/```{=html}/```/g' ${guide}
+}
+
 main () {
   build_guide
   generate_toc
+  cleanup
 }
 
 
