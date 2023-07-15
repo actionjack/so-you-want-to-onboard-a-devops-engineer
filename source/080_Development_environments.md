@@ -3,6 +3,7 @@
 <summary>How do we safely change things</summary>
 
 > “Measure twice, cut once”
+
 >> Proverb
 
 * Make it easy to set up your local development environment, you should not have to do the following just so you can start work:

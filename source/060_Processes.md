@@ -3,6 +3,7 @@
 <summary>How should we be doing the stuff</summary>
 
 > “If you can't describe what you are doing as a process, you don't know what you're doing.”
+
 >> W. Edwards Deming
 
 * Everyone seems to have their own particular spin on Agile Scrum or Kanban, so explain up front what the process is and refine when and if necessary.

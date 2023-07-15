@@ -3,6 +3,7 @@
 <summary>Make it easy to understand and do the things</summary>
 
 > “Stale documentation is not only misleading, it is positively harmful.”
+
 >> Riona MacNamara (@rionam)
 
 It's important to either have or do the following:

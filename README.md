@@ -37,8 +37,9 @@ environment:
     cultures](https://julesx.com/toxic-work-culture-forcing-best-employees-quit/))
     do not attract nor retain top talent it does the exact opposite.
 
-> "Suffering increases in proportion to knowledge of a better way." \>
-> Jim Hickstein
+> "Suffering increases in proportion to knowledge of a better way."
+
+> > Jim Hickstein
 
 ## Making it easy to get work done from day one
 
@@ -49,8 +50,9 @@ Simplify, simplify and after that simplify some more
 ```{=html}
 </summary>
 ```
-> "Everything should be made as simple as possible, but no simpler." \>
-> Albert Einstein
+> "Everything should be made as simple as possible, but no simpler."
+
+> > Albert Einstein
 
 Reduce the time spent learning environments by building them to be easy
 to understand, with a focus on a making it possible for every developer
@@ -70,7 +72,9 @@ The raw basics
 </summary>
 ```
 > "Without a solid foundation of raw basics, any structure built upon it
-> is liable to crumble and fall." \> Unknown
+> is liable to crumble and fall."
+
+> > Unknown
 
 -   Have internet access sorted out for new starts or let them know if
     there isn't any.
@@ -108,10 +112,11 @@ Aim to create a culture of empathy and psychological safety
 ```
 > "It's possible for good people, in perversely designed systems, to
 > casually perpetrate acts of great harm on strangers, sometimes without
-> ever realising it." \> [Ben Goldacre](http://www.badscience.net/),
-> [Bad
-> Pharma](https://www.amazon.co.uk/dp/0865478007?tag=contindelive-20),
-> p. xi
+> ever realising it."
+
+> > [Ben Goldacre](http://www.badscience.net/), [Bad
+> > Pharma](https://www.amazon.co.uk/dp/0865478007?tag=contindelive-20),
+> > p. xi
 
 -   Embrace the standard of [The Humble
     Learner](https://www.linkedin.com/pulse/myth-sufficiently-smart-engineer-aaron-blohowiak/),
@@ -172,7 +177,9 @@ Make it easy to understand and do the things
 </summary>
 ```
 > "Stale documentation is not only misleading, it is positively
-> harmful." \> Riona MacNamara (@rionam)
+> harmful."
+
+> > Riona MacNamara (@rionam)
 
 It's important to either have or do the following:
 
@@ -277,7 +284,8 @@ Make it easy to get stuff done
 > ["Complexity exacts a staggering tax on your humans. Good Ops
 > engineers attempt to pay down that
 > tax."](https://twitter.com/bridgetkromhout/status/647333814411358208)
-> \> [Charity Majors](https://twitter.com/mipsytipsy)
+
+> > [Charity Majors](https://twitter.com/mipsytipsy)
 
 -   Have all relevant user accounts and access setup and ready
 -   Create [Operations
@@ -351,7 +359,9 @@ How should we be doing the stuff
 </summary>
 ```
 > "If you can't describe what you are doing as a process, you don't know
-> what you're doing." \> W. Edwards Deming
+> what you're doing."
+
+> > W. Edwards Deming
 
 -   Everyone seems to have their own particular spin on Agile Scrum or
     Kanban, so explain up front what the process is and refine when and
@@ -466,8 +476,9 @@ How should we be doing the stuff
 
 ## Version control management
 
-> "Those who cannot remember the past are condemned to repeat it." \>
-> George Santayana
+> "Those who cannot remember the past are condemned to repeat it."
+
+> > George Santayana
 
 ```{=html}
 <summary>
@@ -540,7 +551,9 @@ How do we safely change things
 ```{=html}
 </summary>
 ```
-> "Measure twice, cut once" \> Proverb
+> "Measure twice, cut once"
+
+> > Proverb
 
 -   Make it easy to set up your local development environment, you
     should not have to do the following just so you can start work:
@@ -669,7 +682,3 @@ International License](http://creativecommons.org/licenses/by/4.0/).
 
 [CC Attribution 4.0 International](LICENSE) © [Martin
 Jackson](http://uncommonsense-uk.com/)
-
-```{=html}
-<!-- Definitions. -->
-```

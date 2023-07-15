@@ -3,6 +3,7 @@
 <summary>The raw basics</summary>
 
 > "Without a solid foundation of raw basics, any structure built upon it is liable to crumble and fall."
+
 >> Unknown
 
 * Have internet access sorted out for new starts or let them know if there isn't any.
