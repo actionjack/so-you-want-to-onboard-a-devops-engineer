@@ -11,5 +11,6 @@ Nobody (at least nobody I know…) *wants* to work in a difficult environment:
 * Bad environments (and [broken cultures](https://julesx.com/toxic-work-culture-forcing-best-employees-quit/)) do not attract nor retain top talent it does the exact opposite.
 
 > “Suffering increases in proportion to knowledge of a better way.”
+
 >> Jim Hickstein
 

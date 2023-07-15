@@ -21,8 +21,6 @@ License][cc-by].
 
 [CC Attribution 4.0 International][license] © [Martin Jackson][author]
 
-<!-- Definitions. -->
-
 [license]: LICENSE
 
 [author]: http://uncommonsense-uk.com/
