@@ -37,3 +37,4 @@
 * [Telling Stories Through Your Commits](https://blog.mocoso.co.uk/talks/2015/01/12/telling-stories-through-your-commits/) by [Joel Chippindale](https://twitter.com/joelchippindale)
 
 </details>
+
