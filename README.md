@@ -13,6 +13,7 @@
   - [Version control management](#version-control-management)
   - [Development environments](#development-environments)
   - [Useful links](#useful-links)
+  - [See a problem here](#see-a-problem-here)
   - [Contributing](#contributing)
   - [License](#license)
 
@@ -303,6 +304,7 @@ It's important to either have or do the following:
 * [Telling Stories Through Your Commits](https://blog.mocoso.co.uk/talks/2015/01/12/telling-stories-through-your-commits/) by [Joel Chippindale](https://twitter.com/joelchippindale)
 
 </details>
+
 ## See a problem here
 
 See a problem? Need something clarified? Raise and Issue and I'll try and fix it.
