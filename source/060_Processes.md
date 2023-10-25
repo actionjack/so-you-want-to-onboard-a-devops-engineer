@@ -24,7 +24,7 @@
   * Reference information and existing implementations,
   * Ensuring to narrow down the acceptance criteria in order to prevent [unnecessary research or rework](https://idioms.thefreedictionary.com/go+down+the+rabbit+hole),
   * Diagrams.
-* Ideally make your [Tasks/Stories as small an atomic as possible](https://www.leadingagile.com/2014/01/small-stories-reduce-variability-velocity-improve-predictability/) this is for a number of reasons some of those being:
+* Ideally make sure your [Tasks/Stories are as small as atomically possible](https://www.leadingagile.com/2014/01/small-stories-reduce-variability-velocity-improve-predictability/) this is for a number of reasons some of those being:
   * It makes them easier to handle and get your head around
   * You are less likely to have to [context switch](https://simpleprogrammer.com/context-switching/) within a story if it has a narrow [problem domain](https://en.wikipedia.org/wiki/Problem_domain)
   * You are more likely to actually finish that particular story and not have to pick up a new one and have to go back to the original story, since the smaller it is the less likely it is to run into some sort of unpredicted blockage.
