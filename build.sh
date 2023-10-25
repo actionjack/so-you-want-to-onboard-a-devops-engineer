@@ -2,11 +2,15 @@
 
 guide="README.md"
 
+build_guide_simple() {
+	cat source/*.md > ${guide}
+}
+
 build_guide () {
 	docker run --rm \
        --volume "$(pwd):/data" \
        --user $(id -u):$(id -g) \
-       pandoc/core source/*.md -o ${guide}
+       pandoc/core source/*.md -f gfm -o ${guide}
 }
 
 generate_toc () {
@@ -15,14 +19,9 @@ generate_toc () {
        	peterdavehello/npm-doctoc doctoc /app/${guide}
 }
 
-cleanup () {
-	gsed -i 's/```{=html}/```/g' ${guide}
-}
-
 main () {
-  build_guide
+  build_guide_simple
   generate_toc
-  cleanup
 }
 
 
