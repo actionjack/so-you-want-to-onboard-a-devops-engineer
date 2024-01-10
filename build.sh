@@ -2,15 +2,25 @@
 
 guide="README.md"
 
-build_guide_simple() {
-	cat source/*.md > ${guide}
+add_newline() {
+  file="$1"
+  last_char=$(tail -c 1 "$file" 2>/dev/null)
+
+  # Check if the last character is not a newline
+  if [ "$last_char" != "" ]; then
+    echo "" >> "$file"
+    echo "Added a newline to $file"
+  fi
 }
 
-build_guide () {
-	docker run --rm \
-       --volume "$(pwd):/data" \
-       --user $(id -u):$(id -g) \
-       pandoc/core source/*.md -f gfm -o ${guide}
+add_newline_to_md() {
+  for file in source/*.md
+    do add_newline ${file}
+  done
+}
+
+build_guide() {
+	cat source/*.md > ${guide}
 }
 
 generate_toc () {
@@ -20,7 +30,8 @@ generate_toc () {
 }
 
 main () {
-  build_guide_simple
+  add_newline_to_md
+  build_guide
   generate_toc
 }
 
