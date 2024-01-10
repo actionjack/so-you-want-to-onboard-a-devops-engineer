@@ -12,7 +12,7 @@
 * Provide information regarding the applications that are maintained by the team and how to do the operations for those applications
 * Have safe to deploy sample dummy applications that can be deployed safely to your infrastructure so new starts can learn how the deployment process works without fear of impacting key applications
 * Make it difficult to make mistakes e.g
-  * [protected branches e.g. to prevent force pushes to master](https://github.com/blog/2051-protected-branches-and-required-status-checks)
+  * [protected branches e.g. to prevent force pushes to main](https://github.com/blog/2051-protected-branches-and-required-status-checks)
   * If you have code standards, don't __just document them__ back them up with [Automated Code standards](https://medium.com/@biratkirat/step-4-automate-your-coding-standard-filip-van-laenen-5b1c486e4883) triggered by [CI checks](https://en.wikipedia.org/wiki/Continuous_integration) or [pre-commit hooks](https://githooks.com/)
   * [Avoiding committing secrets and credentials into git repositories](https://github.com/awslabs/git-secrets)
 * If you have Policies on how to handle certain tasks e.g. Doing Spikes document them and link to them in your stories. e.g. here's the link to how you handle spikes.
