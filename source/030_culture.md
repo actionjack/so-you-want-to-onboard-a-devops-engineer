@@ -4,7 +4,7 @@
 
 > “It's possible for good people, in perversely designed systems, to casually perpetrate acts of great harm on strangers, sometimes without ever realising it.”
 
-> > [Ben Goldacre](http://www.badscience.net/), [Bad Pharma](https://www.amazon.co.uk/dp/0865478007?tag=contindelive-20), p. xi
+> > Lawrence Lessig
 
 * Embrace the standard of [The Humble Learner](https://www.linkedin.com/pulse/myth-sufficiently-smart-engineer-aaron-blohowiak/), The Humble Learner accepts the limits of human capacity while seeking to grow their technical and empathetic skills
 * Do not create nor foster a [Blame, Shame and Train](https://www.ehstoday.com/safety/your-safety-strategy-blame-shame-and-train) culture where mistakes are handled by openly blaming and shaming the employee (and sometimes terminating their employment) and then train other employees using the incident as an example
