@@ -102,6 +102,7 @@ It's important to either have or do the following:
 * Regularly tidy your documentation, old documents should be removed, outdated ones updated, if you touch it then update it
   * Consolidate your documentation, nothing is so disheartening as searching your Wiki for "Password Management Policy" and 40+ search results coming up :-1:
 * Have a High-Level logical Architecture. E.g. ideally written in a Git friendly format:
+  * [Mermaid](https://mermaid.js.org/) diagmans in [github](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/) you can also [embed hyperlinks](https://mermaid.js.org/syntax/flowchart.html#interaction)
   * [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) diagrams in [github](https://github.com/blog/1902-svg-viewing-diffing) so you can see the infrastructure changes over time
   * [Graphviz description language](http://www.graphviz.org/content/dot-language)
   * [Graphvizo](http://gravizo.com/)
